@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: Poppins, sans-serif;
+
+    /* Primary Color - #EA480A (Orange) */
+    --color-primary-50: #fef5f0;
+    --color-primary-100: #fde6db;
+    --color-primary-200: #fad1b7;
+    --color-primary-300: #f7b593;
+    --color-primary-400: #f3946f;
+    --color-primary-500: #f0744b;
+    --color-primary-600: #ea480a;
+    --color-primary-700: #c83e09;
+    --color-primary-800: #a6340a;
+    --color-primary-900: #8a2b0a;
+    --color-primary-950: #4f1705;
+
+    /* Color Usage */
+    --color-orange-50: #fef5f0;
+    --color-orange-100: #fde6db;
+    --color-orange-200: #fad1b7;
+    --color-orange-300: #f7b593;
+    --color-orange-400: #f3946f;
+    --color-orange-500: #f0744b;
+    --color-orange-600: #ea480a;
+    --color-orange-700: #c83e09;
+    --color-orange-800: #a6340a;
+    --color-orange-900: #8a2b0a;
+    --color-orange-950: #4f1705;
+}
