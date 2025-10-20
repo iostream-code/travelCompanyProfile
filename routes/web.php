@@ -8,3 +8,4 @@ Route::get('/features', [PageController::class, 'features'])->name('features');
 Route::get('/pricing', [PageController::class, 'pricing'])->name('pricing');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+Route::get('/register', [PageController::class, 'register'])->name('register');
