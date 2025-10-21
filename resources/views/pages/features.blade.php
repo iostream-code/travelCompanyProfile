@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Fitur MyApp')
+@section('title', 'Fitur TeMan')
 
 @section('content')
     <!-- Animated Background -->
@@ -19,7 +19,7 @@
             <div class="text-center fade-in-up">
                 <h1
                     class="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
-                    Fitur Unggulan MyApp
+                    Fitur Unggulan TeMan
                 </h1>
                 <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
                     Temukan semua fitur canggih yang dirancang untuk membantu bisnis Anda berkembang dengan efisiensi dan
@@ -39,7 +39,8 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://via.placeholder.com/500x400" alt="Dashboard Preview"
+                        <img src="https://cdn.dribbble.com/userupload/44652217/file/6b5563ac9a227174fc398b8ed094fb3f.png?resize=1024x768&vertical=center"
+                            alt="Dashboard Preview"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -50,7 +51,7 @@
                     </div>
                     <h2 class="text-4xl font-bold text-gray-800 mb-4">Pantau Bisnis Anda Secara Real-Time</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Dashboard MyApp memberikan visualisasi data yang jelas dan real-time, memungkinkan Anda untuk
+                        Dashboard TeMan memberikan visualisasi data yang jelas dan real-time, memungkinkan Anda untuk
                         memantau metrik bisnis penting dengan mudah.
                     </p>
                     <ul class="space-y-4">
@@ -108,7 +109,8 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://via.placeholder.com/500x400" alt="Data Management Preview"
+                        <img src="https://cdn.dribbble.com/userupload/44634445/file/44c3121a0e3567bd93d8903d7c9df97d.png?resize=1024x768&vertical=center"
+                            alt="Data Management Preview"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -121,7 +123,8 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://via.placeholder.com/500x400" alt="Analytics Preview"
+                        <img src="https://cdn.dribbble.com/userupload/44667991/file/c3f20d1a79d82c19d47867a8e2393681.png?resize=1024x768&vertical=center"
+                            alt="Analytics Preview"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -164,7 +167,7 @@
                     </div>
                     <h2 class="text-4xl font-bold text-gray-800 mb-4">Terhubung dengan Alat Favorit Anda</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        MyApp terintegrasi dengan berbagai alat bisnis populer untuk memastikan alur kerja yang mulus.
+                        TeMan terintegrasi dengan berbagai alat bisnis populer untuk memastikan alur kerja yang mulus.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
@@ -189,7 +192,8 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://via.placeholder.com/500x400" alt="Integrations Preview"
+                        <img src="https://cdn.dribbble.com/userupload/44680116/file/4420768858833e395c1393d02bc4e35d.png?resize=1024x768&vertical=center"
+                            alt="Integrations Preview"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -206,7 +210,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h2 class="text-5xl font-bold mb-6 fade-in-up">Siap Mengoptimalkan Bisnis Anda?</h2>
             <p class="text-2xl mb-10 text-orange-100 fade-in-up delay-1">
-                Mulai gunakan fitur-fitur canggih MyApp hari ini.
+                Mulai gunakan fitur-fitur canggih TeMan hari ini.
             </p>
             <a href="#"
                 class="inline-block bg-white text-orange-600 px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1 fade-in-up delay-2">

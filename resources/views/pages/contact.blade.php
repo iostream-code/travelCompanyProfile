@@ -9,35 +9,16 @@
         <canvas id="particlesCanvas" class="absolute inset-0 w-full h-full"></canvas>
     </div>
 
-    <!-- Hero Section -->
-    <section class="relative text-gray-800 py-20 overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-br from-orange-500/10 via-transparent to-orange-600/10"></div>
-        <div class="absolute top-20 right-20 w-72 h-72 bg-orange-500/20 rounded-full blur-3xl animate-float"></div>
-        <div class="absolute bottom-20 left-20 w-96 h-96 bg-orange-600/15 rounded-full blur-3xl animate-float-delayed"></div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center fade-in-up">
-                <h1
-                    class="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
-                    Hubungi Kami
-                </h1>
-                <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-                    Kami siap membantu Anda! Hubungi tim kami untuk pertanyaan, dukungan, atau informasi lebih lanjut
-                    tentang MyApp.
-                </p>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Form and Info Section -->
-    <section class="py-20 bg-white/80 backdrop-blur-sm relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-20 min-h-screen flex items-center relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 scroll-reveal">
                 <!-- Contact Form -->
                 <div
                     class="bg-white p-8 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
                     <h2 class="text-3xl font-bold text-gray-800 mb-6">Kirim Pesan</h2>
-                    <div action="#" class="space-y-6">
+                    <form action="#" method="POST" class="space-y-6">
+                        @csrf
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700">Nama</label>
                             <input type="text" id="name" name="name"
@@ -62,7 +43,7 @@
                                 Kirim Pesan
                             </button>
                         </div>
-                    </div>
+                    </form>
                 </div>
 
                 <!-- Contact Information -->
@@ -99,7 +80,7 @@
                         </div>
                     </div>
                     <div class="mt-8">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Ikuti Kami</h3>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4">Ikuti Kami</h3>
                         <div class="flex space-x-4">
                             <a href="#" class="text-orange-600 hover:text-orange-800 transition-colors duration-300">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -126,79 +107,8 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="relative bg-gradient-to-r from-orange-600 to-orange-700 text-white py-20 overflow-hidden">
-        <div class="absolute inset-0 opacity-10">
-            <div class="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl animate-float"></div>
-            <div class="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl animate-float-delayed"></div>
-        </div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 class="text-5xl font-bold mb-6 fade-in-up">Siap Memulai dengan MyApp?</h2>
-            <p class="text-2xl mb-10 text-orange-100 fade-in-up delay-1">
-                Daftar sekarang dan rasakan kemudahan mengelola bisnis Anda.
-            </p>
-            <a href="#"
-                class="inline-block bg-white text-orange-600 px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1 fade-in-up delay-2">
-                Daftar Sekarang
-            </a>
-        </div>
-    </section>
-
     <!-- Custom CSS Animations -->
     <style>
-        @keyframes float {
-
-            0%,
-            100% {
-                transform: translateY(0px) translateX(0px);
-            }
-
-            50% {
-                transform: translateY(-20px) translateX(10px);
-            }
-        }
-
-        @keyframes float-delayed {
-
-            0%,
-            100% {
-                transform: translateY(0px) translateX(0px);
-            }
-
-            50% {
-                transform: translateY(20px) translateX(-10px);
-            }
-        }
-
-        .animate-float {
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .animate-float-delayed {
-            animation: float-delayed 8s ease-in-out infinite;
-        }
-
-        .fade-in-up {
-            opacity: 0;
-            transform: translateY(30px);
-            animation: fadeInUp 0.8s ease-out forwards;
-        }
-
-        .delay-1 {
-            animation-delay: 0.2s;
-        }
-
-        .delay-2 {
-            animation-delay: 0.4s;
-        }
-
-        @keyframes fadeInUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
         .scroll-reveal {
             opacity: 0;
             transform: translateY(50px);

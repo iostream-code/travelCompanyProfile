@@ -26,7 +26,7 @@
                         Welcome to TeMan
                     </h1>
                     <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-                        Masih jaman Owner kerja di Kantor? Telah hadir platform terpadu untuk mengembangkan bisnis travel
+                        Masih jaman Owner kerja di Kantor? Kini hadir platform terpadu untuk mengembangkan bisnis travel
                         Anda.
                     </p>
                     <div class="space-x-4">
@@ -47,8 +47,13 @@
                         </div>
                         <div
                             class="relative bg-white/80 backdrop-blur-xl rounded-2xl p-8 shadow-2xl border border-orange-100 hover:scale-105 transition-transform duration-500">
-                            <img src="{{ asset('images/banner-1.webp') }}" alt="App Preview"
-                                class="w-full rounded-xl shadow-lg">
+                            <video autoplay loop muted playsinline class="rounded-2xl shadow-lg w-full h-auto object-cover">
+                                <source
+                                    src="https://cdn.dribbble.com/userupload/45105234/file/f27a295212c43fbd59726972e60a2363.mp4"
+                                    type="video/mp4">
+                                <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop"
+                                    alt="Travel Registration" class="rounded-2xl shadow-lg w-full h-auto object-cover">
+                            </video>
                             <!-- Floating Stats -->
                             <div class="absolute -top-6 -right-6 bg-white rounded-xl shadow-xl p-4 animate-float">
                                 <div class="flex items-center space-x-2">
@@ -138,15 +143,16 @@
 
             <!-- Feature 1 -->
             <div class="absolute right-0 lg:w-1/4 md:w-1/4 lg:h-2/4 md:h-1/3 bg-cover bg-center opacity-10"
-                style="background-image: url('https://plus.unsplash.com/premium_photo-1661934725810-331b2befef66?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880');">
+                style="background-image: url('https://plus.unsplash.com/premium_photo-1671863658889-a1b6781bdbca?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627');">
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal z-50">
                 <div class="order-2 md:order-1">
                     <div class="relative group">
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://via.placeholder.com/500x400" alt="Dashboard"
+                        <img src="https://cdn.dribbble.com/userupload/44652216/file/a488cd24d080f006fe01d87fa5d3c3df.png?resize=1024x768&vertical=center"
+                            alt="Dashboard"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -178,9 +184,6 @@
             </div>
 
             <!-- Feature 2 -->
-            <div class="absolute left-0 bottom-25 lg:w-1/3 md:w-1/4 lg:h-2/3 md:h-1/3 bg-cover bg-center opacity-15"
-                style="background-image: url('https://plus.unsplash.com/premium_photo-1671863658886-bc049efeeb5b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627')">
-            </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div>
                     <div
@@ -212,20 +215,24 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://via.placeholder.com/500x400" alt="Data Management"
+                        <img src="https://cdn.dribbble.com/userupload/44634446/file/586326eb0f00af918764a36c61f37564.png?resize=1024x703&vertical=center"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
             </div>
 
             <!-- Feature 3 -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center scroll-reveal">
+            <div class="absolute left-0 bottom-0 lg:w-1/3 md:w-1/4 lg:h-2/4 md:h-1/3 bg-cover bg-center opacity-15 z-10"
+                style="background-image: url('https://plus.unsplash.com/premium_photo-1671863658886-bc049efeeb5b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627')">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center scroll-reveal relative z-10">
                 <div class="order-2 md:order-1">
                     <div class="relative group">
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://via.placeholder.com/500x400" alt="Analytics"
+                        <img src="https://cdn.dribbble.com/userupload/44667992/file/a2b712feaf6bb6a9af72e17cca07f177.png?resize=1024x768&vertical=center"
+                            alt="Analytics"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -246,7 +253,8 @@
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Export data dalam berbagai format (PDF, Excel, CSV)</span>
+                            <span class="text-gray-700 text-lg">Export data dalam berbagai format (PDF, Excel,
+                                CSV)</span>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
@@ -263,8 +271,8 @@
         <div class="absolute inset-0 bg-gradient-to-br from-orange-50/50 via-transparent to-orange-50/50"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-800 mb-4">Keunggulan MyApp</h2>
-                <p class="text-xl text-gray-600">Mengapa ribuan bisnis memilih MyApp</p>
+                <h2 class="text-5xl font-bold text-gray-800 mb-4">Keunggulan TeMan</h2>
+                <p class="text-xl text-gray-600">Mengapa ribuan bisnis memilih TeMan</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -329,12 +337,12 @@
 
     <section class="py-20 bg-gradient-to-b from-gray-50 to-white relative">
         <div class="absolute right-25 lg:w-1/4 md:w-1/4 lg:h-5/6 md:h-1/3 bg-cover bg-center opacity-25"
-            style="background-image: url('https://plus.unsplash.com/premium_photo-1683122005364-d4a9a1ae8886?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=735');">
+            style="background-image: url('https://plus.unsplash.com/premium_photo-1671863658769-723e2ba3cdf9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627');">
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
                 <h2 class="text-5xl font-bold text-gray-800 mb-4">Bandingkan dengan Kompetitor</h2>
-                <p class="text-xl text-gray-600">Lihat mengapa MyApp menjadi pilihan terbaik</p>
+                <p class="text-xl text-gray-600">Lihat mengapa TeMan menjadi pilihan terbaik</p>
             </div>
 
             <div class="overflow-x-auto scroll-reveal">
@@ -342,7 +350,7 @@
                     <thead class="bg-gradient-to-r from-orange-600 to-orange-700 text-white">
                         <tr>
                             <th class="px-8 py-6 text-left font-bold text-lg">Fitur</th>
-                            <th class="px-8 py-6 text-center font-bold text-lg">MyApp</th>
+                            <th class="px-8 py-6 text-center font-bold text-lg">TeMan</th>
                             <th class="px-8 py-6 text-center font-bold text-lg">Kompetitor A</th>
                             <th class="px-8 py-6 text-center font-bold text-lg">Kompetitor B</th>
                         </tr>
@@ -386,14 +394,14 @@
 
     <!-- Testimonials Section -->
     <section class="py-20 bg-white relative overflow-hidden">
-        <div class="absolute left-0 -bottom-25 lg:w-1/3 md:w-1/5 lg:h-11/12 md:h-1/3 bg-cover bg-center opacity-10"
-            style="background-image: url('https://plus.unsplash.com/premium_photo-1683133486351-2bceb03d9d0f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880');">
+        <div class="absolute left-0 -bottom-25 lg:w-1/3 md:w-1/5 lg:h-11/12 md:h-1/3 bg-cover bg-center opacity-25"
+            style="background-image: url('https://plus.unsplash.com/premium_photo-1671863658772-00e6f046928c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1632');">
         </div>
         <div class="absolute inset-0 bg-gradient-to-br from-orange-50/30 via-transparent to-orange-50/30"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16 fade-in-up">
                 <h2 class="text-5xl font-bold text-gray-800 mb-4">Apa Kata Pengguna Kami?</h2>
-                <p class="text-xl text-gray-600">Dengarkan pengalaman bisnis yang telah menggunakan MyApp</p>
+                <p class="text-xl text-gray-600">Dengarkan pengalaman bisnis yang telah menggunakan TeMan</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -412,7 +420,7 @@
                             A
                         </div>
                         <div>
-                            <p class="font-bold text-gray-800">Ahmad Wijaya</p>
+                            <p class="font-bold text-gray-800">Crysna Wima Rangga</p>
                             <p class="text-sm text-gray-600">Director, Startup Tech Inovatif</p>
                         </div>
                     </div>
@@ -424,7 +432,7 @@
                         <div class="text-yellow-400 text-xl">⭐⭐⭐⭐⭐</div>
                     </div>
                     <p class="text-gray-700 mb-6 leading-relaxed text-lg">
-                        "MyApp telah mengubah cara kami mengelola bisnis. Efisiensi meningkat drastis dan biaya operasional
+                        "TeMan telah mengubah cara kami mengelola bisnis. Efisiensi meningkat drastis dan biaya operasional
                         turun signifikan!"
                     </p>
                     <div class="border-t border-gray-200 pt-6 flex items-center space-x-4">
@@ -433,7 +441,7 @@
                             B
                         </div>
                         <div>
-                            <p class="font-bold text-gray-800">Budi Santoso</p>
+                            <p class="font-bold text-gray-800">Dewangga Putra</p>
                             <p class="text-sm text-gray-600">CEO, PT Maju Jaya Indonesia</p>
                         </div>
                     </div>
@@ -453,7 +461,7 @@
                             S
                         </div>
                         <div>
-                            <p class="font-bold text-gray-800">Siti Nurhaliza</p>
+                            <p class="font-bold text-gray-800">Aris Triwibowo</p>
                             <p class="text-sm text-gray-600">Manager, CV Digital Solutions</p>
                         </div>
                     </div>

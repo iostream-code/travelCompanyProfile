@@ -13,10 +13,15 @@ import initScrollReveal from './components/scrollReveal';
 import initFeatureCards from './components/featureCards';
 import initSmoothScroll from './components/smoothScroll';
 import initParallax from './components/parallax';
+import initBackgroundMusic from './components/backgroundMusic';
+import initContactPopup from './components/contactPopup';
 
 import { matchRoute } from './routes';
 
 window.$ = $;
+
+let musicCleanup = null;
+let contactCleanup = null;
 
 const components = {
     particles: initParticles,
@@ -85,10 +90,42 @@ function initLoadingAnimation() {
     }, 100);
 }
 
+function initMusic() {
+    if (musicCleanup && typeof musicCleanup === 'function') {
+        musicCleanup();
+    }
+
+    if (!$('#music-player').length) {
+        try {
+            musicCleanup = initBackgroundMusic();
+            console.log('✓ Background music initialized');
+        } catch (error) {
+            console.error('✗ Error initializing music:', error);
+        }
+    }
+}
+
+function initContact() {
+    if (contactCleanup && typeof contactCleanup === 'function') {
+        contactCleanup();
+    }
+
+    if (!$('#contact-button').length) {
+        try {
+            contactCleanup = initContactPopup();
+            console.log('✓ Contact popup initialized');
+        } catch (error) {
+            console.error('✗ Error initializing contact popup:', error);
+        }
+    }
+}
+
 function initApp() {
     initLoadingAnimation();
     initRouteComponents();
     initPageController();
+    initMusic();
+    initContact();
 }
 
 function handleRouteChange() {
