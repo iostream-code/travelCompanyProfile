@@ -23,10 +23,11 @@
                     </div>
                     <h1
                         class="text-7xl font-sans font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
-                        Welcome to MyApp
+                        Welcome to TeMan
                     </h1>
                     <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-                        Platform terpadu untuk mengembangkan bisnis Anda dengan teknologi terkini dan fitur yang powerful
+                        Masih jaman Owner kerja di Kantor? Telah hadir platform terpadu untuk mengembangkan bisnis travel
+                        Anda.
                     </p>
                     <div class="space-x-4">
                         <a href="#"
@@ -137,7 +138,7 @@
 
             <!-- Feature 1 -->
             <div class="absolute right-0 lg:w-1/4 md:w-1/4 lg:h-2/4 md:h-1/3 bg-cover bg-center opacity-10"
-                style="background-image: url('https://images.unsplash.com/photo-1602464729960-f95937746b68?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627');">
+                style="background-image: url('https://plus.unsplash.com/premium_photo-1661934725810-331b2befef66?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880');">
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div class="order-2 md:order-1">
@@ -178,7 +179,7 @@
 
             <!-- Feature 2 -->
             <div class="absolute left-0 bottom-25 lg:w-1/3 md:w-1/4 lg:h-2/3 md:h-1/3 bg-cover bg-center opacity-15"
-                style="background-image: url('https://images.unsplash.com/photo-1599753894977-bc6c162417e6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=735')">
+                style="background-image: url('https://plus.unsplash.com/premium_photo-1671863658886-bc049efeeb5b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627')">
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div>
@@ -325,7 +326,11 @@
     </section>
 
     <!-- Comparison Section -->
+
     <section class="py-20 bg-gradient-to-b from-gray-50 to-white relative">
+        <div class="absolute right-25 lg:w-1/4 md:w-1/4 lg:h-5/6 md:h-1/3 bg-cover bg-center opacity-25"
+            style="background-image: url('https://plus.unsplash.com/premium_photo-1683122005364-d4a9a1ae8886?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=735');">
+        </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
                 <h2 class="text-5xl font-bold text-gray-800 mb-4">Bandingkan dengan Kompetitor</h2>
@@ -381,6 +386,9 @@
 
     <!-- Testimonials Section -->
     <section class="py-20 bg-white relative overflow-hidden">
+        <div class="absolute left-0 -bottom-25 lg:w-1/3 md:w-1/5 lg:h-11/12 md:h-1/3 bg-cover bg-center opacity-10"
+            style="background-image: url('https://plus.unsplash.com/premium_photo-1683133486351-2bceb03d9d0f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880');">
+        </div>
         <div class="absolute inset-0 bg-gradient-to-br from-orange-50/30 via-transparent to-orange-50/30"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16 fade-in-up">
@@ -553,177 +561,4 @@
             transform: translateY(0);
         }
     </style>
-
-    <!-- JavaScript for Animations -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Particle Canvas Animation
-            const canvas = document.getElementById('particlesCanvas');
-            const ctx = canvas.getContext('2d');
-
-            canvas.width = window.innerWidth;
-            canvas.height = document.body.scrollHeight;
-
-            let particles = [];
-            const particleCount = 80;
-
-            class Particle {
-                constructor() {
-                    this.x = Math.random() * canvas.width;
-                    this.y = Math.random() * canvas.height;
-                    this.size = Math.random() * 3 + 1;
-                    this.speedX = Math.random() * 0.5 - 0.25;
-                    this.speedY = Math.random() * 0.5 - 0.25;
-                    this.opacity = Math.random() * 0.5 + 0.2;
-                }
-
-                update() {
-                    this.x += this.speedX;
-                    this.y += this.speedY;
-
-                    if (this.x > canvas.width) this.x = 0;
-                    if (this.x < 0) this.x = canvas.width;
-                    if (this.y > canvas.height) this.y = 0;
-                    if (this.y < 0) this.y = canvas.height;
-                }
-
-                draw() {
-                    ctx.fillStyle = `rgba(249, 115, 22, ${this.opacity})`;
-                    ctx.beginPath();
-                    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-                    ctx.fill();
-                }
-            }
-
-            function init() {
-                particles = [];
-                for (let i = 0; i < particleCount; i++) {
-                    particles.push(new Particle());
-                }
-            }
-
-            function animate() {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-                for (let i = 0; i < particles.length; i++) {
-                    particles[i].update();
-                    particles[i].draw();
-
-                    // Connect particles
-                    for (let j = i + 1; j < particles.length; j++) {
-                        const dx = particles[i].x - particles[j].x;
-                        const dy = particles[i].y - particles[j].y;
-                        const distance = Math.sqrt(dx * dx + dy * dy);
-
-                        if (distance < 150) {
-                            ctx.strokeStyle = `rgba(249, 115, 22, ${0.1 * (1 - distance / 150)})`;
-                            ctx.lineWidth = 1;
-                            ctx.beginPath();
-                            ctx.moveTo(particles[i].x, particles[i].y);
-                            ctx.lineTo(particles[j].x, particles[j].y);
-                            ctx.stroke();
-                        }
-                    }
-                }
-
-                requestAnimationFrame(animate);
-            }
-
-            init();
-            animate();
-
-            window.addEventListener('resize', function() {
-                canvas.width = window.innerWidth;
-                canvas.height = document.body.scrollHeight;
-                init();
-            });
-
-            // Scroll Reveal Animation
-            const scrollRevealElements = document.querySelectorAll('.scroll-reveal');
-
-            const elementInView = (el, dividend = 1) => {
-                const elementTop = el.getBoundingClientRect().top;
-                return (
-                    elementTop <= (window.innerHeight || document.documentElement.clientHeight) / dividend
-                );
-            };
-
-            const displayScrollElement = (element) => {
-                element.classList.add('visible');
-            };
-
-            const handleScrollAnimation = () => {
-                scrollRevealElements.forEach((el) => {
-                    if (elementInView(el, 1.25)) {
-                        displayScrollElement(el);
-                    }
-                });
-            };
-
-            window.addEventListener('scroll', handleScrollAnimation);
-            handleScrollAnimation();
-
-            // Feature Cards Hover Effect
-            const featureCards = document.querySelectorAll('.feature-card');
-            featureCards.forEach(card => {
-                card.addEventListener('mouseenter', function(e) {
-                    const rect = card.getBoundingClientRect();
-                    const x = e.clientX - rect.left;
-                    const y = e.clientY - rect.top;
-
-                    card.style.setProperty('--mouse-x', `${x}px`);
-                    card.style.setProperty('--mouse-y', `${y}px`);
-                });
-            });
-
-            // Smooth Scroll for Links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        target.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }
-                });
-            });
-
-            // Counter Animation for Stats
-            const animateCounter = (element, target) => {
-                let current = 0;
-                const increment = target / 100;
-                const timer = setInterval(() => {
-                    current += increment;
-                    if (current >= target) {
-                        element.textContent = target + (element.textContent.includes('%') ? '%' : '+');
-                        clearInterval(timer);
-                    } else {
-                        element.textContent = Math.floor(current) + (element.textContent.includes('%') ?
-                            '%' : '+');
-                    }
-                }, 20);
-            };
-
-            // Parallax Effect on Scroll
-            window.addEventListener('scroll', function() {
-                const scrolled = window.pageYOffset;
-                const parallaxElements = document.querySelectorAll(
-                    '.animate-float, .animate-float-delayed');
-
-                parallaxElements.forEach((el, index) => {
-                    const speed = 0.5 + (index * 0.1);
-                    el.style.transform = `translateY(${scrolled * speed * 0.05}px)`;
-                });
-            });
-
-            // Add loading animation
-            document.body.style.opacity = '0';
-            setTimeout(() => {
-                document.body.style.transition = 'opacity 0.5s ease-in';
-                document.body.style.opacity = '1';
-            }, 100);
-        });
-    </script>
 @endsection

@@ -5,10 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title') - Travel Management</title>
+    <title>@yield('title') | Travel Management</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    {{-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> --}}
+    <link rel="icon" type="image/png" href="{{ asset('images/logo-only-new.png') }}">
 </head>
 
 <body class="bg-gray-50">
@@ -30,7 +29,8 @@
                     <a href="{{ route('about') }}" class="text-gray-700 hover:text-orange-600 transition">About</a>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <a href="#" class="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+                    <a href="{{ route('register') }}"
+                        class="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
                         Register Now!
                     </a>
                 </div>
