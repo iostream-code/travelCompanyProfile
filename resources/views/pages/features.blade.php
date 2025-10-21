@@ -17,13 +17,17 @@
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center fade-in-up">
+                <div class="inline-block mb-6 px-6 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-bold">
+                    ✨ Sederhana, Cepat, Efektif
+                </div>
                 <h1
-                    class="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
-                    Fitur Unggulan TeMan
+                    class="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
+                    Kelola Travel dengan<br>Satu Platform Simpel
                 </h1>
                 <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-                    Temukan semua fitur canggih yang dirancang untuk membantu bisnis Anda berkembang dengan efisiensi dan
-                    kemudahan.
+                    Lupakan sistem rumit dan spreadsheet tak berujung. TeMan hadir dengan solusi sederhana yang
+                    <span class="font-semibold text-orange-600">Langsung Bisa Digunakan</span> untuk mengelola bisnis travel
+                    Anda dari mana saja.
                 </p>
             </div>
         </div>
@@ -32,6 +36,7 @@
     <!-- Feature List Section -->
     <section class="py-20 bg-white/80 backdrop-blur-sm relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
             <!-- Feature 1: Dashboard -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div class="order-2 md:order-1">
@@ -47,62 +52,81 @@
                 <div class="order-1 md:order-2">
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        Dashboard Intuitif
+                        📊 Dashboard Sekali Lihat
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Pantau Bisnis Anda Secara Real-Time</h2>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Lihat Semua dalam Satu Tampilan</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Dashboard TeMan memberikan visualisasi data yang jelas dan real-time, memungkinkan Anda untuk
-                        memantau metrik bisnis penting dengan mudah.
+                        Tidak perlu buka banyak tab atau aplikasi. Dashboard kami menampilkan
+                        <span class="font-semibold text-gray-800">semua yang Anda butuhkan</span> - jumlah booking hari ini,
+                        revenue minggu ini, hingga jadwal keberangkatan besok. Semuanya ada di satu halaman.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Grafik interaktif untuk analisis cepat</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Angka Penting di Depan Mata</span>
+                                <span class="text-gray-600 text-sm">Total booking, pendapatan, dan jadwal dalam satu
+                                    layar</span>
+                            </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Widget yang dapat disesuaikan</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Update Otomatis Real-Time</span>
+                                <span class="text-gray-600 text-sm">Data selalu terbaru tanpa perlu refresh manual</span>
+                            </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Integrasi dengan berbagai sumber data</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Notifikasi Penting Langsung</span>
+                                <span class="text-gray-600 text-sm">Booking baru atau pembayaran masuk? Langsung
+                                    ternotif</span>
+                            </div>
                         </li>
                     </ul>
-                    <a href="#" class="mt-6 inline-block text-orange-600 font-semibold hover:underline">
-                        Pelajari lebih lanjut →
-                    </a>
                 </div>
             </div>
 
-            <!-- Feature 2: Data Management -->
+            <!-- Feature 2: Booking Management -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div>
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        Manajemen Data
+                        🎫 Manajemen Booking Mudah
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Kelola Data dengan Aman dan Efisien</h2>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Proses Booking Cuma 2 Menit</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Sistem manajemen data kami memastikan data Anda aman, terorganisir, dan dapat diakses kapan saja
-                        dari mana saja.
+                        Input booking baru? Cukup isi data customer, pilih paket, dan selesai! Sistem otomatis
+                        mengatur seat, kirim konfirmasi ke customer, dan update jadwal keberangkatan.
+                        <span class="font-semibold text-gray-800">Tidak ada manual entry berulang-ulang.</span>
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Penyimpanan cloud dengan enkripsi tingkat tinggi</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Input Sekali, Selesai Semua</span>
+                                <span class="text-gray-600 text-sm">Data customer otomatis tersimpan untuk booking
+                                    berikutnya</span>
+                            </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Backup otomatis harian</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">WhatsApp Otomatis ke Customer</span>
+                                <span class="text-gray-600 text-sm">Konfirmasi booking langsung terkirim tanpa
+                                    copy-paste</span>
+                            </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Akses multi-perangkat yang seamless</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Tracking Status Real-Time</span>
+                                <span class="text-gray-600 text-sm">Pending, paid, atau selesai - semua tercatat
+                                    jelas</span>
+                            </div>
                         </li>
                     </ul>
-                    <a href="#" class="mt-6 inline-block text-orange-600 font-semibold hover:underline">
-                        Pelajari lebih lanjut →
-                    </a>
                 </div>
                 <div>
                     <div class="relative group">
@@ -110,13 +134,13 @@
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
                         <img src="https://cdn.dribbble.com/userupload/44634445/file/44c3121a0e3567bd93d8903d7c9df97d.png?resize=1024x768&vertical=center"
-                            alt="Data Management Preview"
+                            alt="Booking Management"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
             </div>
 
-            <!-- Feature 3: Analytics -->
+            <!-- Feature 3: Payment Tracking -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div class="order-2 md:order-1">
                     <div class="relative group">
@@ -124,68 +148,85 @@
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
                         <img src="https://cdn.dribbble.com/userupload/44667991/file/c3f20d1a79d82c19d47867a8e2393681.png?resize=1024x768&vertical=center"
-                            alt="Analytics Preview"
+                            alt="Payment Tracking"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
                 <div class="order-1 md:order-2">
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        Analytics & Reporting
+                        💰 Tracking Pembayaran Otomatis
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Wawasan Bisnis yang Mendalam</h2>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Nggak Ada Lagi Pembayaran Kelewat</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Dapatkan laporan analitik yang kuat untuk membantu Anda membuat keputusan berbasis data dengan
-                        percaya diri.
+                        Sistem kami otomatis mencatat setiap pembayaran yang masuk dan mengingatkan customer yang
+                        belum bayar. <span class="font-semibold text-gray-800">Anda tinggal cek saja, follow-up nya sudah
+                            otomatis.</span>
+                        Bahkan laporan keuangan pun ter-generate sendiri setiap hari.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Laporan otomatis yang dapat dijadwalkan</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Reminder Otomatis ke Customer</span>
+                                <span class="text-gray-600 text-sm">H-3 jatuh tempo, sistem otomatis kirim pengingat</span>
+                            </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Export data dalam format PDF, Excel, CSV</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Laporan Keuangan Instan</span>
+                                <span class="text-gray-600 text-sm">Mau lihat pendapatan bulan ini? Satu klik selesai</span>
+                            </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Analisis prediktif untuk strategi jangka panjang</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Histori Lengkap Tersimpan</span>
+                                <span class="text-gray-600 text-sm">Butuh cek transaksi 6 bulan lalu? Mudah dicari</span>
+                            </div>
                         </li>
                     </ul>
-                    <a href="#" class="mt-6 inline-block text-orange-600 font-semibold hover:underline">
-                        Pelajari lebih lanjut →
-                    </a>
                 </div>
             </div>
 
-            <!-- Feature 4: Integrations -->
+            <!-- Feature 4: Mobile Access -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div>
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        Integrasi
+                        📱 Akses dari Mana Saja
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Terhubung dengan Alat Favorit Anda</h2>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Di Kantor atau Di Jalan, Tetap Terkendali</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        TeMan terintegrasi dengan berbagai alat bisnis populer untuk memastikan alur kerja yang mulus.
+                        Sedang di luar kota tapi ada booking urgent? Tenang! Buka dari HP, tablet, atau laptop -
+                        datanya sama dan selalu sinkron. <span class="font-semibold text-gray-800">Bisnis travel Anda tidak
+                            akan berhenti
+                            hanya karena Anda sedang mobile.</span>
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">API kuat untuk integrasi kustom</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Buka di Device Apa Pun</span>
+                                <span class="text-gray-600 text-sm">HP, tablet, laptop - tampilan selalu nyaman</span>
+                            </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Kompatibel dengan CRM dan ERP populer</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Sinkronisasi Instant</span>
+                                <span class="text-gray-600 text-sm">Update di HP, langsung terlihat di laptop kantor</span>
+                            </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Sinkronisasi data secara real-time</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Offline Mode Siap Siaga</span>
+                                <span class="text-gray-600 text-sm">Koneksi lemot? Tetap bisa input, sinkron nanti</span>
+                            </div>
                         </li>
                     </ul>
-                    <a href="#" class="mt-6 inline-block text-orange-600 font-semibold hover:underline">
-                        Pelajari lebih lanjut →
-                    </a>
                 </div>
                 <div>
                     <div class="relative group">
@@ -193,8 +234,51 @@
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
                         <img src="https://cdn.dribbble.com/userupload/44680116/file/4420768858833e395c1393d02bc4e35d.png?resize=1024x768&vertical=center"
-                            alt="Integrations Preview"
+                            alt="Mobile Access"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why TeMan Section -->
+            <div class="mt-32 mb-20 scroll-reveal">
+                <div class="bg-gradient-to-br from-orange-50 to-white rounded-3xl p-12 border border-orange-100">
+                    <div class="text-center mb-12">
+                        <h2 class="text-4xl font-bold text-gray-800 mb-4">Kenapa TeMan Beda?</h2>
+                        <p class="text-xl text-gray-600">Bukan cuma aplikasi, tapi partner bisnis travel Anda</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div
+                            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-orange-100">
+                            <div class="text-4xl mb-4">⚡</div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Setup 5 Menit</h3>
+                            <p class="text-gray-600">
+                                Tidak perlu training berhari-hari. Interface yang intuitif membuat Anda langsung paham cara
+                                pakainya.
+                                Daftar hari ini, besok sudah bisa dipakai untuk bisnis.
+                            </p>
+                        </div>
+
+                        <div
+                            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-orange-100">
+                            <div class="text-4xl mb-4">🎯</div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Fokus Travel, Bukan Lainnya</h3>
+                            <p class="text-gray-600">
+                                Kami tahu bisnis travel itu seperti apa. Makanya fitur-fitur dibuat spesifik untuk kebutuhan
+                                travel agent - bukan copy-paste dari aplikasi lain.
+                            </p>
+                        </div>
+
+                        <div
+                            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-orange-100">
+                            <div class="text-4xl mb-4">💪</div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Support yang Responsif</h3>
+                            <p class="text-gray-600">
+                                Ada masalah atau butuh bantuan? Tim kami siap membantu via chat atau telepon.
+                                Tidak akan dibiarkan bingung sendiri.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -208,81 +292,24 @@
             <div class="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl animate-float-delayed"></div>
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 class="text-5xl font-bold mb-6 fade-in-up">Siap Mengoptimalkan Bisnis Anda?</h2>
+            <h2 class="text-5xl font-bold mb-6 fade-in-up">Coba Sekarang, Tunggu Apa Lagi!</h2>
             <p class="text-2xl mb-10 text-orange-100 fade-in-up delay-1">
-                Mulai gunakan fitur-fitur canggih TeMan hari ini.
+                Rasakan sendiri bagaimana TeMan membuat bisnis travel Anda lebih efisien.<br>
+                <span class="text-lg">Setup cuma 5 menit. Tidak ribet. Langsung bisa pakai.</span>
             </p>
-            <a href="#"
-                class="inline-block bg-white text-orange-600 px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1 fade-in-up delay-2">
-                Daftar Sekarang
-            </a>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center fade-in-up delay-2">
+                <a href="#"
+                    class="inline-block bg-white text-orange-600 px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1">
+                    Mulai Coba Sekarang
+                </a>
+                {{-- <a href="#"
+                    class="inline-block bg-transparent border-2 border-white text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-white hover:text-orange-600 transition-all duration-300">
+                    Lihat Demo
+                </a> --}}
+            </div>
+            <p class="mt-6 text-orange-100 text-sm fade-in-up delay-2">
+                ✓ Tidak perlu bayar diawal ✓ Dapatkan kapan saja ✓ Setup dalam 5 menit
+            </p>
         </div>
     </section>
-
-    <!-- Custom CSS Animations -->
-    <style>
-        @keyframes float {
-
-            0%,
-            100% {
-                transform: translateY(0px) translateX(0px);
-            }
-
-            50% {
-                transform: translateY(-20px) translateX(10px);
-            }
-        }
-
-        @keyframes float-delayed {
-
-            0%,
-            100% {
-                transform: translateY(0px) translateX(0px);
-            }
-
-            50% {
-                transform: translateY(20px) translateX(-10px);
-            }
-        }
-
-        .animate-float {
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .animate-float-delayed {
-            animation: float-delayed 8s ease-in-out infinite;
-        }
-
-        .fade-in-up {
-            opacity: 0;
-            transform: translateY(30px);
-            animation: fadeInUp 0.8s ease-out forwards;
-        }
-
-        .delay-1 {
-            animation-delay: 0.2s;
-        }
-
-        .delay-2 {
-            animation-delay: 0.4s;
-        }
-
-        @keyframes fadeInUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .scroll-reveal {
-            opacity: 0;
-            transform: translateY(50px);
-            transition: all 0.8s ease-out;
-        }
-
-        .scroll-reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    </style>
 @endsection

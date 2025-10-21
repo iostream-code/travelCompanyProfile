@@ -3,6 +3,23 @@
         Options -MultiViews -Indexes
     </IfModule>
 
+    <IfModule mod_expires.c>
+        ExpiresActive On
+        ExpiresDefault
+        ExpiresByType image/jpg
+        ExpiresByType image/jpeg
+        ExpiresByType image/png
+        ExpiresByType image/gif
+        ExpiresByType image/svg+xml
+        ExpiresByType audio/mpeg
+    </IfModule>
+
+    <IfModule mod_headers.c>
+        <FilesMatch "\.(mp3)$">
+            Header set Content-Type "audio/mpeg"
+        </FilesMatch>
+    </IfModule>
+
     RewriteEngine On
 
     # Handle Authorization Header

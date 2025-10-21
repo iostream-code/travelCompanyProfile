@@ -18,7 +18,7 @@
                 <div class="flex items-center">
                     <img src="{{ asset('images/logo-only-new.png') }}" class="w-8 h-8 me-2" alt="">
                     <a href="{{ route('home') }}" class="text-2xl font-bold text-orange-600">
-                        teman
+                        TeMan
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
@@ -49,7 +49,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <h3 class="text-lg font-bold mb-4 text-orange-400">TeMan</h3>
-                    <p class="text-gray-300">Solusi terbaik untuk kebutuhan bisnis Anda</p>
+                    <p class="text-gray-300">Solusi terbaik untuk kebutuhan bisnis travel Anda</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-bold mb-4 text-orange-400">Product</h4>
@@ -67,12 +67,12 @@
                 </div>
                 <div>
                     <h4 class="text-lg font-bold mb-4 text-orange-400">Contact</h4>
-                    <p class="text-gray-300">koperindo@travel.com</p>
+                    <p class="text-gray-300">itai.technology@travel.com</p>
                     <p class="text-gray-300">+62 857 3055 7075</p>
                 </div>
             </div>
             <div class="border-t border-orange-900 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 MyApp. All rights reserved.</p>
+                <p>&copy; 2025 TeMan. All rights reserved.</p>
             </div>
         </div>
     </footer>

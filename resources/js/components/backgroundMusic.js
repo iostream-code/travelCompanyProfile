@@ -20,7 +20,7 @@ export default function initBackgroundMusic() {
     let isPlaying = false;
 
     const musicPlayer = $(`
-        <div id="music-player" class="fixed bottom-8 right-8 z-50 flex flex-col items-end gap-2">
+        <div id="music-player" class="fixed bottom-8 right-8 z-50 flex flex-row items-center gap-4">
             <!-- Volume Slider (Hidden by default) -->
             <div class="volume-control bg-white rounded-full shadow-lg p-2 hidden opacity-0 transition-all duration-300">
                 <div class="flex items-center gap-2 px-2">

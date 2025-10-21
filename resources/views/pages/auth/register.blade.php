@@ -22,8 +22,8 @@
                         <!-- Main Illustration -->
                         <div
                             class="relative z-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-3xl p-12 shadow-2xl transform hover:scale-105 transition-all duration-500">
-                            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop"
-                                alt="Travel Registration" class="rounded-2xl shadow-lg w-full h-auto object-cover">
+                            <img src="{{ asset('images/about-image.png') }}" alt="Travel Registration"
+                                class="rounded-2xl shadow-lg w-full h-auto object-cover">
 
                             <!-- Floating Badge -->
                             <div class="absolute -top-6 -right-6 bg-white rounded-2xl p-4 shadow-xl animate-float">
@@ -134,7 +134,7 @@
                                     </label>
                                     <input type="text" id="nama_travel" name="nama_travel"
                                         class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300"
-                                        placeholder="Contoh: Singgah Travel" required>
+                                        placeholder="Contoh: Korinity Tour & Travel" required>
                                 </div>
 
                                 <!-- Alamat -->
@@ -233,8 +233,8 @@
                     <!-- Trust Badges -->
                     <div class="mt-8 flex justify-center items-center space-x-8 opacity-70">
                         <div class="text-center">
-                            <p class="text-2xl font-bold text-gray-800">500+</p>
-                            <p class="text-xs text-gray-600">Travel Terdaftar</p>
+                            <p class="text-2xl font-bold text-gray-800">100+</p>
+                            <p class="text-xs text-gray-600">Travel Terafiliasi</p>
                         </div>
                         <div class="w-px h-12 bg-gray-300"></div>
                         <div class="text-center">
@@ -254,66 +254,6 @@
 
     <!-- Custom CSS Animations -->
     <style>
-        @keyframes float {
-
-            0%,
-            100% {
-                transform: translateY(0px);
-            }
-
-            50% {
-                transform: translateY(-20px);
-            }
-        }
-
-        @keyframes float-delayed {
-
-            0%,
-            100% {
-                transform: translateY(0px);
-            }
-
-            50% {
-                transform: translateY(-15px);
-            }
-        }
-
-        @keyframes slide-in {
-            from {
-                opacity: 0;
-                transform: translateX(-30px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        .animate-float {
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .animate-float-delayed {
-            animation: float-delayed 8s ease-in-out infinite;
-        }
-
-        .animate-slide-in {
-            animation: slide-in 0.6s ease-out forwards;
-            opacity: 0;
-        }
-
-        .scroll-reveal {
-            opacity: 0;
-            transform: translateY(50px);
-            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .scroll-reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
         .form-group input:focus,
         .form-group textarea:focus {
             box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.1);

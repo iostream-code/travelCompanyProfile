@@ -115,7 +115,7 @@ export default function initContactPopup() {
                                         </div>
                                         <div>
                                             <h4 class="font-semibold mb-1">Alamat</h4>
-                                            <p class="text-blue-100">Jl. Inovasi No. 123, Jakarta, Indonesia</p>
+                                            <p class="text-blue-100">Permata blok R3 No.32 - 39, Kludan, Kec. Tanggulangin, Kabupaten Sidoarjo, Jawa Timur 61272</p>
                                         </div>
                                     </div>
 
@@ -128,7 +128,7 @@ export default function initContactPopup() {
                                         </div>
                                         <div>
                                             <h4 class="font-semibold mb-1">Email</h4>
-                                            <p class="text-blue-100">support@myapp.com</p>
+                                            <p class="text-blue-100">itai.technology@travel.com</p>
                                         </div>
                                     </div>
 
@@ -141,7 +141,7 @@ export default function initContactPopup() {
                                         </div>
                                         <div>
                                             <h4 class="font-semibold mb-1">Telepon</h4>
-                                            <p class="text-blue-100">+62 21 1234 5678</p>
+                                            <p class="text-blue-100">+62 857 3055 7075</p>
                                         </div>
                                     </div>
 
@@ -154,7 +154,7 @@ export default function initContactPopup() {
                                         </div>
                                         <div>
                                             <h4 class="font-semibold mb-1">Jam Operasional</h4>
-                                            <p class="text-blue-100">Senin - Jumat: 08.00 - 17.00 WIB</p>
+                                            <p class="text-blue-100">Senin - Sabtu: 08.00 - 17.00 WIB</p>
                                         </div>
                                     </div>
                                 </div>
@@ -164,8 +164,8 @@ export default function initContactPopup() {
                                     <h4 class="font-semibold mb-4">Ikuti Kami</h4>
                                     <div class="flex space-x-3">
                                         <a href="#" class="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110">
-                                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.708.87 3.215 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16">
+                                                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
                                             </svg>
                                         </a>
                                         <a href="#" class="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110">

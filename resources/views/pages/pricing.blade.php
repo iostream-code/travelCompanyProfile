@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Harga MyApp')
+@section('title', 'Harga TeMan')
 
 @section('content')
     <!-- Animated Background -->
@@ -19,11 +19,11 @@
             <div class="text-center fade-in-up">
                 <h1
                     class="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
-                    Pilih Paket yang Tepat untuk Bisnis Anda
+                    Pilih Paket yang Sesuai untuk Anda
                 </h1>
                 <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-                    Dapatkan akses ke semua fitur MyApp dengan harga yang kompetitif, dirancang untuk mendukung pertumbuhan
-                    bisnis Anda.
+                    Mulai dengan gratis, upgrade kapan saja sesuai kebutuhan. Tidak ada biaya tersembunyi,
+                    semua transparan dan fleksibel.
                 </p>
             </div>
         </div>
@@ -36,31 +36,32 @@
                 <!-- Basic Plan -->
                 <div
                     class="pricing-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer transform hover:-translate-y-2 scroll-reveal">
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Basic</h3>
-                    <p class="text-gray-600 mb-6">Cocok untuk bisnis kecil yang baru memulai</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Starter</h3>
+                    <p class="text-gray-600 mb-6">Sempurna untuk mencoba dan memulai</p>
                     <div class="text-4xl font-bold text-orange-600 mb-6">Gratis</div>
                     <ul class="space-y-4 mb-8">
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">Akses ke dashboard dasar</span>
+                            <span class="text-gray-700">Dashboard sederhana dan mudah</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">1 GB penyimpanan cloud</span>
+                            <span class="text-gray-700">Penyimpanan 1 GB (cukup untuk memulai)</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">Support email</span>
+                            <span class="text-gray-700">Bantuan via email</span>
                         </li>
                         <li class="flex items-start">
-                            <span class="text-gray-400 mr-3 text-2xl">✗</span>
-                            <span class="text-gray-700">Laporan analitik lanjutan</span>
+                            <span class="text-orange-600 mr-3 text-2xl">✓</span>
+                            <span class="text-gray-700">Fitur dasar manajemen travel</span>
                         </li>
                     </ul>
                     <a href="#"
                         class="inline-block bg-gradient-to-r from-orange-600 to-orange-700 text-white px-8 py-4 rounded-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1">
-                        Mulai Sekarang
+                        Mulai Gratis
                     </a>
+                    <p class="text-sm text-gray-500 mt-4 text-center">Tidak perlu kartu kredit</p>
                 </div>
 
                 <!-- Pro Plan -->
@@ -68,62 +69,73 @@
                     class="pricing-card group bg-gradient-to-br from-orange-100 to-orange-200 p-10 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 border-2 border-orange-300 cursor-pointer transform hover:-translate-y-2 scroll-reveal relative">
                     <div
                         class="absolute top-4 right-4 bg-orange-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
-                        Populer</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Pro</h3>
-                    <p class="text-gray-600 mb-6">Ideal untuk bisnis yang sedang berkembang</p>
-                    <div class="text-4xl font-bold text-orange-600 mb-6">Rp 299K /bulan</div>
+                        Paling Populer</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Professional</h3>
+                    <p class="text-gray-600 mb-6">Untuk bisnis yang mulai berkembang</p>
+                    <div class="text-4xl font-bold text-orange-600 mb-2">Rp 299K</div>
+                    <p class="text-gray-600 mb-6">/bulan</p>
                     <ul class="space-y-4 mb-8">
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">Dashboard lengkap dengan widget kustom</span>
+                            <span class="text-gray-700">Semua fitur Starter</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">10 GB penyimpanan cloud</span>
+                            <span class="text-gray-700">Penyimpanan 10 GB</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">Support 24/7 via chat & email</span>
+                            <span class="text-gray-700">Bantuan kapan saja via chat & email</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">Laporan analitik lanjutan</span>
+                            <span class="text-gray-700">Laporan otomatis & analisis</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-orange-600 mr-3 text-2xl">✓</span>
+                            <span class="text-gray-700">Bisa atur sesuai kebutuhan Anda</span>
                         </li>
                     </ul>
                     <a href="#"
                         class="inline-block bg-gradient-to-r from-orange-600 to-orange-700 text-white px-8 py-4 rounded-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1">
-                        Pilih Pro
+                        Pilih Professional
                     </a>
+                    <p class="text-sm text-gray-600 mt-4 text-center">Bisa dibatalkan kapan saja</p>
                 </div>
 
                 <!-- Enterprise Plan -->
                 <div
                     class="pricing-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer transform hover:-translate-y-2 scroll-reveal">
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Enterprise</h3>
-                    <p class="text-gray-600 mb-6">Solusi lengkap untuk bisnis besar</p>
-                    <div class="text-4xl font-bold text-orange-600 mb-6">Hubungi Kami</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Business</h3>
+                    <p class="text-gray-600 mb-6">Untuk bisnis dengan kebutuhan khusus</p>
+                    <div class="text-4xl font-bold text-orange-600 mb-6">Custom</div>
                     <ul class="space-y-4 mb-8">
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">Dashboard tanpa batas</span>
+                            <span class="text-gray-700">Semua fitur Professional</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">Penyimpanan cloud tak terbatas</span>
+                            <span class="text-gray-700">Penyimpanan sesuai kebutuhan</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">Support prioritas 24/7</span>
+                            <span class="text-gray-700">Tim support khusus untuk Anda</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
-                            <span class="text-gray-700">Integrasi API kustom</span>
+                            <span class="text-gray-700">Integrasi dengan sistem Anda</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-orange-600 mr-3 text-2xl">✓</span>
+                            <span class="text-gray-700">Pelatihan khusus tim Anda</span>
                         </li>
                     </ul>
                     <a href="#"
                         class="inline-block border-2 border-orange-600 text-orange-600 px-8 py-4 rounded-xl font-bold hover:bg-orange-600 hover:text-white transition-all duration-300">
-                        Kontak Sales
+                        Hubungi Kami
                     </a>
+                    <p class="text-sm text-gray-500 mt-4 text-center">Solusi disesuaikan kebutuhan</p>
                 </div>
             </div>
         </div>
@@ -133,35 +145,111 @@
     <section class="py-20 bg-gradient-to-b from-white to-gray-50 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-800 mb-4">Pertanyaan Umum</h2>
-                <p class="text-xl text-gray-600">Jawaban atas pertanyaan yang sering diajukan</p>
+                <h2 class="text-5xl font-bold text-gray-800 mb-4">Pertanyaan yang Sering Ditanyakan</h2>
+                <p class="text-xl text-gray-600">Kami bantu jawab keraguan Anda</p>
             </div>
-            <div class="space-y-6 scroll-reveal">
+            <div class="space-y-6 scroll-reveal max-w-4xl mx-auto">
                 <div
                     class="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Apa yang termasuk dalam paket gratis?</h3>
-                    <p class="text-gray-600 leading-relaxed">Paket gratis mencakup akses ke dashboard dasar, 1 GB
-                        penyimpanan cloud, dan dukungan melalui email. Cocok untuk bisnis kecil yang ingin mencoba MyApp.
-                    </p>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Bagaimana jika ingin ganti paket?</h3>
+                    <p class="text-gray-600 leading-relaxed">Sangat mudah! Anda bisa upgrade atau downgrade kapan saja
+                        dengan sekali klik.
+                        Tidak ada penalti atau biaya tambahan. Perubahan akan berlaku di bulan berikutnya.</p>
                 </div>
                 <div
                     class="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Apakah saya bisa mengganti paket kapan saja?</h3>
-                    <p class="text-gray-600 leading-relaxed">Ya, Anda dapat meningkatkan atau menurunkan paket kapan saja
-                        tanpa biaya tambahan. Perubahan akan berlaku pada siklus penagihan berikutnya.</p>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Apa yang dimaksud dengan bantuan kapan saja?</h3>
+                    <p class="text-gray-600 leading-relaxed">Untuk paket Professional dan Business, tim kami siap membantu
+                        melalui chat dan email setiap saat. Kami biasanya merespons dalam hitungan menit, bukan jam.</p>
                 </div>
                 <div
                     class="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Bagaimana cara kerja dukungan prioritas?</h3>
-                    <p class="text-gray-600 leading-relaxed">Dukungan prioritas untuk paket Enterprise memberikan akses ke
-                        tim khusus melalui chat, email, dan telepon, dengan waktu respons di bawah 10 menit.</p>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Bagaimana jika saya ingin berhenti berlangganan?</h3>
+                    <p class="text-gray-600 leading-relaxed">Tidak ada kontrak jangka panjang. Anda bebas berhenti kapan
+                        saja
+                        dengan sekali klik. Data Anda tetap aman dan bisa diambil kapan pun Anda butuhkan.</p>
                 </div>
                 <div
                     class="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Apakah ada kontrak jangka panjang?</h3>
-                    <p class="text-gray-600 leading-relaxed">Tidak, semua paket berbasis langganan bulanan tanpa komitmen
-                        jangka panjang. Anda bebas membatalkan kapan saja.</p>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Apakah data saya aman?</h3>
+                    <p class="text-gray-600 leading-relaxed">Sangat aman. Semua data ter-enkripsi dan di-backup otomatis
+                        setiap hari.
+                        Kami menggunakan standar keamanan yang sama dengan bank untuk melindungi informasi Anda.</p>
                 </div>
+                <div
+                    class="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Apakah ada diskon untuk pembayaran tahunan?</h3>
+                    <p class="text-gray-600 leading-relaxed">Ya! Jika Anda memilih pembayaran tahunan, kami berikan diskon
+                        20%.
+                        Itu artinya Anda hemat setara 2-3 bulan berlangganan. Hubungi kami untuk info lebih lanjut.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="py-20 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-5xl font-bold text-gray-800 mb-4">Perbandingan Paket</h2>
+                <p class="text-xl text-gray-600">Lihat detail fitur di setiap paket</p>
+            </div>
+
+            <div class="overflow-x-auto scroll-reveal">
+                <table class="w-full bg-white rounded-2xl shadow-2xl overflow-hidden">
+                    <thead class="bg-gradient-to-r from-orange-600 to-orange-700 text-white">
+                        <tr>
+                            <th class="px-8 py-6 text-left font-bold text-lg">Fitur</th>
+                            <th class="px-8 py-6 text-center font-bold text-lg">Starter</th>
+                            <th class="px-8 py-6 text-center font-bold text-lg">Professional</th>
+                            <th class="px-8 py-6 text-center font-bold text-lg">Business</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-orange-50 transition-colors duration-300">
+                            <td class="px-8 py-5 font-semibold text-gray-800">Dashboard Sederhana</td>
+                            <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
+                            <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
+                            <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
+                        </tr>
+                        <tr class="hover:bg-orange-50 transition-colors duration-300">
+                            <td class="px-8 py-5 font-semibold text-gray-800">Penyimpanan Cloud</td>
+                            <td class="px-8 py-5 text-center text-gray-700">1 GB</td>
+                            <td class="px-8 py-5 text-center text-gray-700">10 GB</td>
+                            <td class="px-8 py-5 text-center text-gray-700">Unlimited</td>
+                        </tr>
+                        <tr class="hover:bg-orange-50 transition-colors duration-300">
+                            <td class="px-8 py-5 font-semibold text-gray-800">Bantuan Tim</td>
+                            <td class="px-8 py-5 text-center text-gray-700">Email</td>
+                            <td class="px-8 py-5 text-center text-gray-700">Chat & Email</td>
+                            <td class="px-8 py-5 text-center text-gray-700">Prioritas</td>
+                        </tr>
+                        <tr class="hover:bg-orange-50 transition-colors duration-300">
+                            <td class="px-8 py-5 font-semibold text-gray-800">Laporan Otomatis</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
+                            <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
+                        </tr>
+                        <tr class="hover:bg-orange-50 transition-colors duration-300">
+                            <td class="px-8 py-5 font-semibold text-gray-800">Kustomisasi</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
+                            <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
+                        </tr>
+                        <tr class="hover:bg-orange-50 transition-colors duration-300">
+                            <td class="px-8 py-5 font-semibold text-gray-800">Integrasi API</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
+                        </tr>
+                        <tr class="hover:bg-orange-50 transition-colors duration-300">
+                            <td class="px-8 py-5 font-semibold text-gray-800">Pelatihan Tim</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
@@ -173,81 +261,18 @@
             <div class="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl animate-float-delayed"></div>
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 class="text-5xl font-bold mb-6 fade-in-up">Satu Langkah Lebih Mudah Menemani Perjalanan Bisnis Anda</h2>
+            <h2 class="text-5xl font-bold mb-6 fade-in-up">Siap Mencoba TeMan?</h2>
             <p class="text-2xl mb-10 text-orange-100 fade-in-up delay-1">
-                Mudah, simple, praktis, dan profitable
+                Mulai gratis hari ini. Tidak perlu kartu kredit. Tidak ada risiko.
             </p>
             <a href="#"
                 class="inline-block bg-white text-orange-600 px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1 fade-in-up delay-2">
-                Daftar Sekarang
+                Coba Gratis Sekarang
             </a>
+            <p class="mt-6 text-orange-100 text-base fade-in-up delay-2">
+                Punya pertanyaan? <a href="#" class="underline hover:text-white transition-colors">Ngobrol dengan
+                    kami</a>
+            </p>
         </div>
     </section>
-
-    <!-- Custom CSS Animations -->
-    <style>
-        @keyframes float {
-
-            0%,
-            100% {
-                transform: translateY(0px) translateX(0px);
-            }
-
-            50% {
-                transform: translateY(-20px) translateX(10px);
-            }
-        }
-
-        @keyframes float-delayed {
-
-            0%,
-            100% {
-                transform: translateY(0px) translateX(0px);
-            }
-
-            50% {
-                transform: translateY(20px) translateX(-10px);
-            }
-        }
-
-        .animate-float {
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .animate-float-delayed {
-            animation: float-delayed 8s ease-in-out infinite;
-        }
-
-        .fade-in-up {
-            opacity: 0;
-            transform: translateY(30px);
-            animation: fadeInUp 0.8s ease-out forwards;
-        }
-
-        .delay-1 {
-            animation-delay: 0.2s;
-        }
-
-        .delay-2 {
-            animation-delay: 0.4s;
-        }
-
-        @keyframes fadeInUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .scroll-reveal {
-            opacity: 0;
-            transform: translateY(50px);
-            transition: all 0.8s ease-out;
-        }
-
-        .scroll-reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    </style>
 @endsection

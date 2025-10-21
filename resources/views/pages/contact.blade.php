@@ -106,18 +106,4 @@
             </div>
         </div>
     </section>
-
-    <!-- Custom CSS Animations -->
-    <style>
-        .scroll-reveal {
-            opacity: 0;
-            transform: translateY(50px);
-            transition: all 0.8s ease-out;
-        }
-
-        .scroll-reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    </style>
 @endsection
