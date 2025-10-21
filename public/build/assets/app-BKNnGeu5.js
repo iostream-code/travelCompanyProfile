@@ -73,13 +73,11 @@ function To(o){return o&&o.__esModule&&Object.prototype.hasOwnProperty.call(o,"d
         box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     }
 `;document.head.appendChild(bi);function pa(){const o=q(`
-        <button id="contact-button" class="fixed bottom-28 right-8 z-50 w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-500 text-white rounded-full shadow-xl hover:shadow-2xl transform hover:scale-110 transition-all duration-300 flex items-center justify-center group">
+        <!-- Floating Contact Button - Hidden on mobile, visible on desktop -->
+        <button id="contact-button" class="hidden sm:flex fixed bottom-28 right-8 z-50 w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-500 text-white rounded-full shadow-xl hover:shadow-2xl transform hover:scale-110 transition-all duration-300 items-center justify-center group">
             <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
             </svg>
-            <span class="tooltip absolute -top-12 right-0 bg-gray-800 text-white text-xs px-4 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
-                💬 Hubungi Kami
-            </span>
         </button>
     `),s=q(`
         <div id="contact-popup" class="fixed inset-0 z-[60] hidden">

@@ -30,13 +30,13 @@
                         <span class="font-semibold text-orange-600">Teman Setia</span> yang siap membantu Anda mengelola
                         bisnis travel dengan cara yang simpel dan mudah.
                     </p>
-                    <div class="space-x-4">
+                    <div class="flex flex-col sm:flex-row gap-4">
                         <a href="{{ route('contact') }}"
-                            class="inline-block bg-gradient-to-r from-orange-600 to-orange-700 text-white px-8 py-4 rounded-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1">
+                            class="inline-block text-center bg-gradient-to-r from-orange-600 to-orange-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1">
                             Coba Sekarang
                         </a>
                         <a href="{{ route('features') }}"
-                            class="inline-block border-2 border-orange-600 text-orange-600 px-8 py-4 rounded-xl font-bold hover:bg-orange-600 hover:text-white transition-all duration-300">
+                            class="inline-block text-center border-2 border-orange-600 text-orange-600 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold hover:bg-orange-600 hover:text-white transition-all duration-300">
                             Lihat Fitur
                         </a>
                     </div>
