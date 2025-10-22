@@ -16,7 +16,7 @@
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div class="fade-in-up">
+                <div class="fade-in-up text-center md:text-left">
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
                         🌟 Kelola Bisnis Travel dengan Lebih Mudah
@@ -37,7 +37,7 @@
                         </a>
                         <a href="{{ route('features') }}"
                             class="inline-block text-center border-2 border-orange-600 text-orange-600 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold hover:bg-orange-600 hover:text-white transition-all duration-300">
-                            Lihat Fitur
+                            Jelajahi Fitur
                         </a>
                     </div>
                 </div>
@@ -86,9 +86,9 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
                 <h2
-                    class="text-5xl font-bold mb-4 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
+                    class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
                     Yang Membuat TeMan Istimewa</h2>
-                <p class="text-xl text-gray-600">Dirancang dengan fokus pada <strong>kemudahan</strong> dan
+                <p class="text-lg md:text-xl text-gray-600">Dirancang dengan fokus pada <strong>kemudahan</strong> dan
                     <strong>kebutuhan</strong> Anda
                 </p>
             </div>
@@ -154,8 +154,7 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://cdn.dribbble.com/userupload/44652216/file/a488cd24d080f006fe01d87fa5d3c3df.png?resize=1024x768&vertical=center"
-                            alt="Dashboard"
+                        <img src="{{ asset('images/banner-1.webp') }}" alt="Dashboard"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -218,7 +217,7 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://cdn.dribbble.com/userupload/44634446/file/586326eb0f00af918764a36c61f37564.png?resize=1024x703&vertical=center"
+                        <img src="{{ asset('images/banner-2.webp') }}"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -234,8 +233,7 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://cdn.dribbble.com/userupload/44667992/file/a2b712feaf6bb6a9af72e17cca07f177.png?resize=1024x768&vertical=center"
-                            alt="Analytics"
+                        <img src="{{ asset('images/banner-3.webp') }}" alt="Analytics"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -273,8 +271,8 @@
         <div class="absolute inset-0 bg-gradient-to-br from-orange-50/50 via-transparent to-orange-50/50"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-800 mb-4">Kenapa Memilih TeMan?</h2>
-                <p class="text-xl text-gray-600">Lebih dari sekedar aplikasi manajemen bisnis travel</p>
+                <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Kenapa Memilih TeMan?</h2>
+                <p class="text-lg md:text-xl text-gray-600">Lebih dari sekedar aplikasi manajemen bisnis travel</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -342,8 +340,8 @@
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-800 mb-4">Perbandingan Fitur</h2>
-                <p class="text-xl text-gray-600">Lihat apa yang membuat TeMan berbeda</p>
+                <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Perbandingan Fitur</h2>
+                <p class="text-lg md:text-xl text-gray-600">Lihat apa yang membuat TeMan berbeda</p>
             </div>
 
             <div class="overflow-x-auto scroll-reveal">
@@ -401,8 +399,8 @@
         <div class="absolute inset-0 bg-gradient-to-br from-orange-50/30 via-transparent to-orange-50/30"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-800 mb-4">Cerita dari Pengguna TeMan</h2>
-                <p class="text-xl text-gray-600">Pengalaman nyata dari mereka yang sudah terbantu</p>
+                <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Cerita dari Pengguna TeMan</h2>
+                <p class="text-lg md:text-xl text-gray-600">Pengalaman nyata dari mereka yang sudah terbantu</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">

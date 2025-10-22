@@ -14,11 +14,10 @@
         ExpiresByType audio/mpeg
     </IfModule>
 
-    <IfModule mod_headers.c>
-        <FilesMatch "\.(mp3)$">
-            Header set Content-Type "audio/mpeg"
-        </FilesMatch>
-    </IfModule>
+    <FilesMatch "\.(mp4|mp3|webm|ogg)$">
+        Order Allow,Deny
+        Allow from all
+    </FilesMatch>
 
     RewriteEngine On
 

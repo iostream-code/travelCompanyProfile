@@ -115,34 +115,64 @@
 
                         <!-- Form Body -->
                         <div class="px-8 py-10">
-                            <form action="{{ route('register') }}" method="POST" enctype="multipart/form-data"
-                                class="space-y-6">
+                            <!-- Alert Messages -->
+                            <div id="alert-success"
+                                class="hidden mb-6 bg-green-50 border-l-4 border-green-500 p-4 rounded-lg">
+                                <div class="flex items-start">
+                                    <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <div class="flex-1">
+                                        <p class="font-semibold text-green-800">Registrasi Berhasil!</p>
+                                        <p id="success-message" class="text-sm text-green-700 mt-1"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="alert-error" class="hidden mb-6 bg-red-50 border-l-4 border-red-500 p-4 rounded-lg">
+                                <div class="flex items-start">
+                                    <svg class="w-5 h-5 text-red-500 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <div class="flex-1">
+                                        <p class="font-semibold text-red-800">Terjadi Kesalahan!</p>
+                                        <p id="error-message" class="text-sm text-red-700 mt-1"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form id="register-form" class="space-y-6" enctype="multipart/form-data">
                                 @csrf
 
                                 <!-- Nama Travel -->
                                 <div class="form-group">
                                     <label for="nama_travel" class="block text-sm font-semibold text-gray-700 mb-2">
                                         <span class="flex items-center">
-                                            <svg class="w-4 h-4 mr-2 text-orange-600" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24">
+                                            <svg class="w-4 h-4 mr-2 text-orange-600" fill="none"
+                                                stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                     d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
                                                 </path>
                                             </svg>
-                                            Nama Travel
+                                            Nama Travel <span class="text-red-500">*</span>
                                         </span>
                                     </label>
                                     <input type="text" id="nama_travel" name="nama_travel"
                                         class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300"
-                                        placeholder="Contoh: Korinity Tour & Travel" required>
+                                        placeholder="Contoh: Korinity Tour" maxlength="15" required>
+                                    <p class="mt-1 text-xs text-gray-500">Maksimal 15 karakter</p>
                                 </div>
 
                                 <!-- Alamat -->
                                 <div class="form-group">
-                                    <label for="alamat" class="block text-sm font-semibold text-gray-700 mb-2">
+                                    <label for="address" class="block text-sm font-semibold text-gray-700 mb-2">
                                         <span class="flex items-center">
-                                            <svg class="w-4 h-4 mr-2 text-orange-600" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24">
+                                            <svg class="w-4 h-4 mr-2 text-orange-600" fill="none"
+                                                stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                     d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
                                                 </path>
@@ -152,9 +182,9 @@
                                             Alamat Lengkap
                                         </span>
                                     </label>
-                                    <textarea id="alamat" name="alamat" rows="3"
+                                    <textarea id="address" name="address" rows="3"
                                         class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300 resize-none"
-                                        placeholder="Masukkan alamat kantor travel Anda" required></textarea>
+                                        placeholder="Masukkan alamat kantor travel Anda"></textarea>
                                 </div>
 
                                 <!-- Website -->
@@ -172,12 +202,12 @@
                                     </label>
                                     <input type="url" id="website" name="website"
                                         class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300"
-                                        placeholder="https://travelanda.com" required>
+                                        placeholder="https://travelanda.com">
                                 </div>
 
                                 <!-- Dokumen Penguat -->
                                 <div class="form-group">
-                                    <label for="dokumen" class="block text-sm font-semibold text-gray-700 mb-2">
+                                    <label for="verified_document" class="block text-sm font-semibold text-gray-700 mb-2">
                                         <span class="flex items-center">
                                             <svg class="w-4 h-4 mr-2 text-orange-600" fill="none"
                                                 stroke="currentColor" viewBox="0 0 24 24">
@@ -189,9 +219,9 @@
                                         </span>
                                     </label>
                                     <div class="relative">
-                                        <input type="file" id="dokumen" name="dokumen"
+                                        <input type="file" id="verified_document" name="verified_document"
                                             class="w-full px-4 py-3.5 rounded-xl border-2 border-dashed border-gray-300 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-orange-50 file:text-orange-700 hover:file:bg-orange-100 cursor-pointer"
-                                            accept=".pdf,.doc,.docx,.jpg,.png" required>
+                                            accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
                                     </div>
                                     <p class="mt-2 text-xs text-gray-500 flex items-start">
                                         <svg class="w-4 h-4 mr-1 text-orange-500 flex-shrink-0 mt-0.5" fill="none"
@@ -201,17 +231,33 @@
                                         </svg>
                                         Upload dokumen seperti SIUP, TDP, atau NIB (PDF, DOC, JPG, PNG - Max 5MB)
                                     </p>
+                                    <div id="file-name" class="mt-2 text-sm text-gray-600 hidden">
+                                        <span class="font-semibold">File terpilih:</span> <span
+                                            id="file-name-text"></span>
+                                    </div>
                                 </div>
+
+                                <!-- Token (Hidden Field) -->
+                                <input type="hidden" id="token" name="token"
+                                    value="bdbe153978c05bad8ffbaf8ae30c21aab9e922bb0a63513ff8379183a7dff0cc">
 
                                 <!-- Submit Button -->
                                 <div class="pt-4">
-                                    <button type="submit"
+                                    <button type="submit" id="submit-btn"
                                         class="group w-full bg-gradient-to-r from-orange-600 to-orange-500 text-white px-6 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-2xl hover:shadow-orange-300 transform hover:scale-[1.02] transition-all duration-300 hover:-translate-y-1 flex items-center justify-center space-x-2">
-                                        <span>Daftar Sekarang</span>
-                                        <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none"
-                                            stroke="currentColor" viewBox="0 0 24 24">
+                                        <span id="btn-text">Daftar Sekarang</span>
+                                        <svg id="btn-icon" class="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                        </svg>
+                                        <svg id="btn-loading" class="hidden w-5 h-5 animate-spin" fill="none"
+                                            viewBox="0 0 24 24">
+                                            <circle class="opacity-25" cx="12" cy="12" r="10"
+                                                stroke="currentColor" stroke-width="4"></circle>
+                                            <path class="opacity-75" fill="currentColor"
+                                                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                                            </path>
                                         </svg>
                                     </button>
                                 </div>
@@ -252,22 +298,73 @@
         </div>
     </section>
 
-    <!-- Custom CSS Animations -->
+    <!-- Success Modal -->
+    <div id="success-modal" class="hidden fixed inset-0 bg-gray-700 opacity-50 z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-8 relative animate-scale-in">
+            <div class="text-center">
+                <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Registrasi Berhasil!</h3>
+                <p class="text-gray-600 mb-6">Akun Anda telah berhasil dibuat. Berikut adalah kredensial login Anda. Mohon
+                    tunggu hingga data terverifikasi</p>
+
+                <div class="bg-gray-50 rounded-xl p-4 mb-6 text-left">
+                    <div class="mb-3">
+                        <p class="text-xs text-gray-500 mb-1">Email</p>
+                        <p id="modal-email" class="font-semibold text-gray-800"></p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 mb-1">Password</p>
+                        <p id="modal-password" class="font-semibold text-gray-800"></p>
+                    </div>
+                </div>
+
+                <p class="text-sm text-orange-600 mb-6">
+                    <svg class="w-4 h-4 inline mr-1" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    Simpan kredensial ini dengan aman!
+                </p>
+
+                <button id="close-modal-btn"
+                    class="w-full bg-gradient-to-r from-orange-600 to-orange-500 text-white px-6 py-3 rounded-xl font-bold hover:shadow-lg transition-all duration-300">
+                    Tutup
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom CSS -->
     <style>
         .form-group input:focus,
         .form-group textarea:focus {
             box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.1);
         }
 
-        /* File input styling */
-        input[type="file"]::file-selector-button {
-            transition: all 0.3s ease;
-        }
-
-        /* Hover effect for form inputs */
         .form-group input:hover:not(:focus),
         .form-group textarea:hover:not(:focus) {
             border-color: #fed7aa;
+        }
+
+        @keyframes scale-in {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .animate-scale-in {
+            animation: scale-in 0.3s ease-out;
         }
     </style>
 @endsection

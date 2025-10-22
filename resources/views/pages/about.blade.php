@@ -87,30 +87,33 @@
                 <div
                     class="team-card group text-center bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
                     <div
-                        class="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
-                        A
+                        class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-orange-200 group-hover:ring-orange-400 transition-all duration-300">
+                        <img src="{{ asset('images/teams/pp-aryak.webp') }}" alt="Hafiyyan Dwika Arya"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Hafiyyan Dwika Arya</h3>
                     <p class="text-gray-600 mb-4">Programmer, Full-Stack Developer</p>
-                    <p class="text-gray-600 leading-relaxed">Arya memimpin visi TeMan dengan pengalaman lebih dari 15 tahun
-                        di industri travel dan teknologi, membuat semuanya lebih simpel.</p>
+                    <p class="text-gray-600 leading-relaxed">Arya memimpin visi TeMan dengan pengalaman di industri
+                        teknologi, membuat semuanya lebih mudah dan simpel.</p>
                 </div>
                 <div
                     class="team-card group text-center bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
                     <div
-                        class="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
-                        S
+                        class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-orange-200 group-hover:ring-orange-400 transition-all duration-300">
+                        <img src="{{ asset('images/teams/pp-melky.webp') }}" alt="Hafiyyan Dwika Arya"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Dewangga Putra</h3>
                     <p class="text-gray-600 mb-4">Manager, System Analyst</p>
                     <p class="text-gray-600 leading-relaxed">Dewangga mengawasi pengembangan teknologi TeMan, memastikan
-                        platform kami selalu mudah digunakan dan inovatif.</p>
+                        platform Kami selalu dalam kondisi terbaiknya dan tanpa kendala.</p>
                 </div>
                 <div
                     class="team-card group text-center bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
                     <div
-                        class="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
-                        R
+                        class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-orange-200 group-hover:ring-orange-400 transition-all duration-300">
+                        <img src="{{ asset('images/teams/pp-crysna.webp') }}" alt="Hafiyyan Dwika Arya"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Crysna Wima Rangga</h3>
                     <p class="text-gray-600 mb-4">Programmer, Full-Satck Developer</p>

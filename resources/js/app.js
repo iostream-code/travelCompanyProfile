@@ -15,6 +15,7 @@ import initSmoothScroll from './components/smoothScroll';
 import initParallax from './components/parallax';
 import initBackgroundMusic from './components/backgroundMusic';
 import initContactPopup from './components/contactPopup';
+import initMobileDrawer from './components/mobileDrawer';
 
 import { matchRoute } from './routes';
 
@@ -22,6 +23,7 @@ window.$ = $;
 
 let musicCleanup = null;
 let contactCleanup = null;
+let drawerCleanup = null;
 
 const components = {
     particles: initParticles,
@@ -68,14 +70,20 @@ function initRouteComponents() {
 function initPageController() {
     const currentRoute = getCurrentRoute();
 
-    for (const [route, controller] of Object.entries(pageControllers)) {
-        if (currentRoute === route || currentRoute.includes(route)) {
-            try {
-                controller();
-                break;
-            } catch (error) {
-                console.error(`✗ Error initializing controller for ${route}:`, error);
-            }
+    if (pageControllers[currentRoute]) {
+        try {
+            pageControllers[currentRoute]();
+            return;
+        } catch (error) {
+            console.error(`✗ Error initializing controller for ${currentRoute}:`, error);
+        }
+    }
+
+    if (pageControllers['/']) {
+        try {
+            pageControllers['/']();
+        } catch (error) {
+            console.error(`✗ Error initializing controller for /:`, error);
         }
     }
 }
@@ -98,7 +106,6 @@ function initMusic() {
     if (!$('#music-player').length) {
         try {
             musicCleanup = initBackgroundMusic();
-            console.log('✓ Background music initialized');
         } catch (error) {
             console.error('✗ Error initializing music:', error);
         }
@@ -113,9 +120,22 @@ function initContact() {
     if (!$('#contact-button').length) {
         try {
             contactCleanup = initContactPopup();
-            console.log('✓ Contact popup initialized');
         } catch (error) {
             console.error('✗ Error initializing contact popup:', error);
+        }
+    }
+}
+
+function initDrawer() {
+    if (drawerCleanup && typeof drawerCleanup === 'function') {
+        drawerCleanup();
+    }
+
+    if ($('#mobile-drawer').length) {
+        try {
+            drawerCleanup = initMobileDrawer();
+        } catch (error) {
+            console.error('✗ Error initializing drawer:', error);
         }
     }
 }
@@ -126,6 +146,7 @@ function initApp() {
     initPageController();
     initMusic();
     initContact();
+    initDrawer();
 }
 
 function handleRouteChange() {

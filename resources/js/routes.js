@@ -1,6 +1,6 @@
 export const routes = {
     '/': ['particles', 'scrollReveal', 'featureCards', 'smoothScroll', 'parallax'],
-    '/register': ['particles', 'scrollReveal', 'featureCards', 'smoothScroll'],
+    '/register': ['scrollReveal', 'featureCards', 'smoothScroll'],
     '/features': ['particles', 'scrollReveal', 'featureCards', 'smoothScroll'],
     '/pricing': ['particles', 'scrollReveal', 'featureCards', 'smoothScroll'],
     '/about': ['particles', 'scrollReveal', 'featureCards', 'smoothScroll'],
