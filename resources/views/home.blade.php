@@ -49,9 +49,7 @@
                         <div
                             class="relative bg-white/80 backdrop-blur-xl rounded-2xl p-8 shadow-2xl border border-orange-100 hover:scale-105 transition-transform duration-500">
                             <video autoplay loop muted playsinline class="rounded-2xl shadow-lg w-full h-auto object-cover">
-                                <source
-                                    src="https://cdn.dribbble.com/userupload/45105234/file/f27a295212c43fbd59726972e60a2363.mp4"
-                                    type="video/mp4">
+                                <source src="{{ asset('video/overview-apps.mp4') }}" type="video/mp4">
                                 <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop"
                                     alt="Travel Registration" class="rounded-2xl shadow-lg w-full h-auto object-cover">
                             </video>
