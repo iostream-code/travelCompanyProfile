@@ -285,7 +285,7 @@
                         <div class="w-px h-12 bg-gray-300"></div>
                         <div class="text-center">
                             <p class="text-2xl font-bold text-gray-800">99%</p>
-                            <p class="text-xs text-gray-600">Tingkat Kepuasan</p>
+                            <p class="text-xs text-gray-600">Tingkat Kemudahan</p>
                         </div>
                         <div class="w-px h-12 bg-gray-300"></div>
                         <div class="text-center">

@@ -86,7 +86,7 @@
             <!-- Footer Note -->
             <p class="text-gray-500 mt-8 text-sm">
                 Kode Error: 404 |
-                <span class="text-orange-600">MyApp</span> Company Profile
+                <span class="text-orange-600">TeMan</span> Company Profile
             </p>
         </div>
     </div>

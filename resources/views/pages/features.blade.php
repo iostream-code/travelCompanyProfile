@@ -44,8 +44,7 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://cdn.dribbble.com/userupload/44652217/file/6b5563ac9a227174fc398b8ed094fb3f.png?resize=1024x768&vertical=center"
-                            alt="Dashboard Preview"
+                        <img src="{{ asset('images/feature-1.png') }}" alt="Dashboard Preview"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -133,8 +132,7 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://cdn.dribbble.com/userupload/44634445/file/44c3121a0e3567bd93d8903d7c9df97d.png?resize=1024x768&vertical=center"
-                            alt="Booking Management"
+                        <img src="{{ asset('images/feature-2.png') }}" alt="Booking Management"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -147,8 +145,7 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://cdn.dribbble.com/userupload/44667991/file/c3f20d1a79d82c19d47867a8e2393681.png?resize=1024x768&vertical=center"
-                            alt="Payment Tracking"
+                        <img src="{{ asset('images/feature-3.png') }}" alt="Payment Tracking"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -233,8 +230,7 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="https://cdn.dribbble.com/userupload/44680116/file/4420768858833e395c1393d02bc4e35d.png?resize=1024x768&vertical=center"
-                            alt="Mobile Access"
+                        <img src="{{ asset('images/feature-4.png') }}" alt="Mobile Access"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>

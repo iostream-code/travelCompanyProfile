@@ -48,7 +48,8 @@
                 <!-- Contact Support -->
                 <div class="mt-12 pt-8 border-t border-gray-200">
                     <p class="text-gray-600 mb-4">Butuh bantuan?</p>
-                    <a href="mailto:support@myapp.com" class="text-orange-600 hover:text-orange-700 font-semibold">
+                    <a href="mailto:itai.technology@travel.com"
+                        class="text-orange-600 hover:text-orange-700 font-semibold">
                         Hubungi Tim Support Kami
                     </a>
                 </div>
@@ -57,7 +58,7 @@
             <!-- Footer Note -->
             <p class="text-gray-500 mt-8 text-sm">
                 Kode Error: 500 |
-                <span class="text-orange-600">MyApp</span> Company Profile
+                <span class="text-orange-600">TeMan</span> Company Profile
             </p>
         </div>
     </div>

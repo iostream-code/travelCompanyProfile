@@ -202,7 +202,7 @@
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Backup otomatis tanpa perlu repot</span>
+                            <span class="text-gray-700 text-lg">Semua terjaga dalam pengawasan Kami</span>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
@@ -429,27 +429,6 @@
                         <div class="text-yellow-400 text-xl">⭐⭐⭐⭐⭐</div>
                     </div>
                     <p class="text-gray-700 mb-6 leading-relaxed text-lg">
-                        "Awalnya ragu, tapi ternyata gampang banget dipakainya. Karyawan baru pun langsung paham
-                        tanpa perlu pelatihan lama. Sangat membantu!"
-                    </p>
-                    <div class="border-t border-gray-200 pt-6 flex items-center space-x-4">
-                        <div
-                            class="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
-                            D
-                        </div>
-                        <div>
-                            <p class="font-bold text-gray-800">Dewangga Putra</p>
-                            <p class="text-sm text-gray-600">Owner, Jaya Travel & Tours</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div
-                    class="testimonial-card group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
-                    <div class="flex items-center mb-6">
-                        <div class="text-yellow-400 text-xl">⭐⭐⭐⭐⭐</div>
-                    </div>
-                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
                         "Aplikasinya mudah dimengerti dan simpel. Sebuah aplikasi itu jika Saya sudah merasa enak dan mudah
                         digunakan maka akan Saya gunakan terus. Beda kalau aplikasi itu susah yaa Saya taruh, Saya akan cari
                         yang lain apalagi usia-usia 40-an seperti Saya mestinya cari aplikasi yang mudah seperti ini."
@@ -462,6 +441,27 @@
                         <div>
                             <p class="font-bold text-gray-800">UGTMAS Tour & Travel</p>
                             <p class="text-sm text-gray-600">Owner, UGT MASTOUR & Travel</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="testimonial-card group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+                    <div class="flex items-center mb-6">
+                        <div class="text-yellow-400 text-xl">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
+                        "Awalnya ragu, tapi ternyata gampang banget dipakainya. Karyawan baru pun langsung paham
+                        tanpa perlu pelatihan lama. Sangat membantu!"
+                    </p>
+                    <div class="border-t border-gray-200 pt-6 flex items-center space-x-4">
+                        <div
+                            class="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                            D
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-800">Dewangga Putra</p>
+                            <p class="text-sm text-gray-600">Owner, Jaya Travel & Tours</p>
                         </div>
                     </div>
                 </div>
