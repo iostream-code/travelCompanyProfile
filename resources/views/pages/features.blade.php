@@ -6,7 +6,7 @@
     <!-- Animated Background -->
     <div class="fixed inset-0 -z-10 overflow-hidden">
         <div id="particles-bg" class="absolute inset-0 bg-gradient-to-br from-orange-50 via-white to-orange-50"></div>
-        <canvas id="particlesCanvas" class="absolute inset-0 w-full h-full"></canvas>
+        <canvas id="particlesCanvas" class="absolute inset-0 w-full min-h-screen"></canvas>
     </div>
 
     <!-- Hero Section -->
@@ -287,25 +287,192 @@
             <div class="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl animate-float"></div>
             <div class="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl animate-float-delayed"></div>
         </div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 class="text-5xl font-bold mb-6 fade-in-up">Coba Sekarang, Tunggu Apa Lagi!</h2>
-            <p class="text-2xl mb-10 text-orange-100 fade-in-up delay-1">
-                Rasakan sendiri bagaimana TeMan membuat bisnis travel Anda lebih efisien.<br>
-                <span class="text-lg">Setup cuma 5 menit. Tidak ribet. Langsung bisa pakai.</span>
-            </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center fade-in-up delay-2">
-                <a href="#"
-                    class="inline-block bg-white text-orange-600 px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1">
-                    Mulai Coba Sekarang
-                </a>
-                {{-- <a href="#"
-                    class="inline-block bg-transparent border-2 border-white text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-white hover:text-orange-600 transition-all duration-300">
-                    Lihat Demo
-                </a> --}}
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- Main CTA -->
+            <div class="text-center mb-14">
+                <div class="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-semibold">
+                    🎯 Siap Meningkatkan Bisnis Travel Anda?
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 fade-in-up">
+                    Bergabung dengan TeMan Sekarang!
+                </h2>
+                <p class="text-xl md:text-2xl mb-4 text-orange-100 fade-in-up delay-1 max-w-3xl mx-auto">
+                    Platform manajemen travel yang simpel dan mudah digunakan
+                </p>
             </div>
-            <p class="mt-6 text-orange-100 text-sm fade-in-up delay-2">
-                ✓ Tidak perlu bayar diawal ✓ Dapatkan kapan saja ✓ Setup dalam 5 menit
-            </p>
+
+            <!-- Info Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <!-- Untuk Siapa -->
+                <div
+                    class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Untuk Siapa?</h3>
+                    <ul class="space-y-2 text-orange-50">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span>Pemilik Travel & Tour</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span>Agen Umrah & Haji</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span>Bisnis Travel PPIU</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span>Organizer Perjalanan</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Cara Daftar -->
+                <div
+                    class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Cara Daftar</h3>
+                    <ol class="space-y-3 text-orange-50">
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">1</span>
+                            <span>Isi form registrasi</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">2</span>
+                            <span>Upload dokumen legalitas</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">3</span>
+                            <span>Dapatkan akun & password via email</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">4</span>
+                            <span>Login dan mulai kelola bisnis Anda!</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <!-- Layanan -->
+                <div
+                    class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Layanan Kami</h3>
+                    <ul class="space-y-2 text-orange-50">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span>Manajemen Paket, Jamaah, Kegiatan</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span>Pencatatan Pembayaran</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span>Laporan Otomatis</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span>Manifest Digital</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span>Tracking Kegiatan</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="text-center">
+                <div class="inline-flex flex-col items-center">
+                    <a href="{{ route('register') }}"
+                        class="relative  text-white px-8 py-3 mb-6 rounded-full font-black text-2xl shadow-2xl animate-neon-glow hover:scale-105 transform transition-all duration-500 ease-in-out">
+                        <span>⚡</span>
+                        <span>Try for FREE</span>
+                        <span>⚡</span>
+                    </a>
+                    <p class="text-orange-100 text-sm">
+                        ✓ Gratis untuk memulai ✓ Tidak perlu ribet ✓ Setup 5 menit
+                    </p>
+                </div>
+            </div>
+
+            <!-- Trust Indicators -->
+            <div class="mt-12 pt-8 border-t border-white/20">
+                <div class="flex flex-wrap justify-center items-center gap-8 text-center">
+                    <div>
+                        <p class="text-3xl font-bold">100+</p>
+                        <p class="text-sm text-orange-100">Travel Terafiliasi</p>
+                    </div>
+                    <div class="hidden sm:block w-px h-12 bg-white/30"></div>
+                    <div>
+                        <p class="text-3xl font-bold">24/7</p>
+                        <p class="text-sm text-orange-100">Support Tersedia</p>
+                    </div>
+                    <div class="hidden sm:block w-px h-12 bg-white/30"></div>
+                    <div>
+                        <p class="text-3xl font-bold">99%</p>
+                        <p class="text-sm text-orange-100">Keamanan Data</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 @endsection

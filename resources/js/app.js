@@ -16,6 +16,7 @@ import initParallax from './components/parallax';
 import initBackgroundMusic from './components/backgroundMusic';
 import initContactPopup from './components/contactPopup';
 import initMobileDrawer from './components/mobileDrawer';
+import initLiveChat from './components/liveChat';
 
 import { matchRoute } from './routes';
 
@@ -24,6 +25,7 @@ window.$ = $;
 let musicCleanup = null;
 let contactCleanup = null;
 let drawerCleanup = null;
+let chatCleanup = null;
 
 const components = {
     particles: initParticles,
@@ -140,6 +142,20 @@ function initDrawer() {
     }
 }
 
+function initChat() {
+    if (chatCleanup && typeof chatCleanup === 'function') {
+        chatCleanup();
+    }
+
+    if (!$('#live-chat-container').length) {
+        try {
+            chatCleanup = initLiveChat();
+        } catch (error) {
+            console.error('✗ Error initializing live chat:', error);
+        }
+    }
+}
+
 function initApp() {
     initLoadingAnimation();
     initRouteComponents();
@@ -147,6 +163,7 @@ function initApp() {
     initMusic();
     initContact();
     initDrawer();
+    initChat();
 }
 
 function handleRouteChange() {

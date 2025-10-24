@@ -13,66 +13,113 @@ export default function initParticles() {
     canvas.width = $(window).width();
     canvas.height = $(document).height();
 
-    let particles = [];
-    const particleCount = 80;
+    let planes = [];
+    const planeCount = 7;
 
-    class Particle {
+    class PaperPlane {
         constructor() {
-            this.x = Math.random() * canvas.width;
-            this.y = Math.random() * canvas.height;
-            this.size = Math.random() * 3 + 1;
-            this.speedX = Math.random() * 0.5 - 0.25;
-            this.speedY = Math.random() * 0.5 - 0.25;
-            this.opacity = Math.random() * 0.5 + 0.2;
+            this.reset();
+        }
+
+        reset() {
+            // Start dari kiri
+            this.x = -50;
+            this.y = Math.random() * (canvas.height - 100) + 50;
+
+            // Kecepatan sedang
+            this.speed = Math.random() * 0.5 + 0.8; // 0.8-1.3
+
+            // Sedikit variasi sudut (tapi tetap dominan ke kanan)
+            this.angle = (Math.random() * 0.3 - 0.15); // -8° sampai +8°
+            this.vx = Math.cos(this.angle) * this.speed;
+            this.vy = Math.sin(this.angle) * this.speed;
+
+            // Size & color
+            this.size = Math.random() * 15 + 25; // 25-40px
+            this.hue = Math.random() * 30 + 5;
+            this.opacity = Math.random() * 0.3 + 0.6;
         }
 
         update() {
-            this.x += this.speedX;
-            this.y += this.speedY;
+            // Gerak lurus
+            this.x += this.vx;
+            this.y += this.vy;
 
-            if (this.x > canvas.width) this.x = 0;
-            if (this.x < 0) this.x = canvas.width;
-            if (this.y > canvas.height) this.y = 0;
-            if (this.y < 0) this.y = canvas.height;
+            // Reset jika keluar canvas
+            if (this.x > canvas.width + 50 || this.y < -50 || this.y > canvas.height + 50) {
+                this.reset();
+            }
         }
 
         draw() {
-            ctx.fillStyle = `rgba(249, 115, 22, ${this.opacity})`;
+            ctx.save();
+            ctx.translate(this.x, this.y);
+            ctx.rotate(this.angle);
+
+            // Shadow untuk depth
+            ctx.shadowBlur = 12;
+            ctx.shadowColor = `hsla(${this.hue}, 80%, 40%, 0.4)`;
+
+            // Paper plane body
+            ctx.fillStyle = `hsla(${this.hue}, 90%, 60%, ${this.opacity})`;
             ctx.beginPath();
-            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+            ctx.moveTo(this.size, 0);
+            ctx.lineTo(-this.size * 0.5, -this.size * 0.4);
+            ctx.lineTo(-this.size * 0.3, 0);
+            ctx.lineTo(-this.size * 0.5, this.size * 0.4);
+            ctx.closePath();
             ctx.fill();
+
+            // Detail garis tengah
+            ctx.strokeStyle = `hsla(${this.hue}, 90%, 50%, ${this.opacity * 0.8})`;
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(this.size, 0);
+            ctx.lineTo(-this.size * 0.3, 0);
+            ctx.stroke();
+
+            // Highlight untuk dimensi
+            ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity * 0.5})`;
+            ctx.beginPath();
+            ctx.moveTo(this.size, 0);
+            ctx.lineTo(-this.size * 0.2, -this.size * 0.25);
+            ctx.lineTo(-this.size * 0.1, 0);
+            ctx.closePath();
+            ctx.fill();
+
+            // Wing detail
+            ctx.strokeStyle = `hsla(${this.hue}, 90%, 50%, ${this.opacity * 0.6})`;
+            ctx.lineWidth = 1.5;
+            ctx.beginPath();
+            ctx.moveTo(-this.size * 0.3, 0);
+            ctx.lineTo(-this.size * 0.5, -this.size * 0.4);
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.moveTo(-this.size * 0.3, 0);
+            ctx.lineTo(-this.size * 0.5, this.size * 0.4);
+            ctx.stroke();
+
+            ctx.shadowBlur = 0;
+            ctx.restore();
         }
     }
 
     function init() {
-        particles = [];
-        for (let i = 0; i < particleCount; i++) {
-            particles.push(new Particle());
+        planes = [];
+        for (let i = 0; i < planeCount; i++) {
+            const plane = new PaperPlane();
+            // Spread posisi awal di sepanjang jalur
+            plane.x = Math.random() * canvas.width - 50;
+            planes.push(plane);
         }
     }
 
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        for (let i = 0; i < particles.length; i++) {
-            particles[i].update();
-            particles[i].draw();
-
-            // Connect particles
-            for (let j = i + 1; j < particles.length; j++) {
-                const dx = particles[i].x - particles[j].x;
-                const dy = particles[i].y - particles[j].y;
-                const distance = Math.sqrt(dx * dx + dy * dy);
-
-                if (distance < 150) {
-                    ctx.strokeStyle = `rgba(249, 115, 22, ${0.1 * (1 - distance / 150)})`;
-                    ctx.lineWidth = 1;
-                    ctx.beginPath();
-                    ctx.moveTo(particles[i].x, particles[i].y);
-                    ctx.lineTo(particles[j].x, particles[j].y);
-                    ctx.stroke();
-                }
-            }
+        for (let i = 0; i < planes.length; i++) {
+            planes[i].update();
+            planes[i].draw();
         }
 
         requestAnimationFrame(animate);
