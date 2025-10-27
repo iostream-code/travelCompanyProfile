@@ -56,9 +56,8 @@
                     <h2 class="text-4xl font-bold text-gray-800 mb-4">Lihat Semua dalam Satu Tampilan</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
                         Tidak perlu buka banyak tab atau aplikasi. Dashboard kami menampilkan
-                        <span class="font-semibold text-gray-800">semua yang Anda butuhkan</span> - detail paket haji dan
-                        umroh,
-                        data jamaah haji dan umroh, hingga galeri kegiatan haji dan umroh.
+                        <span class="font-semibold text-gray-800">semua yang Anda butuhkan</span> - detail paket, data
+                        Jamaah, hingga galeri kegiatan haji dan umroh.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
@@ -66,7 +65,7 @@
                             <div>
                                 <span class="text-gray-800 text-lg font-semibold block">Informasi Penting di Depan
                                     Mata</span>
-                                <span class="text-gray-600 text-sm">Detail paket, detail jamaah, galeri kegiatan</span>
+                                <span class="text-gray-600 text-sm">Detail paket, detail Jamaah, galeri kegiatan</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
@@ -81,7 +80,7 @@
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
                                 <span class="text-gray-800 text-lg font-semibold block">Monitoring Lebih Mudah</span>
-                                <span class="text-gray-600 text-sm">Melihat data jamah hingga galeri kegiatan secara
+                                <span class="text-gray-600 text-sm">Melihat data Jamaah hingga galeri kegiatan secara
                                     mendetail</span>
                             </div>
                         </li>
@@ -89,7 +88,7 @@
                 </div>
             </div>
 
-            <!-- Feature 2: Booking Management -->
+            <!-- Feature 2: Jamaah Management -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div>
                     <div
@@ -98,8 +97,8 @@
                     </div>
                     <h2 class="text-4xl font-bold text-gray-800 mb-4">Tambah Jamaah Cuma 2 Menit</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Input booking baru? Cukup isi data customer, pilih paket, dan selesai! Sistem otomatis
-                        mengatur seat, kirim konfirmasi ke customer, dan update jadwal keberangkatan.
+                        Input Jamaah baru? Cukup isi data Jamaah, pilih paket, dan selesai! Sistem otomatis
+                        terintegrasi dengan Admin, kirim konfirmasi ke Jamaah, dan lihat detail paket.
                         <span class="font-semibold text-gray-800">Tidak ada manual entry berulang-ulang.</span>
                     </p>
                     <ul class="space-y-4">
@@ -107,24 +106,23 @@
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
                                 <span class="text-gray-800 text-lg font-semibold block">Input Sekali, Selesai Semua</span>
-                                <span class="text-gray-600 text-sm">Data customer otomatis tersimpan untuk booking
-                                    berikutnya</span>
+                                <span class="text-gray-600 text-sm">Pembayaran Jamaah otomatis tersimpan untuk saat
+                                    pendaftaran awal</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">WhatsApp Otomatis ke Customer</span>
-                                <span class="text-gray-600 text-sm">Konfirmasi booking langsung terkirim tanpa
-                                    copy-paste</span>
+                                <span class="text-gray-800 text-lg font-semibold block">WhatsApp Konfirmasi ke Jamaah</span>
+                                <span class="text-gray-600 text-sm">Konfirmasi akun ke Jamaah melalui WhatsApp</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Tracking Status Real-Time</span>
-                                <span class="text-gray-600 text-sm">Pending, paid, atau selesai - semua tercatat
-                                    jelas</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Tracking Manifest Paket</span>
+                                <span class="text-gray-600 text-sm">Pantau setiap data manifest Jamaah pada setiap
+                                    paketnya</span>
                             </div>
                         </li>
                     </ul>
@@ -154,14 +152,14 @@
                 <div class="order-1 md:order-2">
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        💰 Tracking Pembayaran Otomatis
+                        💰 Tracking Kegiatan Real-Time
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Nggak Ada Lagi Pembayaran Kelewat</h2>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Nggak Ada Lagi Momen Terlewat</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Sistem kami otomatis mencatat setiap pembayaran yang masuk dan mengingatkan customer yang
-                        belum bayar. <span class="font-semibold text-gray-800">Anda tinggal cek saja, follow-up nya sudah
-                            otomatis.</span>
-                        Bahkan laporan keuangan pun ter-generate sendiri setiap hari.
+                        Sistem kami otomatis mencatat setiap kegiatan yang dilaksanakan dan mengabadikan momen tanpa
+                        memikirkan tempat penyimpanan. <span class="font-semibold text-gray-800">Anda tinggal cek saja,
+                            semua terseimpan rapih dan aman.</span>
+                        Bahkan laporan keuangan pun ter-generate sendiri setiap saat.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
