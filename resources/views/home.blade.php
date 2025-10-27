@@ -30,8 +30,15 @@
                         <span class="font-semibold text-orange-600">Teman Setia</span> yang siap membantu Anda mengelola
                         bisnis travel dengan cara yang lebih santai, namun profitable.
                     </p>
-
-                    <div class="grid grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
+                    <a href="{{ route('features') }}"
+                        class="text-xl px-4 py-2 block md:hidden border-2 border-primary-400 rounded-xl text-primary-500 font-semibold">
+                        Selengkapnya
+                        <svg class="w-5 h-5 ms-2 text-orange-600 inline-block" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </a>
+                    <div class="hidden md:grid grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                         <div class="order-2 md:order-1">
                             <div class="relative group">
                                 <div

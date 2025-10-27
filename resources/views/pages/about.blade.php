@@ -62,15 +62,13 @@
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <div class="relative group">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1523287562758-66c7fc58967f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470"
-                            alt="Mission Illustration"
-                            class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
+                <div class="relative group">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                     </div>
+                    <img src="https://images.unsplash.com/photo-1523287562758-66c7fc58967f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470"
+                        alt="Mission Illustration"
+                        class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                 </div>
             </div>
         </div>
