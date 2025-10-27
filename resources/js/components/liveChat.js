@@ -1,12 +1,10 @@
 import $ from 'jquery';
 
 export default function initLiveChat() {
-    // Check if chat already exists
     if ($('#live-chat-container').length) {
         return;
     }
 
-    // Create chat HTML
     const chatHTML = `
         <!-- Live Chat Floating Button -->
         <button id="live-chat-button" class="flex lg:hidden fixed bottom-28 right-8 z-50 w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full shadow-2xl hover:shadow-green-300 transform hover:scale-110 transition-all duration-300 items-center justify-center group">
@@ -95,10 +93,8 @@ export default function initLiveChat() {
         </div>
     `;
 
-    // Append to body
     $('body').append(`<div id="live-chat-container">${chatHTML}</div>`);
 
-    // Auto-responses for demo
     const autoResponses = {
         'bagaimana cara daftar': 'Untuk mendaftar, Anda bisa klik tombol "Daftar Sekarang" di halaman utama, lalu isi form dengan data travel Anda. Proses pendaftaran hanya membutuhkan 5 menit! 🚀',
         'berapa biaya': 'TeMan menyediakan paket Starter (Gratis), Professional (Rp 299K/bulan), dan Business (Custom). Anda bisa cek detail harga di halaman Pricing kami! 💰',
@@ -108,7 +104,6 @@ export default function initLiveChat() {
         'default': 'Terima kasih atas pesan Anda! Tim support kami akan segera merespons. Atau Anda bisa hubungi kami di support@teman.com atau +62 21 1234 5678 📞'
     };
 
-    // Toggle chat window
     $('#live-chat-button').on('click', function () {
         const $window = $('#live-chat-window');
         const $chatIcon = $('#chat-icon');
@@ -121,7 +116,6 @@ export default function initLiveChat() {
             $closeIcon.removeClass('hidden');
             $notification.addClass('hidden');
 
-            // Auto scroll to bottom
             setTimeout(() => {
                 const $messages = $('#chat-messages');
                 $messages.scrollTop($messages[0].scrollHeight);
@@ -133,14 +127,12 @@ export default function initLiveChat() {
         }
     });
 
-    // Minimize chat
     $('#minimize-chat').on('click', function () {
         $('#live-chat-window').addClass('hidden');
         $('#chat-icon').removeClass('hidden');
         $('#close-icon').addClass('hidden');
     });
 
-    // Send message function
     function sendMessage(message) {
         if (!message.trim()) return;
 
@@ -149,7 +141,6 @@ export default function initLiveChat() {
             minute: '2-digit'
         });
 
-        // Add user message
         const userMessageHTML = `
             <div class="flex items-start space-x-2 justify-end animate-fade-in">
                 <div class="bg-gradient-to-r from-green-500 to-green-600 text-white rounded-2xl rounded-tr-sm px-4 py-3 shadow-sm max-w-[75%]">
@@ -164,19 +155,15 @@ export default function initLiveChat() {
 
         $('#chat-messages').append(userMessageHTML);
 
-        // Clear input
         $('#chat-input').val('');
 
-        // Auto scroll
         const $messages = $('#chat-messages');
         $messages.scrollTop($messages[0].scrollHeight);
 
-        // Auto response after delay
         setTimeout(() => {
             let response = autoResponses.default;
             const lowerMessage = message.toLowerCase();
 
-            // Match response
             for (const [key, value] of Object.entries(autoResponses)) {
                 if (lowerMessage.includes(key)) {
                     response = value;
@@ -184,7 +171,6 @@ export default function initLiveChat() {
                 }
             }
 
-            // Add bot response
             const botMessageHTML = `
                 <div class="flex items-start space-x-2 animate-fade-in">
                     <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -202,13 +188,11 @@ export default function initLiveChat() {
         }, 1000);
     }
 
-    // Send button click
     $('#send-message').on('click', function () {
         const message = $('#chat-input').val();
         sendMessage(message);
     });
 
-    // Enter key press
     $('#chat-input').on('keypress', function (e) {
         if (e.which === 13) {
             const message = $(this).val();
@@ -216,16 +200,13 @@ export default function initLiveChat() {
         }
     });
 
-    // Quick reply buttons
     $(document).on('click', '.quick-reply-btn', function () {
         const message = $(this).data('message');
         sendMessage(message);
 
-        // Hide quick replies after first use
         $('#quick-replies').parent().slideUp();
     });
 
-    // Close chat when clicking outside
     $(document).on('click', function (e) {
         if (!$(e.target).closest('#live-chat-window, #live-chat-button').length) {
             if (!$('#live-chat-window').hasClass('hidden')) {
@@ -236,9 +217,6 @@ export default function initLiveChat() {
         }
     });
 
-    console.log('✓ Live chat initialized');
-
-    // Cleanup function
     return function cleanup() {
         $('#live-chat-container').remove();
         $(document).off('click', '.quick-reply-btn');

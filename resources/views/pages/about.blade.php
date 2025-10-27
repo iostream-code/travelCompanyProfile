@@ -22,10 +22,10 @@
                     Tentang TeMan
                 </h1>
                 <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-                    Tidak perlu lagi pusing dengan sistem yang rumit. TeMan hadir sebagai
-                    <span class="font-semibold text-orange-600">teman setia</span> yang membantu Anda mengelola bisnis
-                    travel
-                    dengan cara yang simpel dan menyenangkan.
+                    Saatnya ubah bisnis secara otomatis dengan teknologi. TeMan hadir sebagai
+                    <span class="font-semibold text-orange-600">Teman Setia</span> yang membantu Anda mengelola bisnis
+                    travel dengan cara yang <span class="font-semibold text-orange-600">Santai</span> dan <span
+                        class="font-semibold text-orange-600">Maksimal</span>.
                 </p>
             </div>
         </div>

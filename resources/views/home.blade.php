@@ -15,7 +15,7 @@
         <div class="absolute inset-0 bg-gradient-to-br from-orange-500/10 via-transparent to-orange-600/10"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
                 <div class="fade-in-up text-center md:text-left">
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
@@ -30,16 +30,37 @@
                         <span class="font-semibold text-orange-600">Teman Setia</span> yang siap membantu Anda mengelola
                         bisnis travel dengan cara yang lebih santai, namun profitable.
                     </p>
-                    {{-- <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="{{ route('contact') }}"
-                            class="inline-block text-center bg-gradient-to-r from-orange-600 to-orange-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1">
-                            Coba Sekarang
-                        </a>
-                        <a href="{{ route('features') }}"
-                            class="inline-block text-center border-2 border-orange-600 text-orange-600 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold hover:bg-orange-600 hover:text-white transition-all duration-300">
-                            Jelajahi Fitur
-                        </a>
-                    </div> --}}
+
+                    <div class="grid grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
+                        <div class="order-2 md:order-1">
+                            <div class="relative group">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                                </div>
+                                <img src="{{ asset('images/feature-1.png') }}" alt="Dashboard Preview"
+                                    class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
+                            </div>
+                        </div>
+                        <div class="order-1 md:order-2">
+                            <div
+                                class="inline-block mb-4 px-3 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
+                                📊 Dashboard Sekali Lihat
+                            </div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2">Semua dalam Satu Tampilan</h2>
+                            <p class="text-gray-600 mb-2 text-sm leading-relaxed">
+                                Tidak perlu buka banyak tab atau aplikasi. Dashboard kami menampilkan
+                                <span class="font-semibold text-gray-800">semua yang Anda butuhkan</span>.
+                            </p>
+                            <a href="{{ route('features') }}"
+                                class="flex items-center text-primary-700 text-lg hover:-translate-1 transition ease-in font-semibold">
+                                Selengkapnya
+                                <svg class="w-5 h-5 ms-2 text-orange-600" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="fade-in-up delay-1">
                     <div class="relative">
@@ -357,32 +378,32 @@
                         <tr class="hover:bg-orange-50 transition-colors duration-300">
                             <td class="px-8 py-5 font-semibold text-gray-800">Mudah Digunakan</td>
                             <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
-                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
-                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">-</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">-</td>
                         </tr>
                         <tr class="hover:bg-orange-50 transition-colors duration-300">
                             <td class="px-8 py-5 font-semibold text-gray-800">Ramah Pengguna</td>
                             <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
-                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
-                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">-</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">-</td>
                         </tr>
                         <tr class="hover:bg-orange-50 transition-colors duration-300">
                             <td class="px-8 py-5 font-semibold text-gray-800">Sesuai Kebutuhan</td>
                             <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
-                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
-                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">-</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">-</td>
                         </tr>
                         <tr class="hover:bg-orange-50 transition-colors duration-300">
                             <td class="px-8 py-5 font-semibold text-gray-800">Optimasi Pencatatan</td>
                             <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
-                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
-                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">-</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">-</td>
                         </tr>
                         <tr class="hover:bg-orange-50 transition-colors duration-300">
                             <td class="px-8 py-5 font-semibold text-gray-800">Atur Sesuka Hati</td>
                             <td class="px-8 py-5 text-center text-green-600 text-2xl">✓</td>
-                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
-                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">✗</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">-</td>
+                            <td class="px-8 py-5 text-center text-gray-400 text-2xl">-</td>
                         </tr>
                     </tbody>
                 </table>
@@ -409,9 +430,9 @@
                         <div class="text-yellow-400 text-xl">⭐⭐⭐⭐⭐</div>
                     </div>
                     <p class="text-gray-700 mb-6 leading-relaxed text-lg">
-                        "Sebagai owner travel , sebelumnya Tim Admin dan lainnya pakai excel. Saat ada kebutuhan mendadak
+                        "Sebagai Owner travel , sebelumnya Tim Admin dan lainnya pakai excel. Saat ada kebutuhan mendadak
                         atau diwaktu malam app TeMan ini tanpa ribet dapat membantu pembuatan laporan, jadi dapat
-                        lebih efisien dibanding harus menunggu Tim Admin ke kantor."
+                        lebih efisien dibanding harus menunggu jeda waktu Tim Admin ke kantor."
                     </p>
                     <div class="border-t border-gray-200 pt-6 flex items-center space-x-4">
                         <div
@@ -419,8 +440,8 @@
                             C
                         </div>
                         <div>
-                            <p class="font-bold text-gray-800">Crysna Wima Rangga</p>
-                            <p class="text-sm text-gray-600">Owner, Travel Nusantara Tour</p>
+                            <p class="font-bold text-gray-800">Duta Mulia</p>
+                            <p class="text-sm text-gray-600">Owner, PT. Duta Mulia Iswana Ekapratama</p>
                         </div>
                     </div>
                 </div>
@@ -431,8 +452,8 @@
                         <div class="text-yellow-400 text-xl">⭐⭐⭐⭐⭐</div>
                     </div>
                     <p class="text-gray-700 mb-6 leading-relaxed text-lg">
-                        "Aplikasinya mudah dimengerti dan simpel. Sebuah aplikasi itu jika Saya sudah merasa enak dan mudah
-                        digunakan maka akan Saya gunakan terus. Beda kalau aplikasi itu susah yaa Saya taruh, Saya akan cari
+                        "Aplikasi ini Saya rasa sudah paling tepat dan mudah digunakan, maka akan Saya gunakan terus
+                        kedepannya. Beda kalau aplikasi itu susah yaa Saya taruh, Saya akan cari
                         yang lain apalagi usia-usia 40-an seperti Saya mestinya cari aplikasi yang mudah seperti ini."
                     </p>
                     <div class="border-t border-gray-200 pt-6 flex items-center space-x-4">
@@ -442,7 +463,7 @@
                         </div>
                         <div>
                             <p class="font-bold text-gray-800">UGTMAS Tour & Travel</p>
-                            <p class="text-sm text-gray-600">Owner, UGT MASTOUR & Travel</p>
+                            <p class="text-sm text-gray-600">Owner, UGTMAS Tour & Travel</p>
                         </div>
                     </div>
                 </div>
@@ -454,7 +475,8 @@
                     </div>
                     <p class="text-gray-700 mb-6 leading-relaxed text-lg">
                         "Awalnya ragu, tapi ternyata gampang banget dipakainya. Simpel tanpa melibatkan banyak Tim sehingga
-                        bisa lebih efisien secara biaya operasional, cocok seperti Saya yang belum memiliki banyak Tim."
+                        bisa lebih efisien secara biaya operasional, cocok seperti Saya yang baru memulai bisnis travel dan
+                        belum memiliki banyak tim."
                     </p>
                     <div class="border-t border-gray-200 pt-6 flex items-center space-x-4">
                         <div
@@ -462,8 +484,8 @@
                             D
                         </div>
                         <div>
-                            <p class="font-bold text-gray-800">Dewangga Putra</p>
-                            <p class="text-sm text-gray-600">Owner, Jaya Travel & Tours</p>
+                            <p class="font-bold text-gray-800">Maali Wisata</p>
+                            <p class="text-sm text-gray-600">Owner, PT. Ma'ali Wisata Tour and Travel</p>
                         </div>
                     </div>
                 </div>

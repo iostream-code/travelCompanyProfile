@@ -29,9 +29,145 @@
         </div>
     </section>
 
+    <!-- Feature Section -->
+    <section class="pt-20 pb-2 bg-white/80 backdrop-blur-sm relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Section 1: Kelola Booking & Pembayaran Otomatis -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div class="order-2 md:order-1">
+                    <div class="relative group">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                        </div>
+                        <img src="{{ asset('images/feature-1.png') }}" alt="Dashboard & Booking Management"
+                            class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <div
+                        class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
+                        🎯 Kelola Booking & Pembayaran
+                    </div>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Semua dalam Satu Platform</h2>
+                    <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                        Dashboard lengkap yang menampilkan <span class="font-semibold text-gray-800">semua data
+                            penting</span> - dari booking hari ini, revenue, jadwal keberangkatan, hingga status pembayaran.
+                        Proses booking cuma 2 menit, sistem otomatis kirim konfirmasi WhatsApp ke customer, dan <span
+                            class="font-semibold text-gray-800">reminder pembayaran terkirim sendiri</span> tanpa Anda harus
+                        ingat-ingat.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start group">
+                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Dashboard Real-Time & Notifikasi
+                                    Instant</span>
+                                <span class="text-gray-600 text-sm">Semua angka penting di satu layar, update otomatis,
+                                    booking baru langsung ternotif</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start group">
+                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Booking Cepat dengan WhatsApp
+                                    Otomatis</span>
+                                <span class="text-gray-600 text-sm">Input sekali, konfirmasi terkirim otomatis, data
+                                    customer tersimpan untuk next booking</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start group">
+                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Tracking Pembayaran & Reminder
+                                    Otomatis</span>
+                                <span class="text-gray-600 text-sm">H-3 jatuh tempo auto reminder, laporan keuangan instan,
+                                    histori transaksi lengkap</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section 2: Akses Mobile & Kenapa TeMan -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div>
+                    <div
+                        class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
+                        📱 Fleksibel & Mudah Digunakan
+                    </div>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Di Mana Pun, Bisnis Tetap Jalan</h2>
+                    <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                        Akses dari HP, tablet, atau laptop - datanya selalu sinkron real-time. <span
+                            class="font-semibold text-gray-800">Koneksi lemot? Tenang, ada offline mode.</span> Interface
+                        intuitif membuat Anda bisa langsung pakai tanpa training lama. Plus, tim support kami siap membantu
+                        kapan pun Anda butuh.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start group">
+                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Multi-Device dengan Sinkronisasi
+                                    Instant</span>
+                                <span class="text-gray-600 text-sm">Update di HP langsung terlihat di laptop, offline mode
+                                    untuk koneksi lemot</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start group">
+                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Setup 5 Menit, Langsung Bisa
+                                    Dipakai</span>
+                                <span class="text-gray-600 text-sm">Interface intuitif, tidak perlu training berhari-hari,
+                                    daftar hari ini besok sudah jalan</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start group">
+                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <div>
+                                <span class="text-gray-800 text-lg font-semibold block">Dibuat Spesifik untuk Travel
+                                    Agent</span>
+                                <span class="text-gray-600 text-sm">Fitur fokus kebutuhan travel, bukan copy-paste aplikasi
+                                    lain + support responsif via chat/telepon</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="relative group">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                        </div>
+                        <img src="{{ asset('images/feature-4.png') }}" alt="Mobile Access"
+                            class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!-- Pricing Plans Section -->
     <section class="py-20 bg-white/80 backdrop-blur-sm relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Heading Section with Glow Effect -->
+            <div class="flex flex-col items-center justify-center text-center mb-16">
+                <div class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
+                    💎 Paket dengan Harga Terbaik
+                </div>
+                <h2 class="text-5xl md:text-6xl font-bold text-gray-800 mb-6 relative inline-block">
+                    Jadilah yang
+                    <span class="relative inline-block">
+                        <span
+                            class="relative z-10 bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">Pertama</span>
+                        <span
+                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 blur-2xl opacity-30 animate-pulse"></span>
+                    </span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Mulai gratis, upgrade kapan saja. Tidak ada biaya tersembunyi, tidak ada aturan yang ribet.
+                </p>
+            </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Basic Plan -->
                 <div
