@@ -19,18 +19,18 @@
                 <div class="fade-in-up text-center md:text-left">
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        🌟 Kelola Bisnis Travel dengan Lebih Mudah
+                        🌟 Kelola Bisnis Travel dengan Teknologi 6.0 secara Autopilot
                     </div>
                     <h1
                         class="text-6xl font-sans font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
                         Selamat Datang di TeMan
                     </h1>
                     <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-                        Tidak perlu lagi pusing dengan sistem yang rumit. TeMan hadir lebih dari
+                        Saatnya kerja lebih santai, dengan hasil yang maksimal. TeMan hadir lebih dari
                         <span class="font-semibold text-orange-600">Teman Setia</span> yang siap membantu Anda mengelola
-                        bisnis travel dengan cara yang simpel dan mudah.
+                        bisnis travel dengan cara yang lebih santai, namun profitable.
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-4">
+                    {{-- <div class="flex flex-col sm:flex-row gap-4">
                         <a href="{{ route('contact') }}"
                             class="inline-block text-center bg-gradient-to-r from-orange-600 to-orange-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1">
                             Coba Sekarang
@@ -39,7 +39,7 @@
                             class="inline-block text-center border-2 border-orange-600 text-orange-600 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold hover:bg-orange-600 hover:text-white transition-all duration-300">
                             Jelajahi Fitur
                         </a>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="fade-in-up delay-1">
                     <div class="relative">
@@ -58,8 +58,8 @@
                                 <div class="flex items-center space-x-2">
                                     <div class="text-3xl">😊</div>
                                     <div>
-                                        <div class="text-2xl font-bold text-orange-600">Mudah</div>
-                                        <div class="text-xs text-gray-600">Digunakan</div>
+                                        <div class="text-2xl font-bold text-orange-600">Kerja</div>
+                                        <div class="text-xs text-gray-600">Santai</div>
                                     </div>
                                 </div>
                             </div>
@@ -67,8 +67,8 @@
                                 <div class="flex items-center space-x-2">
                                     <div class="text-3xl">💚</div>
                                     <div>
-                                        <div class="text-2xl font-bold text-orange-600">Simpel</div>
-                                        <div class="text-xs text-gray-600">& Praktis</div>
+                                        <div class="text-2xl font-bold text-orange-600">Hasil</div>
+                                        <div class="text-xs text-gray-600">Maksimal</div>
                                     </div>
                                 </div>
                             </div>
@@ -86,8 +86,9 @@
                 <h2
                     class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
                     Yang Membuat TeMan Istimewa</h2>
-                <p class="text-lg md:text-xl text-gray-600">Dirancang dengan fokus pada <strong>kemudahan</strong> dan
-                    <strong>kebutuhan</strong> Anda
+                <p class="text-lg md:text-xl text-gray-600">Dirancang dengan fokus pada kemajuan bisnis travel Anda secara
+                    <strong>Praktis</strong> dan
+                    <strong>Aman</strong>
                 </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">

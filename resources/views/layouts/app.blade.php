@@ -25,11 +25,14 @@
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="{{ route('home') }}" class="text-gray-700 hover:text-orange-600 transition">Home</a>
+                    <a href="{{ route('home') }}"
+                        class="{{ request()->routeIs('home') ? 'bg-primary-600 text-white py-1 px-2 rounded-sm' : 'text-gray-700 hover:text-orange-600 transition' }}">Home</a>
                     <a href="{{ route('features') }}"
-                        class="text-gray-700 hover:text-orange-600 transition">Features</a>
-                    <a href="{{ route('pricing') }}" class="text-gray-700 hover:text-orange-600 transition">Pricing</a>
-                    <a href="{{ route('about') }}" class="text-gray-700 hover:text-orange-600 transition">About</a>
+                        class="{{ request()->routeIs('features') ? 'bg-primary-600 text-white py-1 px-2 rounded-sm' : 'text-gray-700 hover:text-orange-600 transition' }}">Features</a>
+                    <a href="{{ route('pricing') }}"
+                        class="{{ request()->routeIs('pricing') ? 'bg-primary-600 text-white py-1 px-2 rounded-sm' : 'text-gray-700 hover:text-orange-600 transition' }}">Pricing</a>
+                    <a href="{{ route('about') }}"
+                        class="{{ request()->routeIs('about') ? 'bg-primary-600 text-white py-1 px-2 rounded-sm' : 'text-gray-700 hover:text-orange-600 transition' }}">About</a>
                 </div>
 
                 <!-- Desktop Register Button -->
@@ -79,7 +82,7 @@
         <!-- Drawer Menu Items -->
         <div class="py-4">
             <a href="{{ route('home') }}"
-                class="block px-6 py-3 text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition">
+                class="{{ request()->routeIs('home') ? 'text-white bg-orange-600 ' : 'text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition' }} block px-6 py-3">
                 <div class="flex items-center">
                     <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -89,7 +92,7 @@
                 </div>
             </a>
             <a href="{{ route('features') }}"
-                class="block px-6 py-3 text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition">
+                class="{{ request()->routeIs('features') ? 'text-white bg-orange-600 ' : 'text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition' }} block px-6 py-3">
                 <div class="flex items-center">
                     <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -99,7 +102,7 @@
                 </div>
             </a>
             <a href="{{ route('pricing') }}"
-                class="block px-6 py-3 text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition">
+                class="{{ request()->routeIs('pricing') ? 'text-white bg-orange-600 ' : 'text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition' }} block px-6 py-3">
                 <div class="flex items-center">
                     <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -109,7 +112,7 @@
                 </div>
             </a>
             <a href="{{ route('about') }}"
-                class="block px-6 py-3 text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition">
+                class="{{ request()->routeIs('about') ? 'text-white bg-orange-600 ' : 'text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition' }} block px-6 py-3">
                 <div class="flex items-center">
                     <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
