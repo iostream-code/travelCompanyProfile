@@ -51,36 +51,38 @@
                 <div class="order-1 md:order-2">
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        📊 Dashboard Sekali Lihat
+                        📊 Aplikasi Admin Sekali Lihat
                     </div>
                     <h2 class="text-4xl font-bold text-gray-800 mb-4">Lihat Semua dalam Satu Tampilan</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
                         Tidak perlu buka banyak tab atau aplikasi. Dashboard kami menampilkan
-                        <span class="font-semibold text-gray-800">semua yang Anda butuhkan</span> - jumlah booking hari ini,
-                        revenue minggu ini, hingga jadwal keberangkatan besok. Semuanya ada di satu halaman.
+                        <span class="font-semibold text-gray-800">semua yang Anda butuhkan</span> - detail paket haji dan
+                        umroh,
+                        data jamaah haji dan umroh, hingga galeri kegiatan haji dan umroh.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Angka Penting di Depan Mata</span>
-                                <span class="text-gray-600 text-sm">Total booking, pendapatan, dan jadwal dalam satu
-                                    layar</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Informasi Penting di Depan
+                                    Mata</span>
+                                <span class="text-gray-600 text-sm">Detail paket, detail jamaah, galeri kegiatan</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
                                 <span class="text-gray-800 text-lg font-semibold block">Update Otomatis Real-Time</span>
-                                <span class="text-gray-600 text-sm">Data selalu terbaru tanpa perlu refresh manual</span>
+                                <span class="text-gray-600 text-sm">Data selalu terbaru dan terintegrasi antar
+                                    Pengguna</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Notifikasi Penting Langsung</span>
-                                <span class="text-gray-600 text-sm">Booking baru atau pembayaran masuk? Langsung
-                                    ternotif</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Monitoring Lebih Mudah</span>
+                                <span class="text-gray-600 text-sm">Melihat data jamah hingga galeri kegiatan secara
+                                    mendetail</span>
                             </div>
                         </li>
                     </ul>
@@ -92,9 +94,9 @@
                 <div>
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        🎫 Manajemen Booking Mudah
+                        🎫 Manajemen Jamaah Mudah & Cepat
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Proses Booking Cuma 2 Menit</h2>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Tambah Jamaah Cuma 2 Menit</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
                         Input booking baru? Cukup isi data customer, pilih paket, dan selesai! Sistem otomatis
                         mengatur seat, kirim konfirmasi ke customer, dan update jadwal keberangkatan.
