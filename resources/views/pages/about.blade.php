@@ -62,7 +62,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="relative group">
+                <div class="hidden md:block relative group">
                     <div
                         class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                     </div>
@@ -74,50 +74,195 @@
         </div>
     </section>
 
-    <!-- Our Team Section -->
+    <!-- Our Team Section with Organization Structure -->
     <section class="py-20 bg-gradient-to-b from-white to-gray-50 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-800 mb-4">Tim Kami yang Ramah</h2>
-                <p class="text-xl text-gray-600">Kenali tim yang siap menjadi teman Anda dalam mengelola bisnis</p>
+        <div class="max-w-screen mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid text-center mb-16 fade-in-up">
+                <h2 class="text-5xl md:text-6xl font-bold text-gray-800 mb-6 relative inline-block">
+                    Tim
+                    <span class="relative inline-block">
+                        <span
+                            class="relative z-10 bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">Developer</span>
+                        <span
+                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 blur-2xl opacity-30 animate-pulse"></span>
+                    </span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Kenali tim yang siap menjadi teman Anda dalam mengelola bisnis travel
+                </p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 scroll-reveal">
-                <div
-                    class="team-card group text-center bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+
+            <!-- Organization Structure -->
+            <div class="hidden lg:block mb-20 scroll-reveal">
+                <!-- CEO Level -->
+                <div class="flex justify-center mb-2">
                     <div
-                        class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-orange-200 group-hover:ring-orange-400 transition-all duration-300">
-                        <img src="{{ asset('images/teams/pp-aryak.webp') }}" alt="Hafiyyan Dwika Arya"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        class="org-card group bg-gradient-to-br from-orange-100 to-orange-200 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-orange-300 transform hover:-translate-y-2 w-sm">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Chief Executive Officer</h4>
+                            <p class="text-sm text-orange-600 font-semibold">Aris Triwibowo, M.Kom.</p>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Hafiyyan Dwika Arya</h3>
-                    <p class="text-gray-600 mb-4">Programmer, Full-Stack Developer</p>
-                    <p class="text-gray-600 leading-relaxed">Arya memimpin visi TeMan dengan pengalaman di industri
-                        teknologi, membuat semuanya lebih mudah dan simpel.</p>
                 </div>
-                <div
-                    class="team-card group text-center bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
-                    <div
-                        class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-orange-200 group-hover:ring-orange-400 transition-all duration-300">
-                        <img src="{{ asset('images/teams/pp-melky.webp') }}" alt="Hafiyyan Dwika Arya"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Dewangga Putra</h3>
-                    <p class="text-gray-600 mb-4">Manager, System Analyst</p>
-                    <p class="text-gray-600 leading-relaxed">Dewangga mengawasi pengembangan teknologi TeMan, memastikan
-                        platform Kami selalu dalam kondisi terbaiknya dan tanpa kendala.</p>
+
+                <!-- Connecting Line -->
+                <div class="flex justify-center mb-2">
+                    <div class="w-0.5 h-12 bg-gradient-to-b from-orange-400 to-orange-600"></div>
                 </div>
-                <div
-                    class="team-card group text-center bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+
+                <!-- Manager Level -->
+                <div class="flex justify-center mb-2">
                     <div
-                        class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-orange-200 group-hover:ring-orange-400 transition-all duration-300">
-                        <img src="{{ asset('images/teams/pp-crysna.webp') }}" alt="Hafiyyan Dwika Arya"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        class="org-card group bg-gradient-to-br from-white to-orange-50 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-200 hover:border-orange-300 transform hover:-translate-y-2 w-sm">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Manager</h4>
+                            <p class="text-sm text-orange-600 font-semibold">Dewangga Putra Kartika, S.Kom.</p>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Crysna Wima Rangga</h3>
-                    <p class="text-gray-600 mb-4">Programmer, Full-Satck Developer</p>
-                    <p class="text-gray-600 leading-relaxed">Crysna memastikan setiap pengguna TeMan mendapatkan pengalaman
-                        terbaik
-                        dan bantuan yang cepat kapan pun dibutuhkan.</p>
+                </div>
+
+                <!-- Connecting Lines to Team -->
+                <div class="flex justify-center mb-8">
+                    <div class="relative w-full">
+                        <div
+                            class="absolute left-1/2 top-0 w-0.5 h-12 bg-gradient-to-b from-orange-400 to-orange-600 -translate-x-1/2">
+                        </div>
+                        <div
+                            class="absolute top-12 left-1/10 h-0.5 w-8/10 bg-gradient-to-r from-orange-400 via-orange-600 to-orange-400">
+                        </div>
+                        <div class="absolute left-1/10 top-12 w-0.5 h-12 bg-gradient-to-b from-orange-600 to-orange-400">
+                        </div>
+                        <div class="absolute left-3/10 top-12 w-0.5 h-12 bg-gradient-to-b from-orange-600 to-orange-400">
+                        </div>
+                        <div
+                            class="absolute left-1/2 top-12 w-0.5 h-12 bg-gradient-to-b from-orange-600 to-orange-400 -translate-x-1/2">
+                        </div>
+                        <div class="absolute left-7/10 top-12 w-0.5 h-12 bg-gradient-to-b from-orange-600 to-orange-400">
+                        </div>
+                        <div class="absolute left-9/10 top-12 w-0.5 h-12 bg-gradient-to-b from-orange-600 to-orange-400">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Level -->
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-4 max-w-full mx-auto mt-28">
+                    <div
+                        class="org-card group bg-gradient-to-br from-white to-orange-50 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Full-Time Developer</h4>
+                            <p class="text-sm text-orange-600 font-semibold">Crysna Wima Rangga, S.Tr.Kom.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="org-card group bg-gradient-to-br from-white to-orange-50 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Full-Time Developer</h4>
+                            <p class="text-sm text-orange-600 font-semibold">Hafiyyan Dwika Arya, S.Tr.Kom.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="org-card group bg-gradient-to-br from-white to-orange-50 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Part-Time Developer</h4>
+                            <p class="text-sm text-orange-600 font-semibold">Mukhammad Dayu Anwar, S.Kom.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="org-card group bg-gradient-to-br from-white to-orange-50 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Part-Time Developer</h4>
+                            <p class="text-sm text-orange-600 font-semibold">Achmad Andi, S.Kom.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="org-card group bg-gradient-to-br from-white to-orange-50 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Customer Service</h4>
+                            <p class="text-sm text-orange-600 font-semibold">Miftachul Choiriyah</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Connecting Lines to Team -->
+                <div class="flex justify-center mb-24 scroll-reveal">
+                    <div class="relative w-full">
+                        <div class="absolute left-1/10 top-5 w-0.5 h-18 bg-gradient-to-b from-orange-600 to-orange-100">
+                        </div>
+                        <div class="absolute left-3/10 top-5 w-0.5 h-18 bg-gradient-to-b from-orange-600 to-orange-100">
+                        </div>
+                        <div
+                            class="absolute left-1/2 top-5 w-0.5 h-18 bg-gradient-to-b from-orange-600 to-orange-100 -translate-x-1/2">
+                        </div>
+                        <div class="absolute left-7/10 top-5 w-0.5 h-18 bg-gradient-to-b from-orange-600 to-orange-100">
+                        </div>
+                        <div class="absolute left-9/10 top-5 w-0.5 h-18 bg-gradient-to-b from-orange-600 to-orange-100">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shadowing Card -->
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-4 max-w-full mx-auto">
+                    <div class="org-card group bg-gradient-to-b from-orange-50 to-white p-6 rounded-2xl">
+                    </div>
+                    <div class="org-card group bg-gradient-to-b from-orange-50 to-white p-6 rounded-2xl">
+                    </div>
+                    <div class="org-card group bg-gradient-to-b from-orange-50 to-white p-6 rounded-2xl">
+                    </div>
+                    <div class="org-card group bg-gradient-to-b from-orange-50 to-white p-6 rounded-2xl">
+                    </div>
+                    <div class="org-card group bg-gradient-to-b from-orange-50 to-white p-6 rounded-2xl">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Members Detail -->
+            <div class="mt-16 lg:mt-28">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto scroll-reveal">
+                    <div
+                        class="team-card group text-center bg-white pt-8 py-4 px-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+                        <div
+                            class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-orange-200 group-hover:ring-orange-400 transition-all duration-300">
+                            <img src="{{ asset('images/teams/pp-aryak.webp') }}" alt="Hafiyyan Dwika Arya"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Hafiyyan Dwika Arya</h3>
+                        <p class="text-orange-600 font-semibold">Programmer</p>
+                        <p class="text-gray-500 text-sm mb-4">Full-Stack Developer</p>
+                        <p class="text-gray-600 leading-relaxed">Arya memimpin visi TeMan dengan pengalaman di industri
+                            teknologi, membuat semuanya lebih mudah dan simpel.</p>
+                    </div>
+
+                    <div
+                        class="team-card group text-center bg-white pt-8 py-4 px-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+                        <div
+                            class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-orange-200 group-hover:ring-orange-400 transition-all duration-300">
+                            <img src="{{ asset('images/teams/pp-melky.webp') }}" alt="Dewangga Putra"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Dewangga Putra</h3>
+                        <p class="text-orange-600 font-semibold">Manager</p>
+                        <p class="text-gray-500 text-sm mb-4">System Analyst</p>
+                        <p class="text-gray-600 leading-relaxed">Dewangga mengawasi pengembangan teknologi TeMan,
+                            memastikan platform Kami selalu dalam kondisi terbaiknya dan tanpa kendala.</p>
+                    </div>
+
+                    <div
+                        class="team-card group text-center bg-white pt-8 pb-4 px-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 transform hover:-translate-y-2">
+                        <div
+                            class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-orange-200 group-hover:ring-orange-400 transition-all duration-300">
+                            <img src="{{ asset('images/teams/pp-crysna.webp') }}" alt="Crysna Wima Rangga"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Crysna Wima Rangga</h3>
+                        <p class="text-orange-600 font-semibold">Programmer</p>
+                        <p class="text-gray-500 text-sm mb-4">Full-Stack Developer</p>
+                        <p class="text-gray-600 leading-relaxed">Crysna memastikan setiap pengguna TeMan mendapatkan
+                            pengalaman terbaik dan bantuan yang cepat kapan pun dibutuhkan.</p>
+                    </div>
                 </div>
             </div>
         </div>

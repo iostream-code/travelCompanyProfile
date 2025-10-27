@@ -161,6 +161,22 @@
     }
 }
 
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.animate-pulse {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
 .animate-float {
     animation: float 6s ease-in-out infinite;
 }
