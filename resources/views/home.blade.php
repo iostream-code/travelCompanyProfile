@@ -51,7 +51,7 @@
                         <div class="order-1 md:order-2">
                             <div
                                 class="inline-block mb-4 px-3 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                                📊 Dashboard Sekali Lihat
+                                📊 Dashboard Komplit
                             </div>
                             <h2 class="text-xl font-bold text-gray-800 mb-2">Semua dalam Satu Tampilan</h2>
                             <p class="text-gray-600 mb-2 text-sm leading-relaxed">
@@ -190,7 +190,8 @@
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
                         Dashboard
                     </div>
-                    <h3 class="text-4xl font-bold text-gray-800 mb-4">Lihat Semuanya dalam Satu Layar</h3>
+                    <h3 class="text-4xl font-bold text-gray-800 mb-4">Flexible dengan Fitur yang Tersedia Sesuai Kebutuhan
+                    </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
                         Dashboard sederhana yang menampilkan informasi penting bisnis Anda. Tidak ada data yang
                         membingungkan, hanya yang benar-benar Anda butuhkan.
@@ -198,7 +199,7 @@
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Tampilan simpel dan mudah dipahami</span>
+                            <span class="text-gray-700 text-lg">Tampilan simpel, mudah digunakan dan dipahami</span>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
@@ -219,7 +220,7 @@
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
                         Manajemen Data
                     </div>
-                    <h3 class="text-4xl font-bold text-gray-800 mb-4">Atur Data Tanpa Ribet</h3>
+                    <h3 class="text-4xl font-bold text-gray-800 mb-4">Semua Tersimpan Rapih dalam Satu Sistem</h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
                         Simpan dan kelola semua data bisnis dengan cara yang terorganisir. Tidak perlu khawatir
                         kehilangan data atau mencari file yang hilang.
@@ -269,7 +270,8 @@
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
                         Laporan
                     </div>
-                    <h3 class="text-4xl font-bold text-gray-800 mb-4">Laporan Otomatis, Keputusan Lebih Mudah</h3>
+                    <h3 class="text-4xl font-bold text-gray-800 mb-4">Keamanan Data Terjamin dalam Sistem yang Terlindungi
+                    </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
                         Dapatkan insight bisnis tanpa perlu mengolah data manual. TeMan membantu Anda memahami
                         performa bisnis dengan cara yang sederhana.

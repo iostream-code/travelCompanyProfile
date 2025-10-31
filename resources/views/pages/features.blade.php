@@ -51,37 +51,38 @@
                 <div class="order-1 md:order-2">
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        📊 Aplikasi Admin Sekali Lihat
+                        📊 Dashboard Admin
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Lihat Semua dalam Satu Tampilan</h2>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Memastikan Semua dalam Satu Tampilan</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Tidak perlu buka banyak tab atau aplikasi. Dashboard kami menampilkan
+                        Tidak perlu buka banyak tab atau aplikasi. Dashboard Admin menampilkan
                         <span class="font-semibold text-gray-800">semua yang Anda butuhkan</span> - detail paket, data
-                        Jamaah, hingga galeri kegiatan haji dan umroh.
+                        Jamaah, data booking, hingga galeri kegiatan.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Informasi Penting di Depan
-                                    Mata</span>
-                                <span class="text-gray-600 text-sm">Detail paket, detail Jamaah, galeri kegiatan</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Daftar & Detail Paket</span>
+                                <span class="text-gray-600 text-sm">Memudahkan memantau dan mengatur semuanya dalam satu
+                                    tampilan</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Update Otomatis Real-Time</span>
-                                <span class="text-gray-600 text-sm">Data selalu terbaru dan terintegrasi antar
-                                    Pengguna</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Daftar Jamaah</span>
+                                <span class="text-gray-600 text-sm">Lebih mudah melihat detail jamaah berdasarkan paket,
+                                    kategori, maupun periode</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Monitoring Lebih Mudah</span>
-                                <span class="text-gray-600 text-sm">Melihat data Jamaah hingga galeri kegiatan secara
-                                    mendetail</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Galeri Kegiatan
+                                    Jamaah</span>
+                                <span class="text-gray-600 text-sm">Lakukan validasi dokumentasi sebelum dilakukan
+                                    publikasi</span>
                             </div>
                         </li>
                     </ul>
@@ -93,36 +94,38 @@
                 <div>
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        🎫 Manajemen Jamaah Mudah & Cepat
+                        🎫 Dashboard Sales
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Tambah Jamaah Cuma 2 Menit</h2>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Daftarkan Jamaah Cukup 2 Menit</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Input Jamaah baru? Cukup isi data Jamaah, pilih paket, dan selesai! Sistem otomatis
-                        terintegrasi dengan Admin, kirim konfirmasi ke Jamaah, dan lihat detail paket.
+                        Input Jamaah baru? Cukup pilih paket, isi data Jamaah, dan selesai! Sistem otomatis
+                        terintegrasi dengan Admin, kirim konfirmasi ke Jamaah, dan share detail paket melalui WhatsApp.
                         <span class="font-semibold text-gray-800">Tidak ada manual entry berulang-ulang.</span>
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Input Sekali, Selesai Semua</span>
-                                <span class="text-gray-600 text-sm">Pembayaran Jamaah otomatis tersimpan untuk saat
-                                    pendaftaran awal</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Lihat Daftar Paket Tersedia</span>
+                                <span class="text-gray-600 text-sm">Mudah dan menarik melihat tampilan daftar paket
+                                    membuatnya menyenangkan</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">WhatsApp Konfirmasi ke Jamaah</span>
-                                <span class="text-gray-600 text-sm">Konfirmasi akun ke Jamaah melalui WhatsApp</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Share Paket Melalui WhatsApp</span>
+                                <span class="text-gray-600 text-sm">Memudahkan Anda yang ingin mengajak orang lain melihat
+                                    paket yang tesedia</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Tracking Manifest Paket</span>
-                                <span class="text-gray-600 text-sm">Pantau setiap data manifest Jamaah pada setiap
-                                    paketnya</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Buat Manifest Paket Sekejap
+                                    Mata</span>
+                                <span class="text-gray-600 text-sm">Mudah dalam memantau data manifest Jamaah pada
+                                    setiap paketnya</span>
                             </div>
                         </li>
                     </ul>
@@ -152,35 +155,41 @@
                 <div class="order-1 md:order-2">
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        💰 Tracking Kegiatan Real-Time
+                        💰 Dashboard Jamaah
                     </div>
                     <h2 class="text-4xl font-bold text-gray-800 mb-4">Nggak Ada Lagi Momen Terlewat</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Sistem kami otomatis mencatat setiap kegiatan yang dilaksanakan dan mengabadikan momen tanpa
-                        memikirkan tempat penyimpanan. <span class="font-semibold text-gray-800">Anda tinggal cek saja,
-                            semua terseimpan rapih dan aman.</span>
-                        Bahkan laporan keuangan pun ter-generate sendiri setiap saat.
+                        Sistem kami otomatis menampilkan setiap kegiatan yang dilaksanakan dan mengabadikan momen tanpa
+                        memikirkan tempat penyimpanan. <span class="font-semibold text-gray-800">Langsung cek saja,
+                            semua tersimpan rapih dan aman.</span>
+                        Bahkan bukti pembayaran pun tersedia setiap saat.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Reminder Otomatis ke Customer</span>
-                                <span class="text-gray-600 text-sm">H-3 jatuh tempo, sistem otomatis kirim pengingat</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Intip Langsung Riwayat
+                                    Pembayaran</span>
+                                <span class="text-gray-600 text-sm">Ingin melihat riwayat pembayaran, cukup sekali
+                                    klik semuanya tersaji hangat</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Laporan Keuangan Instan</span>
-                                <span class="text-gray-600 text-sm">Mau lihat pendapatan bulan ini? Satu klik selesai</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Lihat Agenda Kegiatan Lebih
+                                    Menyenangkan</span>
+                                <span class="text-gray-600 text-sm">Memantau agenda kegiatan kini dapat lebih mudah dan
+                                    menyenangkan</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Histori Lengkap Tersimpan</span>
-                                <span class="text-gray-600 text-sm">Butuh cek transaksi 6 bulan lalu? Mudah dicari</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Simpan Setiap Momen tanpa Memikirkan
+                                    Penyimpanan</span>
+                                <span class="text-gray-600 text-sm">Semua dokumentasi kegiatan tersimpan tanpa membebani
+                                    penyimpanan Anda</span>
                             </div>
                         </li>
                     </ul>
@@ -192,9 +201,9 @@
                 <div>
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        📱 Akses dari Mana Saja
+                        📱 Dashboard Tour Leader & Muthowif
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Di Kantor atau Di Jalan, Tetap Terkendali</h2>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Saat Perjalanan, Tetap Terkendali</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
                         Sedang di luar kota tapi ada booking urgent? Tenang! Buka dari HP, tablet, atau laptop -
                         datanya sama dan selalu sinkron. <span class="font-semibold text-gray-800">Bisnis travel Anda tidak
@@ -205,22 +214,28 @@
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Buka di Device Apa Pun</span>
-                                <span class="text-gray-600 text-sm">HP, tablet, laptop - tampilan selalu nyaman</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Cari Arah Kiblat dan Waktu Sholat
+                                    dengan Mudah</span>
+                                <span class="text-gray-600 text-sm">Jadwal sholat dan Kompas langsung muncul
+                                    saat pertama membuka aplikasi</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Sinkronisasi Instant</span>
-                                <span class="text-gray-600 text-sm">Update di HP, langsung terlihat di laptop kantor</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Perubahan Agenda Mendadak Bukan
+                                    Masalah</span>
+                                <span class="text-gray-600 text-sm">Update kegiatan kapanpun dan kapanpun dengan
+                                    simpel dan mudah</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Offline Mode Siap Siaga</span>
-                                <span class="text-gray-600 text-sm">Koneksi lemot? Tetap bisa input, sinkron nanti</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Abadikan Setiap Momen dalam
+                                    Tampilan Menarik</span>
+                                <span class="text-gray-600 text-sm">Abadikan setiap momen kegiatan bersama jamaah dengan
+                                    mudah dan menyenangkan</span>
                             </div>
                         </li>
                     </ul>

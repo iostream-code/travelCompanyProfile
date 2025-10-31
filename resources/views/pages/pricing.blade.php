@@ -47,42 +47,41 @@
                 <div class="order-1 md:order-2">
                     <div
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        🎯 Kelola Booking & Pembayaran
+                        🎯 Kelola Paket & Jamaah
                     </div>
                     <h2 class="text-4xl font-bold text-gray-800 mb-4">Semua dalam Satu Platform</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
                         Dashboard lengkap yang menampilkan <span class="font-semibold text-gray-800">semua data
-                            penting</span> - dari booking hari ini, revenue, jadwal keberangkatan, hingga status pembayaran.
-                        Proses booking cuma 2 menit, sistem otomatis kirim konfirmasi WhatsApp ke customer, dan <span
-                            class="font-semibold text-gray-800">reminder pembayaran terkirim sendiri</span> tanpa Anda harus
-                        ingat-ingat.
+                            penting</span> - dari daftar paket, jamaah, detail booking,galeri kegiatan dan <span
+                            class="font-semibold text-gray-800">laporan mainfest otomatis</span> tanpa harus membuatnya
+                        manual.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Dashboard Real-Time & Notifikasi
+                                <span class="text-gray-800 text-lg font-semibold block">Dashboard Real-Time & Update
                                     Instant</span>
-                                <span class="text-gray-600 text-sm">Semua angka penting di satu layar, update otomatis,
-                                    booking baru langsung ternotif</span>
+                                <span class="text-gray-600 text-sm">Semua data penting di satu layar, update otomatis,
+                                    galeri baru langsung muncul dan tersimpan dengan aman</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Booking Cepat dengan WhatsApp
-                                    Otomatis</span>
-                                <span class="text-gray-600 text-sm">Input sekali, konfirmasi terkirim otomatis, data
-                                    customer tersimpan untuk next booking</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Daftarkan Jamaah Cepat
+                                    dengan konfirmasi WhatsApp</span>
+                                <span class="text-gray-600 text-sm">Input sekali, langsung terhubunga, data
+                                    Jamaah tersimpan untuk laporan manifest</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Tracking Pembayaran & Reminder
-                                    Otomatis</span>
-                                <span class="text-gray-600 text-sm">H-3 jatuh tempo auto reminder, laporan keuangan instan,
-                                    histori transaksi lengkap</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Tracking Pembayaran &
+                                    Perlengkapan</span>
+                                <span class="text-gray-600 text-sm">Memudahkan dalam memantau pembayaran Jamaah & memantau
+                                    distribusi perlengkapan Jamaah</span>
                             </div>
                         </li>
                     </ul>
@@ -98,37 +97,36 @@
                     </div>
                     <h2 class="text-4xl font-bold text-gray-800 mb-4">Di Mana Pun, Bisnis Tetap Jalan</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Akses dari HP, tablet, atau laptop - datanya selalu sinkron real-time. <span
-                            class="font-semibold text-gray-800">Koneksi lemot? Tenang, ada offline mode.</span> Interface
-                        intuitif membuat Anda bisa langsung pakai tanpa training lama. Plus, tim support kami siap membantu
-                        kapan pun Anda butuh.
+                        Akses dari manapun dan kapanpun - data selalu terhubung langsung. <span
+                            class="font-semibold text-gray-800">Di luar negeri? Tenang, fitur lokasi siap membantu.</span>
+                        Tampilan interaktif dan kaya akan fitur memudahkan setiap kegiatan Anda dimanapun.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Multi-Device dengan Sinkronisasi
-                                    Instant</span>
-                                <span class="text-gray-600 text-sm">Update di HP langsung terlihat di laptop, offline mode
-                                    untuk koneksi lemot</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Multi-User dengan Sinkronisasi
+                                    Instan</span>
+                                <span class="text-gray-600 text-sm">Perubahan pada Admin akan langsung terupdate pada Sales,
+                                    Jamaah, dan dashboard petugas lainnya</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Setup 5 Menit, Langsung Bisa
-                                    Dipakai</span>
-                                <span class="text-gray-600 text-sm">Interface intuitif, tidak perlu training berhari-hari,
-                                    daftar hari ini besok sudah jalan</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Setup Master Cukup 5 Menit, Langsung
+                                    Bisa Dipakai</span>
+                                <span class="text-gray-600 text-sm">Interface intuitif, tidak perlu memahami berhari-hari,
+                                    siapkan sekarang, besok langsung dapat dipakai</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
-                                <span class="text-gray-800 text-lg font-semibold block">Dibuat Spesifik untuk Travel
-                                    Agent</span>
+                                <span class="text-gray-800 text-lg font-semibold block">Dibuat Spesifik untuk Bisnis
+                                    Travel</span>
                                 <span class="text-gray-600 text-sm">Fitur fokus kebutuhan travel, bukan copy-paste aplikasi
-                                    lain + support responsif via chat/telepon</span>
+                                    lain, serta support responsif via chat/whatsapp</span>
                             </div>
                         </li>
                     </ul>
