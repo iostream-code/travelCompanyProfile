@@ -1,6 +1,4 @@
 export default function register() {
-    console.log('✓ Register page script loaded'); // Debug log
-
     $('#verified_document').on('change', function () {
         const fileName = $(this).val().split('\\').pop();
         if (fileName) {
@@ -46,56 +44,108 @@ export default function register() {
                 'Accept': 'application/json'
             },
             success: function (response) {
-                $('#submit-btn').prop('disabled', false);
-                $('#btn-text').text('Daftar Sekarang');
-                $('#btn-icon').removeClass('hidden');
-                $('#btn-loading').addClass('hidden');
+                resetButtonState();
 
-                $('#modal-email').text(response.credentials.email);
-                $('#modal-password').text(response.credentials.password);
-                $('#success-modal').removeClass('hidden');
+                if (response.credentials) {
+                    $('#modal-email').text(response.credentials.email);
+                    $('#modal-password').text(response.credentials.password);
+                    $('#success-modal').removeClass('hidden');
+                }
 
                 $('#register-form')[0].reset();
                 $('#file-name').addClass('hidden');
+
+                if (response.message) {
+                    showSuccessAlert(response.message);
+                }
             },
             error: function (xhr) {
-                $('#submit-btn').prop('disabled', false);
-                $('#btn-text').text('Daftar Sekarang');
-                $('#btn-icon').removeClass('hidden');
-                $('#btn-loading').addClass('hidden');
+                resetButtonState();
 
-                let errorMessage = 'Terjadi kesalahan. Silakan coba lagi.';
+                let errorMessage = 'Terjadi kesalahan yang tidak diketahui. Silakan coba lagi.';
 
-                if (xhr.responseJSON) {
-                    if (xhr.responseJSON.error) {
-                        errorMessage = xhr.responseJSON.error;
-                    } else if (xhr.responseJSON.message) {
-                        errorMessage = xhr.responseJSON.message;
-                    } else if (xhr.responseJSON.errors) {
-                        const errors = xhr.responseJSON.errors;
-                        errorMessage = Object.values(errors).flat().join('<br>');
+                try {
+                    const response = xhr.responseJSON;
+
+                    if (response) {
+                        if (response.message) {
+                            errorMessage = response.message;
+                        }
+
+                        if (response.errors && typeof response.errors === 'object') {
+                            const errorList = [];
+                            for (const field in response.errors) {
+                                if (response.errors.hasOwnProperty(field)) {
+                                    const fieldErrors = response.errors[field];
+                                    if (Array.isArray(fieldErrors)) {
+                                        errorList.push(...fieldErrors);
+                                    } else {
+                                        errorList.push(fieldErrors);
+                                    }
+                                }
+                            }
+                            if (errorList.length > 0) {
+                                errorMessage = errorList.join('<br>');
+                            }
+                        }
+
+                        if (response.error && typeof response.error === 'string') {
+                            errorMessage = response.error;
+                        }
                     }
+                } catch (e) {
+                    console.error('Error parsing response:', e);
                 }
 
-                $('#error-message').html(errorMessage);
-                $('#alert-error').removeClass('hidden');
+                if (xhr.status === 0) {
+                    errorMessage = 'Tidak dapat terhubung ke server. Periksa koneksi internet Anda.';
+                } else if (xhr.status === 403) {
+                    errorMessage = errorMessage || 'Akses ditolak. Token tidak valid.';
+                } else if (xhr.status === 404) {
+                    errorMessage = 'Endpoint tidak ditemukan. Silakan hubungi administrator.';
+                } else if (xhr.status === 413) {
+                    errorMessage = 'File yang diunggah terlalu besar. Maksimal 10MB.';
+                } else if (xhr.status === 429) {
+                    errorMessage = 'Terlalu banyak permintaan. Silakan tunggu beberapa saat.';
+                } else if (xhr.status >= 500) {
+                    errorMessage = errorMessage || 'Terjadi kesalahan pada server. Silakan coba lagi nanti.';
+                }
 
-                $('html, body').animate({
-                    scrollTop: $('#alert-error').offset().top - 100
-                }, 500);
+                showErrorAlert(errorMessage);
             }
         });
     });
 
-    // Close modal button handler
     $('#close-modal-btn').on('click', function () {
         $('#success-modal').addClass('hidden');
     });
 
-    // Close modal when clicking outside
-    $('#success-modal').on('click', function (e) {
-        if (e.target.id === 'success-modal') {
-            $('#success-modal').addClass('hidden');
-        }
+    $('#success-modal .bg-white').on('click', function (e) {
+        e.stopPropagation();
     });
+
+    function resetButtonState() {
+        $('#submit-btn').prop('disabled', false);
+        $('#btn-text').text('Daftar Sekarang');
+        $('#btn-icon').removeClass('hidden');
+        $('#btn-loading').addClass('hidden');
+    }
+
+    function showSuccessAlert(message) {
+        $('#success-message').html(message);
+        $('#alert-success').removeClass('hidden');
+        scrollToAlert('#alert-success');
+    }
+
+    function showErrorAlert(message) {
+        $('#error-message').html(message);
+        $('#alert-error').removeClass('hidden');
+        scrollToAlert('#alert-error');
+    }
+
+    function scrollToAlert(selector) {
+        $('html, body').animate({
+            scrollTop: $(selector).offset().top - 100
+        }, 500);
+    }
 }

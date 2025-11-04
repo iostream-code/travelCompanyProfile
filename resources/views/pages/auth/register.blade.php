@@ -266,7 +266,7 @@
                                 <div class="text-center pt-4 border-t border-gray-100">
                                     <p class="text-sm text-gray-600">
                                         Sudah punya akun?
-                                        <a href="#"
+                                        <a href="https://travel.devkoperindo.com"
                                             class="text-orange-600 font-semibold hover:text-orange-700 transition-colors">
                                             Masuk di sini
                                         </a>
@@ -299,7 +299,7 @@
     </section>
 
     <!-- Success Modal -->
-    <div id="success-modal" class="hidden fixed inset-0 bg-gray-700 opacity-50 z-50 flex items-center justify-center p-4">
+    <div id="success-modal" class="hidden fixed inset-0 bg-gray-700/50 z-50 flex items-center justify-center p-4">
         <div class="bg-white rounded-2xl max-w-md w-full p-8 relative animate-scale-in">
             <div class="text-center">
                 <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
