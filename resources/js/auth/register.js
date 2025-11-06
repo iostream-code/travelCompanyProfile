@@ -21,7 +21,15 @@ export default function register() {
 
         const formData = new FormData();
         formData.append('nama_travel', $('#nama_travel').val());
+
+        const namaLengkap = $('#nama_lengkap').val() || $('#nama_lengkap_mobile').val() || '';
+        formData.append('nama_lengkap', namaLengkap);
+
+        const jabatan = $('#jabatan').val() || $('#jabatan_mobile').val() || '';
+        formData.append('jabatan', jabatan);
+
         formData.append('address', $('#address').val() || '');
+        formData.append('no_telp', $('#nomor_telepon').val() || '');
         formData.append('province_code', '');
         formData.append('city_code', '');
         formData.append('district_code', '');

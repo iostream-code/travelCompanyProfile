@@ -14,7 +14,7 @@
         </div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div class="grid lg:grid-cols-2 gap-12 items-start">
 
                 <!-- Left Side - Illustration & Info -->
                 <div class="hidden lg:block scroll-reveal">
@@ -167,6 +167,93 @@
                                     <p class="mt-1 text-xs text-gray-500">Maksimal 15 karakter</p>
                                 </div>
 
+                                <!-- Nama Lengkap & Jabatan -->
+                                <div class="form-group w-full">
+                                    <!-- Label for Desktop -->
+                                    <label class="hidden md:block text-sm font-semibold text-gray-700 mb-2">
+                                        <span class="flex items-center">
+                                            <svg class="w-4 h-4 mr-2 text-orange-600" fill="none"
+                                                stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
+                                                </path>
+                                            </svg>
+                                            Nama Lengkap & Jabatan <span class="text-red-500">*</span>
+                                        </span>
+                                    </label>
+
+                                    <!-- Combined Field for Desktop (md and up) -->
+                                    <div
+                                        class="hidden md:flex rounded-xl border-2 border-gray-200 hover:border-orange-300 focus-within:border-orange-500 focus-within:ring-4 focus-within:ring-orange-100 transition-all duration-300 overflow-hidden">
+                                        <input type="text" id="nama_lengkap" name="nama_lengkap"
+                                            class="flex-[3] px-4 py-3.5 border-0 outline-none bg-transparent"
+                                            placeholder="Contoh: Ahmad Fauzi" required>
+                                        <div class="w-px bg-gray-200"></div>
+                                        <select id="jabatan" name="jabatan"
+                                            class="flex-[2] px-4 py-3.5 border-0 outline-none bg-transparent cursor-pointer"
+                                            required>
+                                            <option value="Owner" selected>Owner</option>
+                                            <option value="Admin">Admin</option>
+                                            <option value="Sales">Sales</option>
+                                            <option value="Muthowif">Muthowif</option>
+                                            <option value="Tour Leader">Tour Leader</option>
+                                            <option value="Direktur">Direktur</option>
+                                            <option value="Manager">Manager</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Separated Fields for Mobile (below md) -->
+                                    <div class="md:hidden space-y-4">
+                                        <!-- Nama Lengkap -->
+                                        <div>
+                                            <label for="nama_lengkap_mobile"
+                                                class="block text-sm font-semibold text-gray-700 mb-2">
+                                                <span class="flex items-center">
+                                                    <svg class="w-4 h-4 mr-2 text-orange-600" fill="none"
+                                                        stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
+                                                        </path>
+                                                    </svg>
+                                                    Nama Lengkap <span class="text-red-500">*</span>
+                                                </span>
+                                            </label>
+                                            <input type="text" id="nama_lengkap_mobile" name="nama_lengkap"
+                                                class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300"
+                                                placeholder="Contoh: Ahmad Fauzi" required>
+                                        </div>
+
+                                        <!-- Jabatan -->
+                                        <div>
+                                            <label for="jabatan_mobile"
+                                                class="block text-sm font-semibold text-gray-700 mb-2">
+                                                <span class="flex items-center">
+                                                    <svg class="w-4 h-4 mr-2 text-orange-600" fill="none"
+                                                        stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                                        </path>
+                                                    </svg>
+                                                    Jabatan <span class="text-red-500">*</span>
+                                                </span>
+                                            </label>
+                                            <select id="jabatan_mobile" name="jabatab"
+                                                class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300"
+                                                required>
+                                                <option value="Owner" selected>Owner</option>
+                                                <option value="Admin">Admin</option>
+                                                <option value="Sales">Sales</option>
+                                                <option value="Muthowif">Muthowif</option>
+                                                <option value="Tour Leader">Tour Leader</option>
+                                                <option value="Direktur">Direktur</option>
+                                                <option value="Manager">Manager</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <!-- Alamat -->
                                 <div class="form-group">
                                     <label for="address" class="block text-sm font-semibold text-gray-700 mb-2">
@@ -187,22 +274,43 @@
                                         placeholder="Masukkan alamat kantor travel Anda"></textarea>
                                 </div>
 
-                                <!-- Website -->
-                                <div class="form-group">
-                                    <label for="website" class="block text-sm font-semibold text-gray-700 mb-2">
-                                        <span class="flex items-center">
-                                            <svg class="w-4 h-4 mr-2 text-orange-600" fill="none"
-                                                stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9">
-                                                </path>
-                                            </svg>
-                                            Website
-                                        </span>
-                                    </label>
-                                    <input type="url" id="website" name="website"
-                                        class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300"
-                                        placeholder="https://travelanda.com">
+                                <!-- Nomor Telepon & Website -->
+                                <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
+                                    <!-- Nomor Telepon -->
+                                    <div class="form-group">
+                                        <label for="nomor_telepon" class="block text-sm font-semibold text-gray-700 mb-2">
+                                            <span class="flex items-center">
+                                                <svg class="w-4 h-4 mr-2 text-orange-600" fill="none"
+                                                    stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                                                    </path>
+                                                </svg>
+                                                Nomor Telepon
+                                            </span>
+                                        </label>
+                                        <input type="tel" id="nomor_telepon" name="no_telp"
+                                            class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300"
+                                            placeholder="Contoh: 08123456789">
+                                    </div>
+
+                                    <!-- Website -->
+                                    <div class="form-group">
+                                        <label for="website" class="block text-sm font-semibold text-gray-700 mb-2">
+                                            <span class="flex items-center">
+                                                <svg class="w-4 h-4 mr-2 text-orange-600" fill="none"
+                                                    stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9">
+                                                    </path>
+                                                </svg>
+                                                Website
+                                            </span>
+                                        </label>
+                                        <input type="url" id="website" name="website"
+                                            class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300"
+                                            placeholder="https://travelanda.com">
+                                    </div>
                                 </div>
 
                                 <!-- Dokumen Penguat -->
@@ -308,8 +416,8 @@
                     </svg>
                 </div>
                 <h3 class="text-2xl font-bold text-gray-800 mb-2">Registrasi Berhasil!</h3>
-                <p class="text-gray-600 mb-6">Akun Anda telah berhasil dibuat. Berikut adalah kredensial login Anda. Mohon
-                    tunggu hingga data terverifikasi</p>
+                <p class="text-gray-600 mb-6">Akun Anda telah berhasil dibuat. Mohon
+                    tunggu hingga data terverifikasi, dan Anda akan segera menikmati paket 2 bulan gratis.</p>
 
                 <div class="bg-gray-50 rounded-xl p-4 mb-6 text-left">
                     <div class="mb-3">
@@ -342,12 +450,14 @@
     <!-- Custom CSS -->
     <style>
         .form-group input:focus,
-        .form-group textarea:focus {
+        .form-group textarea:focus,
+        .form-group select:focus {
             box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.1);
         }
 
         .form-group input:hover:not(:focus),
-        .form-group textarea:hover:not(:focus) {
+        .form-group textarea:hover:not(:focus),
+        .form-group select:hover:not(:focus) {
             border-color: #fed7aa;
         }
 
