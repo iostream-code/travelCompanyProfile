@@ -181,7 +181,7 @@
                 <div class="order-2 md:order-1">
                     <div class="relative group">
                         <div
-                            class="absolute inset-0 bg-gradient-to-r from-teal-400 to-emerald-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
                         <img src="{{ asset('images/banner-1.webp') }}"
                             alt="Dashboard: Kuota tersisa 12 seat, 7 jamaah belum lunas, notifikasi otomatis"
@@ -190,33 +190,33 @@
                 </div>
                 <div class="order-1 md:order-2">
                     <div
-                        class="inline-block mb-4 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold">
+                        class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-semibold">
                         Jualan Lebih Cepat
                     </div>
                     <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                         Kuota Tidak Pernah Hangus Lagi
                     </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Lihat sisa seat real-time → Kirim WA ke jamaah terdaftar → Tutup paket sebelum
-                        deadline.
+                        Lihat sisa seat real-time | Kirim WA ke jamaah terdaftar | Manage paket lebih asik.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
                             <span
                                 class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg"><strong>+25 seat</strong> terjual per musim</span>
+                            <span class="text-gray-700 text-lg">Tampilan daftar paket<strong> lebih menarik dan
+                                    interaktif</strong></span>
                         </li>
                         <li class="flex items-start group">
                             <span
                                 class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Notifikasi DP telat → <strong>90% lunas tepat
-                                    waktu</strong></span>
+                            <span class="text-gray-700 text-lg">Mengetahui sisan kuota dengan<strong> tepat dan
+                                    mudah</strong></span>
                         </li>
                         <li class="flex items-start group">
                             <span
                                 class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Hindari denda maskapai karena
-                                <strong>no-show</strong></span>
+                            <span class="text-gray-700 text-lg">Detail paket terlihat dengan
+                                <strong>jelas dan menarik</strong></span>
                         </li>
                     </ul>
                 </div>
@@ -226,7 +226,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div>
                     <div
-                        class="inline-block mb-4 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold">
+                        class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-semibold">
                         Jamaah Tenang
                     </div>
                     <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -258,7 +258,7 @@
                 <div>
                     <div class="relative group">
                         <div
-                            class="absolute inset-0 bg-gradient-to-r from-teal-400 to-emerald-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
                         <img src="{{ asset('images/banner-2.webp') }}"
                             alt="Link dokumen pribadi jamaah: KTP, paspor, kontrak — bisa dibagikan via WA"
@@ -272,7 +272,7 @@
                 <div class="order-2 md:order-1">
                     <div class="relative group">
                         <div
-                            class="absolute inset-0 bg-gradient-to-r from-teal-400 to-emerald-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
                         <img src="{{ asset('images/banner-3.webp') }}"
                             alt="Laporan Kemenag siap download: Profit Rp245 juta, 312 jamaah, biaya maskapai terlampir"
@@ -281,7 +281,7 @@
                 </div>
                 <div class="order-1 md:order-2">
                     <div
-                        class="inline-block mb-4 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold">
+                        class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-semibold">
                         Audit Tanpa Stres
                     </div>
                     <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
