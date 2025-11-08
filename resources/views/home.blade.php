@@ -164,130 +164,150 @@
     </section>
 
     <!-- Detailed Features Section -->
-    <section class="py-20 bg-gradient-to-b from-white to-gray-50 relative">
+    <section class="py-20 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Header: Manfaat Utama -->
             <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-800 mb-4">Fitur yang Memudahkan Pekerjaan Anda</h2>
-                <p class="text-xl text-gray-600">Semua yang Anda butuhkan, tanpa yang tidak perlu</p>
+                <h2 class="text-5xl font-bold text-gray-900 mb-4 leading-tight">
+                    Kelola dengan Tenang, Hati Lebih Senang
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Hindari kuota hangus · Cegah dokumentasi hilang · Laporan manifest instan
+                </p>
             </div>
 
-            <!-- Feature 1 -->
-            <div class="absolute right-0 lg:w-1/4 md:w-1/4 lg:h-2/4 md:h-1/3 bg-cover bg-center opacity-10"
-                style="background-image: url('https://plus.unsplash.com/premium_photo-1671863658889-a1b6781bdbca?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627');">
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal z-50">
+            <!-- MANFAAT 1: Jualan Lebih Cepat -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div class="order-2 md:order-1">
                     <div class="relative group">
                         <div
-                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                            class="absolute inset-0 bg-gradient-to-r from-teal-400 to-emerald-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="{{ asset('images/banner-1.webp') }}" alt="Dashboard"
+                        <img src="{{ asset('images/banner-1.webp') }}"
+                            alt="Dashboard: Kuota tersisa 12 seat, 7 jamaah belum lunas, notifikasi otomatis"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
                 <div class="order-1 md:order-2">
                     <div
-                        class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        Dashboard
+                        class="inline-block mb-4 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold">
+                        Jualan Lebih Cepat
                     </div>
-                    <h3 class="text-4xl font-bold text-gray-800 mb-4">Flexible dengan Fitur yang Tersedia Sesuai Kebutuhan
+                    <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Kuota Tidak Pernah Hangus Lagi
                     </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Dashboard sederhana yang menampilkan informasi penting bisnis Anda. Tidak ada data yang
-                        membingungkan, hanya yang benar-benar Anda butuhkan.
+                        Lihat sisa seat real-time → Kirim WA ke jamaah terdaftar → Tutup paket sebelum
+                        deadline.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
-                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Tampilan simpel, mudah digunakan dan dipahami</span>
+                            <span
+                                class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <span class="text-gray-700 text-lg"><strong>+25 seat</strong> terjual per musim</span>
                         </li>
                         <li class="flex items-start group">
-                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Atur sesuai kebutuhan Anda</span>
+                            <span
+                                class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <span class="text-gray-700 text-lg">Notifikasi DP telat → <strong>90% lunas tepat
+                                    waktu</strong></span>
                         </li>
                         <li class="flex items-start group">
-                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Data selalu terupdate dan terintegrasi</span>
+                            <span
+                                class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <span class="text-gray-700 text-lg">Hindari denda maskapai karena
+                                <strong>no-show</strong></span>
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <!-- Feature 2 -->
+            <!-- MANFAAT 2: Jamaah Tenang -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                 <div>
                     <div
-                        class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        Manajemen Data
+                        class="inline-block mb-4 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold">
+                        Jamaah Tenang
                     </div>
-                    <h3 class="text-4xl font-bold text-gray-800 mb-4">Semua Tersimpan Rapih dalam Satu Sistem</h3>
+                    <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Tidak Ada Dokumen Hilang atau Telat
+                    </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Simpan dan kelola semua data bisnis dengan cara yang terorganisir. Tidak perlu khawatir
-                        kehilangan data atau mencari file yang hilang.
+                        Semua KTP, paspor, vaksin, kontrak tersimpan digital → Jamaah bisa cek sendiri via link WA → Anda
+                        fokus layani, bukan cari berkas.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
-                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Semua tersimpan rapi di satu tempat</span>
+                            <span
+                                class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <span class="text-gray-700 text-lg"><strong>0 keluhan</strong> dokumen hilang</span>
                         </li>
                         <li class="flex items-start group">
-                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Semua terjaga dalam pengawasan Kami</span>
+                            <span
+                                class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <span class="text-gray-700 text-lg">Jamaah update dokumen sendiri → <strong>hemat 3
+                                    jam/hari</strong></span>
                         </li>
                         <li class="flex items-start group">
-                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Akses dari perangkat mana pun</span>
+                            <span
+                                class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <span class="text-gray-700 text-lg">Akses dari Arab Saudi saat <strong>manasik</strong></span>
                         </li>
                     </ul>
                 </div>
                 <div>
                     <div class="relative group">
                         <div
-                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                            class="absolute inset-0 bg-gradient-to-r from-teal-400 to-emerald-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
                         <img src="{{ asset('images/banner-2.webp') }}"
+                            alt="Link dokumen pribadi jamaah: KTP, paspor, kontrak — bisa dibagikan via WA"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
             </div>
 
-            <!-- Feature 3 -->
-            <div class="absolute left-0 bottom-0 lg:w-1/3 md:w-1/4 lg:h-2/4 md:h-1/3 bg-cover bg-center opacity-15 z-10"
-                style="background-image: url('https://plus.unsplash.com/premium_photo-1671863658886-bc049efeeb5b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627')">
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center scroll-reveal relative z-10">
+            <!-- MANFAAT 3: Laporan & Audit Instan -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center scroll-reveal">
                 <div class="order-2 md:order-1">
                     <div class="relative group">
                         <div
-                            class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                            class="absolute inset-0 bg-gradient-to-r from-teal-400 to-emerald-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
                         </div>
-                        <img src="{{ asset('images/banner-3.webp') }}" alt="Analytics"
+                        <img src="{{ asset('images/banner-3.webp') }}"
+                            alt="Laporan Kemenag siap download: Profit Rp245 juta, 312 jamaah, biaya maskapai terlampir"
                             class="relative w-full rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
                 <div class="order-1 md:order-2">
                     <div
-                        class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        Laporan
+                        class="inline-block mb-4 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold">
+                        Audit Tanpa Stres
                     </div>
-                    <h3 class="text-4xl font-bold text-gray-800 mb-4">Keamanan Data Terjamin dalam Sistem yang Terlindungi
+                    <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Laporan Kemenag Selesai dalam 3 Klik
                     </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Dapatkan insight bisnis tanpa perlu mengolah data manual. TeMan membantu Anda memahami
-                        performa bisnis dengan cara yang sederhana.
+                        Profit per paket, DP, pelunasan, biaya maskapai → PDF resmi, cap digital, langsung kirim ke Kemenag
+                        atau investor.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
-                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Laporan siap pakai tanpa ribet</span>
+                            <span
+                                class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <span class="text-gray-700 text-lg"><strong>Lulus audit 100%</strong> tanpa revisi</span>
                         </li>
                         <li class="flex items-start group">
-                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Download dalam format yang Anda butuhkan</span>
+                            <span
+                                class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <span class="text-gray-700 text-lg">Hitung profit otomatis → <strong>+Rp45 juta
+                                    terselamatkan</strong></span>
                         </li>
                         <li class="flex items-start group">
-                            <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
-                            <span class="text-gray-700 text-lg">Pahami kondisi bisnis dengan mudah</span>
+                            <span
+                                class="text-emerald-600 mr-3 text-2xl group-hover:scale-125 transition-transform">✓</span>
+                            <span class="text-gray-700 text-lg">Bagikan laporan ke investor → <strong>modal berikutnya
+                                    cepat cair</strong></span>
                         </li>
                     </ul>
                 </div>
