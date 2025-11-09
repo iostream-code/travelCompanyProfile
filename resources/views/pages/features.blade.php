@@ -72,8 +72,8 @@
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
                                 <span class="text-gray-800 text-lg font-semibold block">Daftar Jamaah</span>
-                                <span class="text-gray-600 text-sm">Lebih mudah melihat detail jamaah berdasarkan paket,
-                                    kategori, maupun periode</span>
+                                <span class="text-gray-600 text-sm">Langsung terdaftar secara real-time tanpa menunggu
+                                    koordinasi & informasi terkait.</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
@@ -81,8 +81,8 @@
                             <div>
                                 <span class="text-gray-800 text-lg font-semibold block">Galeri Kegiatan
                                     Jamaah</span>
-                                <span class="text-gray-600 text-sm">Lakukan validasi dokumentasi sebelum dilakukan
-                                    publikasi</span>
+                                <span class="text-gray-600 text-sm">Tersimpan otomatis tanpa mengurangi memori handphone
+                                    Anda. Tersedia fitur share & download saat dibutuhkan.</span>
                             </div>
                         </li>
                     </ul>

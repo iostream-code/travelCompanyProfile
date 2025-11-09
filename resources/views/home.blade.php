@@ -114,9 +114,14 @@
                 <h2
                     class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
                     Yang Membuat TeMan Istimewa</h2>
-                <p class="text-lg md:text-xl text-gray-600">Dirancang dengan fokus pada kemajuan bisnis travel Anda secara
+                {{-- <p class="text-lg md:text-xl text-gray-600">Dirancang dengan fokus pada kemajuan bisnis travel Anda secara
                     <strong>Praktis</strong> dan
                     <strong>Aman</strong>
+                </p> --}}
+                <p class="text-lg md:text-xl text-gray-600">Bisa download laporan manifest
+                    <strong>Maskapai,</strong>
+                    <strong>Paket,</strong> hingga
+                    <strong>SISKOPATUH</strong>
                 </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -125,22 +130,24 @@
                     <div
                         class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
                         ✨</div>
-                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Antarmuka Intuitif</h3>
-                    <p class="text-gray-600 leading-relaxed">Desain yang ramah pengguna membuat siapa pun bisa langsung
-                        paham tanpa perlu panduan rumit</p>
-                    <div
+                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Antarmuka Simpel & Intuitif</h3>
+                    <p class="text-gray-600 leading-relaxed">Paham seketika, tanpa perlu panduan. Karena didesain mudah
+                        digunakan untuk Siapapun bisa langsung mengerti dan tidak perlu belajar.</p>
+                    <a href="{{ route('features') }}"
                         class="mt-6 flex items-center text-orange-600 font-semibold group-hover:translate-x-2 transition-transform">
                         Selengkapnya →
-                    </div>
+                    </a>
                 </div>
                 <div
                     class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
                     <div
                         class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
                         🛡️</div>
-                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Data Aman Terlindungi</h3>
-                    <p class="text-gray-600 leading-relaxed">Tidur nyenyak karena data bisnis Anda tersimpan dengan aman dan
-                        terpusat dalam database Kami</p>
+                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Keamanan Data Premium, Ketenangan 100%
+                    </h3>
+                    <p class="text-gray-600 leading-relaxed">Simpan, kelola, dan akses seluruh data bisnis Anda secara aman
+                        & terpusat dalam database yang tersistem. Anda cukup fokus pada pertumbuhan, biarkan sistem yang
+                        menjaga data Anda tetap terlindungi.</p>
                     <a href="{{ route('features') }}"
                         class="mt-6 flex items-center text-orange-600 font-semibold group-hover:translate-x-2 transition-transform">
                         Selengkapnya →
@@ -151,13 +158,13 @@
                     <div
                         class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
                         📱</div>
-                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Akses Kapan Saja</h3>
-                    <p class="text-gray-600 leading-relaxed">Kelola bisnis dari laptop, tablet, atau smartphone - di mana
-                        pun Anda berada dan akses kapanpun tanpa ribet</p>
-                    <div
+                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Akses Kapan Saja, Bisnis Lancar, Anda Tenang</h3>
+                    <p class="text-gray-600 leading-relaxed">Kelola bisnis dari handphone dimanapun Anda berada tanpa
+                        mengganggu waktu dan ribet, yang terpusat, terlindungi, dan siap diakses kapanpun.</p>
+                    <a href="{{ route('features') }}"
                         class="mt-6 flex items-center text-orange-600 font-semibold group-hover:translate-x-2 transition-transform">
                         Selengkapnya →
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -168,7 +175,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
                 <h2 class="text-5xl font-bold text-gray-800 mb-4">Fitur yang Memudahkan Pekerjaan Anda</h2>
-                <p class="text-xl text-gray-600">Semua yang Anda butuhkan, tanpa yang tidak perlu</p>
+                <p class="text-xl text-gray-600">Didesain sesuai yang Anda harapkan secara sistematis</p>
             </div>
 
             <!-- Feature 1 -->
@@ -193,8 +200,7 @@
                     <h3 class="text-4xl font-bold text-gray-800 mb-4">Flexible dengan Fitur yang Tersedia Sesuai Kebutuhan
                     </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Dashboard sederhana yang menampilkan informasi penting bisnis Anda. Tidak ada data yang
-                        membingungkan, hanya yang benar-benar Anda butuhkan.
+                        Tracking Jamaah terdaftar, pembayaran jamaah, perlengkapan & persyratan secara otomatis
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
@@ -222,8 +228,8 @@
                     </div>
                     <h3 class="text-4xl font-bold text-gray-800 mb-4">Semua Tersimpan Rapih dalam Satu Sistem</h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Simpan dan kelola semua data bisnis dengan cara yang terorganisir. Tidak perlu khawatir
-                        kehilangan data atau mencari file yang hilang.
+                        Tersimpan otomatis tanpa mengurangi memori handphone
+                        Anda. Tersedia fitur share & download saat dibutuhkan.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
@@ -273,8 +279,8 @@
                     <h3 class="text-4xl font-bold text-gray-800 mb-4">Keamanan Data Terjamin dalam Sistem yang Terlindungi
                     </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Dapatkan insight bisnis tanpa perlu mengolah data manual. TeMan membantu Anda memahami
-                        performa bisnis dengan cara yang sederhana.
+                        Langsung terdaftar secara real-time tanpa menunggu
+                        koordinasi & informasi terkait.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
