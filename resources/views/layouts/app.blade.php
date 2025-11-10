@@ -150,10 +150,6 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-lg font-bold mb-4 text-orange-400">TeMan</h3>
-                    <p class="text-gray-300">Solusi terbaik untuk kebutuhan bisnis travel Anda</p>
-                </div>
-                <div>
                     <h4 class="text-lg font-bold mb-4 text-orange-400">Product</h4>
                     <ul class="space-y-2 text-gray-300">
                         <li><a href="{{ route('features') }}" class="hover:text-orange-400 transition">Features</a>

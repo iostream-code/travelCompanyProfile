@@ -37,6 +37,10 @@
                             viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                        <span>
+                            .....
+                        </span>
                     </a>
                     <div class="hidden md:grid grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                         <div class="order-2 md:order-1">
@@ -113,58 +117,69 @@
             <div class="text-center mb-16 fade-in-up">
                 <h2
                     class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
-                    Yang Membuat TeMan Istimewa</h2>
-                {{-- <p class="text-lg md:text-xl text-gray-600">Dirancang dengan fokus pada kemajuan bisnis travel Anda secara
-                    <strong>Praktis</strong> dan
-                    <strong>Aman</strong>
-                </p> --}}
-                <p class="text-lg md:text-xl text-gray-600">Bisa download laporan manifest
-                    <strong>Maskapai,</strong>
-                    <strong>Paket,</strong> hingga
-                    <strong>SISKOPATUH</strong>
+                    Yang Membuat TeMan Istimewa
+                </h2>
+                <p class="text-lg md:text-xl text-gray-600">
+                    Tanpa perlu banyak Tim sehingga operasional lebih efisien dan data lebih <strong>real-time</strong>.
+                    Tanpa rasa khawatir data Fraud, serta tersambung dengan pihak terkait secara sistematis. Sehingga sangat
+                    bermanfaat dan efisien untuk Bisnis Anda
                 </p>
             </div>
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
                 <div
                     class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
                     <div
                         class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                        ✨</div>
+                        ✨
+                    </div>
                     <h3 class="text-2xl font-bold mb-3 text-orange-600">Antarmuka Simpel & Intuitif</h3>
-                    <p class="text-gray-600 leading-relaxed">Paham seketika, tanpa perlu panduan. Karena didesain mudah
-                        digunakan untuk Siapapun bisa langsung mengerti dan tidak perlu belajar.</p>
-                    <a href="{{ route('features') }}"
-                        class="mt-6 flex items-center text-orange-600 font-semibold group-hover:translate-x-2 transition-transform">
+                    <p id="desc1" class="text-gray-600 leading-relaxed line-clamp-3">
+                        Paham seketika, tanpa perlu panduan. Karena didesain mudah digunakan untuk Siapapun bisa langsung
+                        mengerti dan tidak perlu belajar.
+                    </p>
+                    <button onclick="toggleText('desc1', 'btn1')" id="btn1"
+                        class="mt-6 flex items-center text-orange-600 font-semibold hover:translate-x-2 transition-transform">
                         Selengkapnya →
-                    </a>
+                    </button>
                 </div>
+
+                <!-- Card 2 -->
                 <div
                     class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
                     <div
                         class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                        🛡️</div>
-                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Keamanan Data Premium, Ketenangan 100%
-                    </h3>
-                    <p class="text-gray-600 leading-relaxed">Simpan, kelola, dan akses seluruh data bisnis Anda secara aman
-                        & terpusat dalam database yang tersistem. Anda cukup fokus pada pertumbuhan, biarkan sistem yang
-                        menjaga data Anda tetap terlindungi.</p>
-                    <a href="{{ route('features') }}"
-                        class="mt-6 flex items-center text-orange-600 font-semibold group-hover:translate-x-2 transition-transform">
+                        🛡️
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Keamanan Data Premium, Ketenangan 100%</h3>
+                    <p id="desc2" class="text-gray-600 leading-relaxed line-clamp-3">
+                        Simpan, kelola, dan akses seluruh data bisnis Anda secara aman & terpusat dalam database yang
+                        tersistem. Anda cukup fokus pada pertumbuhan, biarkan sistem yang menjaga data Anda tetap
+                        terlindungi.
+                    </p>
+                    <button onclick="toggleText('desc2', 'btn2')" id="btn2"
+                        class="mt-6 flex items-center text-orange-600 font-semibold hover:translate-x-2 transition-transform">
                         Selengkapnya →
-                    </a>
+                    </button>
                 </div>
+
+                <!-- Card 3 -->
                 <div
                     class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
                     <div
                         class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                        📱</div>
+                        📱
+                    </div>
                     <h3 class="text-2xl font-bold mb-3 text-orange-600">Akses Kapan Saja, Bisnis Lancar, Anda Tenang</h3>
-                    <p class="text-gray-600 leading-relaxed">Kelola bisnis dari handphone dimanapun Anda berada tanpa
-                        mengganggu waktu dan ribet, yang terpusat, terlindungi, dan siap diakses kapanpun.</p>
-                    <a href="{{ route('features') }}"
-                        class="mt-6 flex items-center text-orange-600 font-semibold group-hover:translate-x-2 transition-transform">
+                    <p id="desc3" class="text-gray-600 leading-relaxed line-clamp-3">
+                        Kelola bisnis dari handphone atau smartphone dimanapun Anda berada tanpa mengganggu waktu dan ribet,
+                        yang terpusat, terlindungi, dan siap diakses kapanpun.
+                    </p>
+                    <button onclick="toggleText('desc3', 'btn3')" id="btn3"
+                        class="mt-6 flex items-center text-orange-600 font-semibold hover:translate-x-2 transition-transform">
                         Selengkapnya →
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -577,40 +592,6 @@
                     </ul>
                 </div>
 
-                <!-- Cara Daftar -->
-                <div
-                    class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center mb-4 mx-auto">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center">Cara Daftar</h3>
-                    <ol class="space-y-3 text-orange-50">
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">1</span>
-                            <span>Isi form registrasi</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">2</span>
-                            <span>Upload dokumen legalitas</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">3</span>
-                            <span>Dapatkan akun & password via email</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">4</span>
-                            <span>Login dan mulai kelola bisnis Anda!</span>
-                        </li>
-                    </ol>
-                </div>
-
                 <!-- Layanan -->
                 <div
                     class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
@@ -664,6 +645,40 @@
                         </li>
                     </ul>
                 </div>
+
+                <!-- Cara Daftar -->
+                <div
+                    class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Cara Daftar</h3>
+                    <ol class="space-y-3 text-orange-50">
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">1</span>
+                            <span>Isi form registrasi</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">2</span>
+                            <span>Upload dokumen legalitas</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">3</span>
+                            <span>Dapatkan akun & password via email</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">4</span>
+                            <span>Login dan mulai kelola bisnis Anda!</span>
+                        </li>
+                    </ol>
+                </div>
             </div>
 
             <!-- CTA Button -->
@@ -702,4 +717,26 @@
             </div>
         </div>
     </section>
+    <style>
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    </style>
+    <script>
+        function toggleText(descId, btnId) {
+            const desc = document.getElementById(descId);
+            const btn = document.getElementById(btnId);
+
+            if (desc.classList.contains('line-clamp-3')) {
+                desc.classList.remove('line-clamp-3');
+                btn.innerHTML = 'Sembunyikan ↑';
+            } else {
+                desc.classList.add('line-clamp-3');
+                btn.innerHTML = 'Selengkapnya →';
+            }
+        }
+    </script>
 @endsection
