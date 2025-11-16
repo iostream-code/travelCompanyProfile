@@ -170,7 +170,7 @@
                         <li><a href="{{ route('contact') }}" class="hover:text-orange-400 transition">Contact Us</a>
                         </li>
                     </ul>
-                    <p class="text-gray-300">itai.technology@travel.com</p>
+                    <p class="text-gray-300">cs@teman.pro</p>
                     <p class="text-gray-300">+62 857 3055 7075</p>
                 </div>
             </div>

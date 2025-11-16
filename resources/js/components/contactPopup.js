@@ -126,7 +126,7 @@ export default function initContactPopup() {
                                         </div>
                                         <div>
                                             <h4 class="font-semibold mb-1">Email</h4>
-                                            <p class="text-blue-100">itai.technology@travel.com</p>
+                                            <p class="text-blue-100">cs@teman.pro</p>
                                         </div>
                                     </div>
 
