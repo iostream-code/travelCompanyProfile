@@ -14,6 +14,31 @@ export default function register() {
 
         $('#alert-success, #alert-error').addClass('hidden');
 
+        // FIX: Ambil nilai berdasarkan visibility field (desktop vs mobile)
+        let namaLengkap = '';
+        let jabatan = '';
+
+        // Cek apakah field desktop visible (layar besar)
+        if ($('#nama_lengkap').is(':visible')) {
+            namaLengkap = $('#nama_lengkap').val() || '';
+            jabatan = $('#jabatan').val() || '';
+        } else {
+            // Field mobile visible (layar kecil)
+            namaLengkap = $('#nama_lengkap_mobile').val() || '';
+            jabatan = $('#jabatan_mobile').val() || '';
+        }
+
+        // Validasi manual untuk field yang digunakan
+        if (!namaLengkap.trim()) {
+            showErrorAlert('Nama lengkap harus diisi');
+            return false;
+        }
+
+        if (!jabatan) {
+            showErrorAlert('Jabatan harus dipilih');
+            return false;
+        }
+
         $('#submit-btn').prop('disabled', true);
         $('#btn-text').text('Memproses...');
         $('#btn-icon').addClass('hidden');
@@ -21,11 +46,7 @@ export default function register() {
 
         const formData = new FormData();
         formData.append('nama_travel', $('#nama_travel').val());
-
-        const namaLengkap = $('#nama_lengkap').val() || $('#nama_lengkap_mobile').val() || '';
         formData.append('nama_lengkap', namaLengkap);
-
-        const jabatan = $('#jabatan').val() || $('#jabatan_mobile').val() || '';
         formData.append('jabatan', jabatan);
 
         formData.append('address', $('#address').val() || '');
@@ -34,7 +55,7 @@ export default function register() {
         formData.append('city_code', '');
         formData.append('district_code', '');
         formData.append('village_code', '');
-        formData.append('website', $('#website').val() || '');
+        formData.append('website', $('#website').val() || 'https://travel.com');
         formData.append('token', $('#token').val());
 
         const fileInput = $('#verified_document')[0];

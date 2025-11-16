@@ -231,6 +231,14 @@
                             <span class="text-gray-700 text-lg">Data selalu terupdate dan terintegrasi</span>
                         </li>
                     </ul>
+                    <a href="{{ route('features') }}"
+                        class="flex items-center mt-4 text-primary-700 text-lg hover:-translate-1 transition ease-in font-semibold">
+                        Selengkapnya
+                        <svg class="w-5 h-5 ms-2 text-orange-600" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </a>
                 </div>
             </div>
 
@@ -260,6 +268,14 @@
                             <span class="text-gray-700 text-lg">Akses dari perangkat mana pun</span>
                         </li>
                     </ul>
+                    <a href="{{ route('features') }}"
+                        class="flex items-center mt-4 text-primary-700 text-lg hover:-translate-1 transition ease-in font-semibold">
+                        Selengkapnya
+                        <svg class="w-5 h-5 ms-2 text-orange-600" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </a>
                 </div>
                 <div>
                     <div class="relative group">
@@ -311,73 +327,133 @@
                             <span class="text-gray-700 text-lg">Pahami kondisi bisnis dengan mudah</span>
                         </li>
                     </ul>
+                    <a href="{{ route('features') }}"
+                        class="flex items-center mt-4 text-primary-700 text-lg hover:-translate-1 transition ease-in font-semibold">
+                        Selengkapnya
+                        <svg class="w-5 h-5 ms-2 text-orange-600" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Advantages Section -->
-    <section class="py-20 bg-white relative overflow-hidden">
+    <section class="py-12 md:py-20 bg-white relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-orange-50/50 via-transparent to-orange-50/50"></div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Kenapa Memilih TeMan?</h2>
-                <p class="text-lg md:text-xl text-gray-600">Lebih dari sekedar aplikasi manajemen bisnis travel</p>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-10 md:mb-16 fade-in-up">
+                <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-3 md:mb-4">Kenapa Memilih TeMan?
+                </h2>
+                <p class="text-base md:text-lg lg:text-xl text-gray-600">Lebih dari sekedar aplikasi manajemen bisnis
+                    travel</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                <!-- Card 1 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">🎯</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Cocok untuk Semua Skala</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Baik Anda baru memulai atau sudah besar, TeMan tumbuh bersama bisnis travel Anda
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">🎯
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Cocok untuk Semua Skala
+                            </h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Baik Anda baru memulai atau sudah besar, TeMan tumbuh bersama bisnis travel Anda
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Card 2 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">⚡</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Mulai Pakai Langsung</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Tidak perlu training berhari-hari. Daftar, login, dan langsung bisa digunakan
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">⚡
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Mulai Pakai Langsung</h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Tidak perlu training berhari-hari. Daftar, login, dan langsung bisa digunakan
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Card 3 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">🤝</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Bantuan Selalu Ada</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Tim kami siap membantu kapan pun Anda butuh, karena kesuksesan Anda adalah prioritas kami
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">🤝
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Bantuan Selalu Ada</h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Tim kami siap membantu kapan pun Anda butuh, karena kesuksesan Anda adalah prioritas kami
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Card 4 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">🔗</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Saling Terintegrasi</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Mengintegrasikan dengan setiap lini pada bisnis Anda, semuanya saling terhubung
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">🔗
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Saling Terintegrasi</h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Mengintegrasikan dengan setiap lini pada bisnis Anda, semuanya saling terhubung
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Card 5 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">💡</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Hemat Waktu & Tenaga</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Fokus pada bisnis Anda, biarkan TeMan yang mengurus hal-hal administratif
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">💡
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Hemat Waktu & Tenaga</h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Fokus pada bisnis Anda, biarkan TeMan yang mengurus hal-hal administratif
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Card 6 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">📚</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Panduan Lengkap Tersedia</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Dokumentasi, video tutorial, dan tips praktis untuk memaksimalkan penggunaan
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">📚
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Panduan Lengkap Tersedia
+                            </h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Dokumentasi, video tutorial, dan tips praktis untuk memaksimalkan penggunaan
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

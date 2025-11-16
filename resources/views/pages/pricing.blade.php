@@ -208,8 +208,8 @@
                         Paling Populer</div>
                     <h3 class="text-2xl font-bold text-gray-800 mb-4">Professional</h3>
                     <p class="text-gray-600 mb-6">Untuk bisnis yang mulai berkembang</p>
-                    <div class="text-4xl font-bold text-orange-600 mb-2">Rp 2.500.000</div>
-                    <p class="text-gray-600 mb-6">/bulan</p>
+                    <div class="text-4xl font-bold text-orange-600 mb-4">Konfirmasi</div>
+                    {{-- <p class="text-gray-600 mb-6">/bulan</p> --}}
                     <ul class="space-y-4 mb-8">
                         <li class="flex items-start">
                             <span class="text-orange-600 mr-3 text-2xl">✓</span>
@@ -232,10 +232,18 @@
                             <span class="text-gray-700">Bisa atur sesuai kebutuhan Anda</span>
                         </li>
                     </ul>
-                    <div class=text-center>
+                    {{-- <div class=text-center>
                         <a href="{{ route('register') }}"
                             class="inline-block bg-gradient-to-r from-orange-600 to-orange-700 text-white px-8 py-4 rounded-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:-translate-y-1">
-                            Pilih Professional
+                            Hubungi Kami
+                        </a>
+                    </div> --}}
+                    <div class=text-center>
+                        {{-- 6282231488584 --}}
+                        <a href="https://wa.me/6282231488584/?text=Hai%2C%20Admin.%20Saya%20ingin%20mencoba%20Custom%20langganan"
+                            target="_blank" rel="noopener noreferrer"
+                            class="inline-block border-2 border-orange-600 text-orange-600 px-8 py-4 rounded-xl font-bold hover:bg-orange-600 hover:text-white transition-all duration-300">
+                            Hubungi Kami
                         </a>
                     </div>
                     <p class="text-sm text-gray-600 mt-4 text-center">Bisa dibatalkan kapan saja</p>
