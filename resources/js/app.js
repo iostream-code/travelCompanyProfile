@@ -160,10 +160,10 @@ function initApp() {
     initLoadingAnimation();
     initRouteComponents();
     initPageController();
-    initMusic();
-    initContact();
+    // initMusic();
+    // initContact();
     initDrawer();
-    initChat();
+    // initChat();
 }
 
 function handleRouteChange() {
