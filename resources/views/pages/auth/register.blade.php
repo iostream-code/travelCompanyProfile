@@ -187,11 +187,10 @@
                                         class="hidden md:flex rounded-xl border-2 border-gray-200 hover:border-orange-300 focus-within:border-orange-500 focus-within:ring-4 focus-within:ring-orange-100 transition-all duration-300 overflow-hidden">
                                         <input type="text" id="nama_lengkap" name="nama_lengkap"
                                             class="flex-[3] px-4 py-3.5 border-0 outline-none bg-transparent"
-                                            placeholder="Contoh: Ahmad Fauzi" required>
+                                            placeholder="Contoh: Ahmad Fauzi">
                                         <div class="w-px bg-gray-200"></div>
                                         <select id="jabatan" name="jabatan"
-                                            class="flex-[2] px-4 py-3.5 border-0 outline-none bg-transparent cursor-pointer"
-                                            required>
+                                            class="flex-[2] px-4 py-3.5 border-0 outline-none bg-transparent cursor-pointer">
                                             <option value="Owner" selected>Owner</option>
                                             <option value="Admin">Admin</option>
                                             <option value="Sales">Sales</option>
@@ -221,7 +220,7 @@
                                             </label>
                                             <input type="text" id="nama_lengkap_mobile" name="nama_lengkap"
                                                 class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300"
-                                                placeholder="Contoh: Ahmad Fauzi" required>
+                                                placeholder="Contoh: Ahmad Fauzi">
                                         </div>
 
                                         <!-- Jabatan -->
@@ -239,9 +238,8 @@
                                                     Jabatan <span class="text-red-500">*</span>
                                                 </span>
                                             </label>
-                                            <select id="jabatan_mobile" name="jabatab"
-                                                class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300"
-                                                required>
+                                            <select id="jabatan_mobile" name="jabatan"
+                                                class="w-full px-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all duration-300 outline-none hover:border-orange-300">
                                                 <option value="Owner" selected>Owner</option>
                                                 <option value="Admin">Admin</option>
                                                 <option value="Sales">Sales</option>
@@ -337,7 +335,7 @@
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                         </svg>
-                                        Upload dokumen seperti SIUP, TDP, atau NIB (PDF, DOC, JPG, PNG - Max 5MB)
+                                        Upload dokumen seperti SIUP, TDP, atau NIB (PDF - Max 5MB)
                                     </p>
                                     <div id="file-name" class="mt-2 text-sm text-gray-600 hidden">
                                         <span class="font-semibold">File terpilih:</span> <span

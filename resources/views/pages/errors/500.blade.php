@@ -48,8 +48,7 @@
                 <!-- Contact Support -->
                 <div class="mt-12 pt-8 border-t border-gray-200">
                     <p class="text-gray-600 mb-4">Butuh bantuan?</p>
-                    <a href="mailto:itai.technology@travel.com"
-                        class="text-orange-600 hover:text-orange-700 font-semibold">
+                    <a href="mailto:cs@teman.pro" class="text-orange-600 hover:text-orange-700 font-semibold">
                         Hubungi Tim Support Kami
                     </a>
                 </div>

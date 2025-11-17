@@ -72,8 +72,8 @@
                             <span class="text-orange-600 mr-4 text-2xl group-hover:scale-125 transition-transform">✓</span>
                             <div>
                                 <span class="text-gray-800 text-lg font-semibold block">Daftar Jamaah</span>
-                                <span class="text-gray-600 text-sm">Lebih mudah melihat detail jamaah berdasarkan paket,
-                                    kategori, maupun periode</span>
+                                <span class="text-gray-600 text-sm">Langsung terdaftar secara real-time tanpa menunggu
+                                    koordinasi & informasi terkait.</span>
                             </div>
                         </li>
                         <li class="flex items-start group">
@@ -81,8 +81,8 @@
                             <div>
                                 <span class="text-gray-800 text-lg font-semibold block">Galeri Kegiatan
                                     Jamaah</span>
-                                <span class="text-gray-600 text-sm">Lakukan validasi dokumentasi sebelum dilakukan
-                                    publikasi</span>
+                                <span class="text-gray-600 text-sm">Tersimpan otomatis tanpa mengurangi memori handphone
+                                    Anda. Tersedia fitur share & download saat dibutuhkan.</span>
                             </div>
                         </li>
                     </ul>
@@ -365,40 +365,6 @@
                     </ul>
                 </div>
 
-                <!-- Cara Daftar -->
-                <div
-                    class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center mb-4 mx-auto">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center">Cara Daftar</h3>
-                    <ol class="space-y-3 text-orange-50">
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">1</span>
-                            <span>Isi form registrasi</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">2</span>
-                            <span>Upload dokumen legalitas</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">3</span>
-                            <span>Dapatkan akun & password via email</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">4</span>
-                            <span>Login dan mulai kelola bisnis Anda!</span>
-                        </li>
-                    </ol>
-                </div>
-
                 <!-- Layanan -->
                 <div
                     class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
@@ -451,6 +417,40 @@
                             <span>Tracking Kegiatan</span>
                         </li>
                     </ul>
+                </div>
+
+                <!-- Cara Daftar -->
+                <div
+                    class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Cara Daftar</h3>
+                    <ol class="space-y-3 text-orange-50">
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">1</span>
+                            <span>Isi form registrasi</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">2</span>
+                            <span>Upload dokumen legalitas</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">3</span>
+                            <span>Dapatkan akun & password via email</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">4</span>
+                            <span>Login dan mulai kelola bisnis Anda!</span>
+                        </li>
+                    </ol>
                 </div>
             </div>
 

@@ -169,7 +169,7 @@
                             <div>
                                 <h3 class="text-lg font-bold text-gray-800 mb-1">Email</h3>
                                 <a href="mailto:support@teman.com"
-                                    class="text-orange-600 hover:text-orange-700 text-sm font-medium">itai.technology@travel.com</a>
+                                    class="text-orange-600 hover:text-orange-700 text-sm font-medium">cs@teman.pro</a>
                             </div>
                         </div>
                     </div>

@@ -37,6 +37,10 @@
                             viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                        <span>
+                            .....
+                        </span>
                     </a>
                     <div class="hidden md:grid grid-cols-2 gap-12 items-center mb-20 scroll-reveal">
                         <div class="order-2 md:order-1">
@@ -113,51 +117,69 @@
             <div class="text-center mb-16 fade-in-up">
                 <h2
                     class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
-                    Yang Membuat TeMan Istimewa</h2>
-                <p class="text-lg md:text-xl text-gray-600">Dirancang dengan fokus pada kemajuan bisnis travel Anda secara
-                    <strong>Praktis</strong> dan
-                    <strong>Aman</strong>
+                    Yang Membuat TeMan Istimewa
+                </h2>
+                <p class="text-lg md:text-xl text-gray-600">
+                    Tanpa perlu banyak Tim sehingga operasional lebih efisien dan data lebih <strong>real-time</strong>.
+                    Tanpa rasa khawatir data Fraud, serta tersambung dengan pihak terkait secara sistematis. Sehingga sangat
+                    bermanfaat dan efisien untuk Bisnis Anda
                 </p>
             </div>
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
                 <div
                     class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
                     <div
                         class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                        ✨</div>
-                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Antarmuka Intuitif</h3>
-                    <p class="text-gray-600 leading-relaxed">Desain yang ramah pengguna membuat siapa pun bisa langsung
-                        paham tanpa perlu panduan rumit</p>
-                    <div
-                        class="mt-6 flex items-center text-orange-600 font-semibold group-hover:translate-x-2 transition-transform">
-                        Selengkapnya →
+                        ✨
                     </div>
+                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Antarmuka Simpel & Intuitif</h3>
+                    <p id="desc1" class="text-gray-600 leading-relaxed line-clamp-3">
+                        Paham seketika, tanpa perlu panduan. Karena didesain mudah digunakan untuk Siapapun bisa langsung
+                        mengerti dan tidak perlu belajar.
+                    </p>
+                    <button onclick="toggleText('desc1', 'btn1')" id="btn1"
+                        class="mt-6 flex items-center text-orange-600 font-semibold hover:translate-x-2 transition-transform">
+                        Selengkapnya →
+                    </button>
                 </div>
+
+                <!-- Card 2 -->
                 <div
                     class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
                     <div
                         class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                        🛡️</div>
-                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Data Aman Terlindungi</h3>
-                    <p class="text-gray-600 leading-relaxed">Tidur nyenyak karena data bisnis Anda tersimpan dengan aman dan
-                        terpusat dalam database Kami</p>
-                    <a href="{{ route('features') }}"
-                        class="mt-6 flex items-center text-orange-600 font-semibold group-hover:translate-x-2 transition-transform">
-                        Selengkapnya →
-                    </a>
-                </div>
-                <div
-                    class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
-                    <div
-                        class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                        📱</div>
-                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Akses Kapan Saja</h3>
-                    <p class="text-gray-600 leading-relaxed">Kelola bisnis dari laptop, tablet, atau smartphone - di mana
-                        pun Anda berada dan akses kapanpun tanpa ribet</p>
-                    <div
-                        class="mt-6 flex items-center text-orange-600 font-semibold group-hover:translate-x-2 transition-transform">
-                        Selengkapnya →
+                        🛡️
                     </div>
+                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Keamanan Data Premium, Ketenangan 100%</h3>
+                    <p id="desc2" class="text-gray-600 leading-relaxed line-clamp-3">
+                        Simpan, kelola, dan akses seluruh data bisnis Anda secara aman & terpusat dalam database yang
+                        tersistem. Anda cukup fokus pada pertumbuhan, biarkan sistem yang menjaga data Anda tetap
+                        terlindungi.
+                    </p>
+                    <button onclick="toggleText('desc2', 'btn2')" id="btn2"
+                        class="mt-6 flex items-center text-orange-600 font-semibold hover:translate-x-2 transition-transform">
+                        Selengkapnya →
+                    </button>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
+                    <div
+                        class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
+                        📱
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Akses Kapan Saja, Bisnis Lancar, Anda Tenang</h3>
+                    <p id="desc3" class="text-gray-600 leading-relaxed line-clamp-3">
+                        Kelola bisnis dari handphone atau smartphone dimanapun Anda berada tanpa mengganggu waktu dan ribet,
+                        yang terpusat, terlindungi, dan siap diakses kapanpun.
+                    </p>
+                    <button onclick="toggleText('desc3', 'btn3')" id="btn3"
+                        class="mt-6 flex items-center text-orange-600 font-semibold hover:translate-x-2 transition-transform">
+                        Selengkapnya →
+                    </button>
                 </div>
             </div>
         </div>
@@ -168,12 +190,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Header: Manfaat Utama -->
             <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-900 mb-4 leading-tight">
-                    Kelola dengan Tenang, Hati Lebih Senang
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Hindari kuota hangus · Cegah dokumentasi hilang · Laporan manifest instan
-                </p>
+                <h2 class="text-5xl font-bold text-gray-800 mb-4">Fitur yang Memudahkan Pekerjaan Anda</h2>
+                <p class="text-xl text-gray-600">Didesain sesuai yang Anda harapkan secara sistematis</p>
             </div>
 
             <!-- MANFAAT 1: Jualan Lebih Cepat -->
@@ -197,7 +215,7 @@
                         Kuota Tidak Pernah Hangus Lagi
                     </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Lihat sisa seat real-time | Kirim WA ke jamaah terdaftar | Manage paket lebih asik.
+                        Tracking Jamaah terdaftar, pembayaran jamaah, perlengkapan & persyratan secara otomatis
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
@@ -219,6 +237,14 @@
                                 <strong>jelas dan menarik</strong></span>
                         </li>
                     </ul>
+                    <a href="{{ route('features') }}"
+                        class="flex items-center mt-4 text-primary-700 text-lg hover:-translate-1 transition ease-in font-semibold">
+                        Selengkapnya
+                        <svg class="w-5 h-5 ms-2 text-orange-600" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </a>
                 </div>
             </div>
 
@@ -233,8 +259,8 @@
                         Tidak Ada Dokumen Hilang atau Telat
                     </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Semua KTP, paspor, vaksin, kontrak tersimpan digital → Jamaah bisa cek sendiri via link WA → Anda
-                        fokus layani, bukan cari berkas.
+                        Tersimpan otomatis tanpa mengurangi memori handphone
+                        Anda. Tersedia fitur share & download saat dibutuhkan.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
@@ -254,6 +280,14 @@
                             <span class="text-gray-700 text-lg">Akses dari Arab Saudi saat <strong>manasik</strong></span>
                         </li>
                     </ul>
+                    <a href="{{ route('features') }}"
+                        class="flex items-center mt-4 text-primary-700 text-lg hover:-translate-1 transition ease-in font-semibold">
+                        Selengkapnya
+                        <svg class="w-5 h-5 ms-2 text-orange-600" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </a>
                 </div>
                 <div>
                     <div class="relative group">
@@ -288,8 +322,8 @@
                         Laporan Kemenag Selesai dalam 3 Klik
                     </h3>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                        Profit per paket, DP, pelunasan, biaya maskapai → PDF resmi, cap digital, langsung kirim ke Kemenag
-                        atau investor.
+                        Langsung terdaftar secara real-time tanpa menunggu
+                        koordinasi & informasi terkait.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start group">
@@ -310,73 +344,133 @@
                                     cepat cair</strong></span>
                         </li>
                     </ul>
+                    <a href="{{ route('features') }}"
+                        class="flex items-center mt-4 text-primary-700 text-lg hover:-translate-1 transition ease-in font-semibold">
+                        Selengkapnya
+                        <svg class="w-5 h-5 ms-2 text-orange-600" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Advantages Section -->
-    <section class="py-20 bg-white relative overflow-hidden">
+    <section class="py-12 md:py-20 bg-white relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-orange-50/50 via-transparent to-orange-50/50"></div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Kenapa Memilih TeMan?</h2>
-                <p class="text-lg md:text-xl text-gray-600">Lebih dari sekedar aplikasi manajemen bisnis travel</p>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-10 md:mb-16 fade-in-up">
+                <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-3 md:mb-4">Kenapa Memilih TeMan?
+                </h2>
+                <p class="text-base md:text-lg lg:text-xl text-gray-600">Lebih dari sekedar aplikasi manajemen bisnis
+                    travel</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                <!-- Card 1 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">🎯</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Cocok untuk Semua Skala</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Baik Anda baru memulai atau sudah besar, TeMan tumbuh bersama bisnis travel Anda
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">🎯
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Cocok untuk Semua Skala
+                            </h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Baik Anda baru memulai atau sudah besar, TeMan tumbuh bersama bisnis travel Anda
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Card 2 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">⚡</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Mulai Pakai Langsung</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Tidak perlu training berhari-hari. Daftar, login, dan langsung bisa digunakan
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">⚡
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Mulai Pakai Langsung</h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Tidak perlu training berhari-hari. Daftar, login, dan langsung bisa digunakan
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Card 3 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">🤝</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Bantuan Selalu Ada</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Tim kami siap membantu kapan pun Anda butuh, karena kesuksesan Anda adalah prioritas kami
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">🤝
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Bantuan Selalu Ada</h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Tim kami siap membantu kapan pun Anda butuh, karena kesuksesan Anda adalah prioritas kami
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Card 4 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">🔗</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Saling Terintegrasi</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Mengintegrasikan dengan setiap lini pada bisnis Anda, semuanya saling terhubung
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">🔗
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Saling Terintegrasi</h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Mengintegrasikan dengan setiap lini pada bisnis Anda, semuanya saling terhubung
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Card 5 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">💡</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Hemat Waktu & Tenaga</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Fokus pada bisnis Anda, biarkan TeMan yang mengurus hal-hal administratif
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">💡
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Hemat Waktu & Tenaga</h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Fokus pada bisnis Anda, biarkan TeMan yang mengurus hal-hal administratif
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Card 6 -->
                 <div
-                    class="advantage-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">📚</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Panduan Lengkap Tersedia</h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Dokumentasi, video tutorial, dan tips praktis untuk memaksimalkan penggunaan
-                    </p>
+                    class="advantage-card group bg-white p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-orange-300 cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="text-3xl md:text-4xl group-hover:scale-110 transition-transform duration-300">📚
+                            </div>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-1.5 md:mb-2">Panduan Lengkap Tersedia
+                            </h3>
+                            <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                                Dokumentasi, video tutorial, dan tips praktis untuk memaksimalkan penggunaan
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -591,40 +685,6 @@
                     </ul>
                 </div>
 
-                <!-- Cara Daftar -->
-                <div
-                    class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center mb-4 mx-auto">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center">Cara Daftar</h3>
-                    <ol class="space-y-3 text-orange-50">
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">1</span>
-                            <span>Isi form registrasi</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">2</span>
-                            <span>Upload dokumen legalitas</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">3</span>
-                            <span>Dapatkan akun & password via email</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span
-                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">4</span>
-                            <span>Login dan mulai kelola bisnis Anda!</span>
-                        </li>
-                    </ol>
-                </div>
-
                 <!-- Layanan -->
                 <div
                     class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
@@ -678,6 +738,40 @@
                         </li>
                     </ul>
                 </div>
+
+                <!-- Cara Daftar -->
+                <div
+                    class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Cara Daftar</h3>
+                    <ol class="space-y-3 text-orange-50">
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">1</span>
+                            <span>Isi form registrasi</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">2</span>
+                            <span>Upload dokumen legalitas</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">3</span>
+                            <span>Dapatkan akun & password via email</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span
+                                class="flex-shrink-0 w-6 h-6 bg-white/30 rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5">4</span>
+                            <span>Login dan mulai kelola bisnis Anda!</span>
+                        </li>
+                    </ol>
+                </div>
             </div>
 
             <!-- CTA Button -->
@@ -716,4 +810,26 @@
             </div>
         </div>
     </section>
+    <style>
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    </style>
+    <script>
+        function toggleText(descId, btnId) {
+            const desc = document.getElementById(descId);
+            const btn = document.getElementById(btnId);
+
+            if (desc.classList.contains('line-clamp-3')) {
+                desc.classList.remove('line-clamp-3');
+                btn.innerHTML = 'Sembunyikan ↑';
+            } else {
+                desc.classList.add('line-clamp-3');
+                btn.innerHTML = 'Selengkapnya →';
+            }
+        }
+    </script>
 @endsection
