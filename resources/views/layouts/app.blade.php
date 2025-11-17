@@ -171,7 +171,7 @@
                         </li>
                     </ul>
                     <p class="text-gray-300">cs@teman.pro</p>
-                    <p class="text-gray-300">+62 857 3055 7075</p>
+                    <p class="text-gray-300">+62 811-3181-844</p>
                 </div>
             </div>
             <div class="border-t border-orange-900 mt-8 pt-8 text-center text-gray-400">

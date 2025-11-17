@@ -139,7 +139,7 @@ export default function initContactPopup() {
                                         </div>
                                         <div>
                                             <h4 class="font-semibold mb-1">Telepon</h4>
-                                            <p class="text-blue-100">+62 857 3055 7075</p>
+                                            <p class="text-blue-100">+62 811-3181-844</p>
                                         </div>
                                     </div>
 

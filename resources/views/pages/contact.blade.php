@@ -188,7 +188,7 @@
                             <div>
                                 <h3 class="text-lg font-bold text-gray-800 mb-1">Telepon</h3>
                                 <a href="tel:+622112345678"
-                                    class="text-orange-600 hover:text-orange-700 text-sm font-medium">+62 857 3055 7075</a>
+                                    class="text-orange-600 hover:text-orange-700 text-sm font-medium">+62 811-3181-844</a>
                             </div>
                         </div>
                     </div>
