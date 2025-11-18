@@ -225,7 +225,7 @@
                             <div>
                                 <span class="text-gray-800 text-lg font-semibold block">Perubahan Agenda Mendadak Bukan
                                     Masalah</span>
-                                <span class="text-gray-600 text-sm">Update kegiatan kapanpun dan kapanpun dengan
+                                <span class="text-gray-600 text-sm">Update kegiatan kapanpun dan dimanapun dengan
                                     simpel dan mudah</span>
                             </div>
                         </li>
@@ -253,7 +253,8 @@
 
             <!-- Why TeMan Section -->
             <div class="mt-32 mb-20 scroll-reveal">
-                <div class="bg-gradient-to-br from-orange-50 to-white rounded-3xl p-12 border border-orange-100">
+                <div
+                    class="bg-gradient-to-br from-orange-50 to-white rounded-3xl px-4 py-8 lg:p-12 border border-orange-100">
                     <div class="text-center mb-12">
                         <h2 class="text-4xl font-bold text-gray-800 mb-4">Kenapa TeMan Beda?</h2>
                         <p class="text-xl text-gray-600">Bukan cuma aplikasi, tapi partner bisnis travel Anda</p>
