@@ -101,7 +101,7 @@ export default function initLiveChat() {
         'fitur': 'TeMan menyediakan fitur Manajemen Jamaah, Pencatatan Keuangan, Laporan Otomatis, Manifest Digital, dan Tracking Keberangkatan. Semua fitur dirancang untuk memudahkan bisnis travel Anda! ⭐',
         'halo': 'Halo! Senang bisa membantu Anda hari ini. Ada yang ingin ditanyakan tentang TeMan? 😊',
         'terima kasih': 'Sama-sama! Jangan ragu untuk menghubungi kami lagi jika ada pertanyaan lain. Selamat menggunakan TeMan! 🙏',
-        'default': 'Terima kasih atas pesan Anda! Tim support kami akan segera merespons. Atau Anda bisa hubungi kami di support@teman.com atau +62 21 1234 5678 📞'
+        'default': 'Terima kasih atas pesan Anda! Tim support kami akan segera merespons. Atau Anda bisa hubungi kami di support@teman.com atau +62 851-5917-9022 📞'
     };
 
     $('#live-chat-button').on('click', function () {
