@@ -10,7 +10,7 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="relative text-gray-800 py-20 overflow-hidden">
+    <section class="relative text-gray-800 py-10 lg:py-20 overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-orange-500/10 via-transparent to-orange-600/10"></div>
         <div class="absolute top-20 right-20 w-72 h-72 bg-orange-500/20 rounded-full blur-3xl animate-float"></div>
         <div class="absolute bottom-20 left-20 w-96 h-96 bg-orange-600/15 rounded-full blur-3xl animate-float-delayed"></div>
@@ -18,10 +18,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center fade-in-up">
                 <h1
-                    class="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
+                    class="text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
                     Pilih Paket yang Sesuai untuk Anda
                 </h1>
-                <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
+                <p class="text-md lg:text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
                     Mulai dengan gratis, upgrade kapan saja sesuai kebutuhan. Tidak ada biaya tersembunyi,
                     semua transparan dan fleksibel.
                 </p>
@@ -30,7 +30,7 @@
     </section>
 
     <!-- Feature Section -->
-    <section class="pt-20 pb-2 bg-white/80 backdrop-blur-sm relative">
+    <section class="pt-10 lg:pt-20 bg-white/80 backdrop-blur-sm relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <!-- Section 1: Kelola Booking & Pembayaran Otomatis -->
@@ -46,10 +46,10 @@
                 </div>
                 <div class="order-1 md:order-2">
                     <div
-                        class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
+                        class="inline-block mb-4 px-4 py-2 mx-auto bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
                         🎯 Kelola Paket & Jamaah
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Semua dalam Satu Platform</h2>
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">Semua dalam Satu Platform</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
                         Dashboard lengkap yang menampilkan <span class="font-semibold text-gray-800">semua data
                             penting</span> - dari daftar paket, jamaah, detail booking,galeri kegiatan dan <span
@@ -95,7 +95,7 @@
                         class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
                         📱 Fleksibel & Mudah Digunakan
                     </div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Di Mana Pun, Bisnis Tetap Jalan</h2>
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">Di Mana Pun, Bisnis Tetap Jalan</h2>
                     <p class="text-gray-600 mb-6 text-lg leading-relaxed">
                         Akses dari manapun dan kapanpun - data selalu terhubung langsung. <span
                             class="font-semibold text-gray-800">Di luar negeri? Tenang, fitur lokasi siap membantu.</span>
@@ -146,14 +146,14 @@
     </section>
 
     <!-- Pricing Plans Section -->
-    <section class="py-20 bg-white/80 backdrop-blur-sm relative">
+    <section class="py-10 lg:py-20 bg-white/80 backdrop-blur-sm relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Heading Section with Glow Effect -->
-            <div class="flex flex-col items-center justify-center text-center mb-16">
+            <div class="flex flex-col items-center justify-center text-center mb-8 lg:mb-16">
                 <div class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
                     💎 Paket dengan Harga Terbaik
                 </div>
-                <h2 class="text-5xl md:text-6xl font-bold text-gray-800 mb-6 relative inline-block">
+                <h2 class="text-3xl lg:text-5xl font-bold text-gray-800 mb-6 relative inline-block">
                     Jadilah yang
                     <span class="relative inline-block">
                         <span
@@ -162,7 +162,7 @@
                             class="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 blur-2xl opacity-30 animate-pulse"></span>
                     </span>
                 </h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                <p class="text-md lg:text-xl text-gray-600 max-w-2xl mx-auto">
                     Mulai gratis, upgrade kapan saja. Tidak ada biaya tersembunyi, tidak ada aturan yang ribet.
                 </p>
             </div>
@@ -292,44 +292,54 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-20 bg-gradient-to-b from-white to-gray-50 relative">
+    <section class="py-10 lg:py-20 bg-gradient-to-b from-white to-gray-50 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-800 mb-4">Pertanyaan yang Sering Ditanyakan</h2>
-                <p class="text-xl text-gray-600">Kami bantu jawab keraguan Anda</p>
+            <div class="text-center mb-8 lg:mb-16 fade-in-up">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">Pertanyaan yang Sering Ditanyakan</h2>
+                <p class="text-lg lg:text-xl text-gray-600">Kami bantu jawab keraguan Anda</p>
             </div>
             <div class="space-y-6 scroll-reveal max-w-4xl mx-auto">
                 <div
                     class="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Bagaimana jika ingin ganti paket?</h3>
-                    <p class="text-gray-600 leading-relaxed">Sangat mudah! Anda bisa upgrade atau downgrade kapan saja
+                    <p class="text-sm lg:text-lg text-gray-600 leading-relaxed">Sangat mudah! Anda bisa upgrade atau
+                        downgrade
+                        kapan saja
                         dengan sekali klik.
                         Tidak ada penalti atau biaya tambahan. Perubahan akan berlaku di bulan berikutnya.</p>
                 </div>
                 <div
                     class="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Apa yang dimaksud dengan bantuan kapan saja?</h3>
-                    <p class="text-gray-600 leading-relaxed">Untuk paket Professional dan Business, tim kami siap membantu
+                    <p class="text-sm lg:text-lg text-gray-600 leading-relaxed">Untuk paket Professional dan Business, tim
+                        kami
+                        siap membantu
                         melalui chat dan email setiap saat. Kami biasanya merespons dalam hitungan menit, bukan jam.</p>
                 </div>
                 <div
                     class="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Bagaimana jika saya ingin berhenti berlangganan?</h3>
-                    <p class="text-gray-600 leading-relaxed">Tidak ada kontrak jangka panjang. Anda bebas berhenti kapan
+                    <p class="text-sm lg:text-lg text-gray-600 leading-relaxed">Tidak ada kontrak jangka panjang. Anda
+                        bebas
+                        berhenti kapan
                         saja
                         dengan sekali klik. Data Anda tetap aman dan bisa diambil kapan pun Anda butuhkan.</p>
                 </div>
                 <div
                     class="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Apakah data saya aman?</h3>
-                    <p class="text-gray-600 leading-relaxed">Sangat aman. Semua data ter-enkripsi dan di-backup otomatis
+                    <p class="text-sm lg:text-lg text-gray-600 leading-relaxed">Sangat aman. Semua data ter-enkripsi dan
+                        di-backup
+                        otomatis
                         setiap hari.
                         Kami menggunakan standar keamanan yang sama dengan bank untuk melindungi informasi Anda.</p>
                 </div>
                 <div
                     class="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 hover:border-orange-300 transition-all duration-300">
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Apakah ada diskon untuk pembayaran tahunan?</h3>
-                    <p class="text-gray-600 leading-relaxed">Ya! Jika Anda memilih pembayaran tahunan, kami berikan diskon
+                    <p class="text-sm lg:text-lg text-gray-600 leading-relaxed">Ya! Jika Anda memilih pembayaran tahunan,
+                        kami
+                        berikan diskon
                         20%.
                         Itu artinya Anda hemat setara 2-3 bulan berlangganan. Hubungi kami untuk info lebih lanjut.</p>
                 </div>
@@ -338,11 +348,11 @@
     </section>
 
     <!-- Comparison Section -->
-    <section class="py-20 bg-white relative">
+    <section class="py-10 lg:py-20 bg-white relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-800 mb-4">Perbandingan Paket</h2>
-                <p class="text-xl text-gray-600">Lihat detail fitur di setiap paket</p>
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">Perbandingan Paket</h2>
+                <p class="text-lg lg:text-xl text-gray-600">Lihat detail fitur di setiap paket</p>
             </div>
 
             <div class="overflow-x-auto scroll-reveal">

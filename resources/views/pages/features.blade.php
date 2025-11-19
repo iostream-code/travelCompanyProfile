@@ -21,10 +21,10 @@
                     ✨ Sederhana, Cepat, Efektif
                 </div>
                 <h1
-                    class="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
+                    class="text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
                     Kelola Travel dengan<br>Satu Platform Simpel
                 </h1>
-                <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
+                <p class="text-md lg:text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
                     Lupakan sistem rumit dan spreadsheet tak berujung. TeMan hadir dengan solusi sederhana yang
                     <span class="font-semibold text-orange-600">Langsung Bisa Digunakan</span> untuk mengelola bisnis travel
                     Anda dari mana saja.

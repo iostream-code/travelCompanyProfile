@@ -12,13 +12,13 @@
 
 <body class="bg-gray-50">
     <!-- Navigation -->
-    <nav class="bg-white shadow-md sticky top-0 z-50 border-b-4 border-orange-600">
+    <nav class="bg-orange-600 shadow-md sticky top-0 z-50 border-b-1 border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <!-- Logo -->
                 <div class="flex items-center">
-                    <img src="{{ asset('images/logo-only-new.png') }}" class="w-8 h-8 me-2" alt="">
-                    <a href="{{ route('home') }}" class="text-2xl font-bold text-orange-600">
+                    <img src="{{ asset('images/logo-only-white.png') }}" class="w-8 h-8 me-2" alt="">
+                    <a href="{{ route('home') }}" class="text-2xl font-bold text-white">
                         TeMan
                     </a>
                 </div>
@@ -26,19 +26,19 @@
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="{{ route('home') }}"
-                        class="{{ request()->routeIs('home') ? 'bg-primary-600 text-white py-1 px-2 rounded-sm' : 'text-gray-700 hover:text-orange-600 transition' }}">Home</a>
+                        class="{{ request()->routeIs('home') ? 'bg-white text-primary-600 py-1 px-2 rounded-sm' : 'text-white hover:text-gray-200 transition' }}">Home</a>
                     <a href="{{ route('features') }}"
-                        class="{{ request()->routeIs('features') ? 'bg-primary-600 text-white py-1 px-2 rounded-sm' : 'text-gray-700 hover:text-orange-600 transition' }}">Features</a>
+                        class="{{ request()->routeIs('features') ? 'bg-white text-primary-600 py-1 px-2 rounded-sm' : 'text-white hover:text-gray-200 transition' }}">Features</a>
                     <a href="{{ route('pricing') }}"
-                        class="{{ request()->routeIs('pricing') ? 'bg-primary-600 text-white py-1 px-2 rounded-sm' : 'text-gray-700 hover:text-orange-600 transition' }}">Pricing</a>
+                        class="{{ request()->routeIs('pricing') ? 'bg-white text-primary-600 py-1 px-2 rounded-sm' : 'text-white hover:text-gray-200 transition' }}">Pricing</a>
                     <a href="{{ route('about') }}"
-                        class="{{ request()->routeIs('about') ? 'bg-primary-600 text-white py-1 px-2 rounded-sm' : 'text-gray-700 hover:text-orange-600 transition' }}">About</a>
+                        class="{{ request()->routeIs('about') ? 'bg-white text-primary-600 py-1 px-2 rounded-sm' : 'text-white hover:text-gray-200 transition' }}">About</a>
                 </div>
 
                 <!-- Desktop Register Button -->
                 <div class="hidden md:flex items-center space-x-4">
                     <a href="{{ route('register') }}"
-                        class="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+                        class="bg-white text-primary-600 px-4 py-2 rounded hover:bg-gray-200 transition">
                         Register Now!
                     </a>
                 </div>
@@ -46,7 +46,7 @@
                 <!-- Mobile Menu Button -->
                 <div class="flex md:hidden items-center">
                     <button id="mobile-menu-button" type="button"
-                        class="text-gray-700 hover:text-orange-600 focus:outline-none focus:text-orange-600 transition">
+                        class="text-white hover:text-orange-600 focus:outline-none focus:text-orange-600 transition">
                         <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h16M4 18h16" />
@@ -146,7 +146,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-orange-950 text-white mt-20">
+    <footer class="bg-orange-950 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>

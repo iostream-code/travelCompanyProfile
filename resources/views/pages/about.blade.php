@@ -10,7 +10,7 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="relative text-gray-800 py-20 overflow-hidden">
+    <section class="relative text-gray-800 py-10 lg:py-20 overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-orange-500/10 via-transparent to-orange-600/10"></div>
         <div class="absolute top-20 right-20 w-72 h-72 bg-orange-500/20 rounded-full blur-3xl animate-float"></div>
         <div class="absolute bottom-20 left-20 w-96 h-96 bg-orange-600/15 rounded-full blur-3xl animate-float-delayed"></div>
@@ -18,10 +18,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center fade-in-up">
                 <h1
-                    class="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
+                    class="text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
                     Tentang TeMan
                 </h1>
-                <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
+                <p class="text-md lg:text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
                     Saatnya ubah bisnis secara otomatis dengan teknologi. TeMan hadir sebagai
                     <span class="font-semibold text-orange-600">Teman Setia</span> yang membantu Anda mengelola bisnis
                     travel dengan cara yang <span class="font-semibold text-orange-600">Santai</span> dan <span
@@ -32,7 +32,7 @@
     </section>
 
     <!-- Mission Section -->
-    <section class="py-20 bg-white/80 backdrop-blur-sm relative">
+    <section class="py-10 lg:py-20 bg-white/80 backdrop-blur-sm relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center scroll-reveal">
                 <div>
@@ -75,7 +75,7 @@
     </section>
 
     <!-- Our Team Section with Organization Structure -->
-    <section class="py-20 bg-gradient-to-b from-white to-gray-50 relative">
+    <section class="py-10 lg:py-20 bg-gradient-to-b from-white to-gray-50 relative">
         <div class="max-w-screen mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid text-center mb-16 fade-in-up">
                 <h2 class="text-5xl md:text-6xl font-bold text-gray-800 mb-6 relative inline-block">
@@ -269,41 +269,51 @@
     </section>
 
     <!-- Values Section -->
-    <section class="py-20 bg-white relative overflow-hidden">
+    <section class="py-10 lg:py-20 bg-white relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-orange-50/50 via-transparent to-orange-50/50"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-16 fade-in-up">
+            <div class="text-center mb-8 lg:mb-16 fade-in-up">
                 <h2 class="text-5xl font-bold text-gray-800 mb-4">Nilai Kami</h2>
                 <p class="text-xl text-gray-600">Prinsip yang membuat TeMan menjadi teman terbaik untuk bisnis Anda</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 scroll-reveal">
                 <div
-                    class="value-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">💡</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Inovasi Simpel</h3>
-                    <p class="text-gray-700 leading-relaxed">Kami terus berinovasi untuk menghadirkan solusi teknologi
-                        yang mudah digunakan tanpa kerumitan.</p>
+                    class="flex flex-row gap-2 lg:flex-col lg:gap-0 bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
+                    <div class="text-4xl lg:text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">💡</div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Inovasi Simpel</h3>
+                        <p class="text-sm text-gray-700 leading-relaxed">Kami terus berinovasi untuk menghadirkan solusi
+                            teknologi
+                            yang mudah digunakan tanpa kerumitan.</p>
+                    </div>
                 </div>
                 <div
-                    class="value-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">🤝</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Kolaborasi Ramah</h3>
-                    <p class="text-gray-700 leading-relaxed">Kami bekerja bersama pengguna seperti teman untuk mencapai
-                        kesuksesan bisnis bersama.</p>
+                    class="flex flex-row gap-2 lg:flex-col lg:gap-0 bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
+                    <div class="text-4xl lg:text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">🤝</div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Kolaborasi Ramah</h3>
+                        <p class="text-sm text-gray-700 leading-relaxed">Kami bekerja bersama pengguna seperti teman untuk
+                            mencapai
+                            kesuksesan bisnis bersama.</p>
+                    </div>
                 </div>
                 <div
-                    class="value-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
-                    <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">🌟</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Keunggulan Praktis</h3>
-                    <p class="text-gray-700 leading-relaxed">Kami berkomitmen untuk memberikan kualitas dan layanan terbaik
-                        yang benar-benar membantu sehari-hari.</p>
+                    class="flex flex-row gap-2 lg:flex-col lg:gap-0 bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border-l-4 border-orange-600 cursor-pointer transform hover:-translate-y-2">
+                    <div class="text-4xl lg:text-5xl mb-4 group-hover:scale-110 transition-transform duration-500">🌟</div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Keunggulan Praktis</h3>
+                        <p class="text-sm text-gray-700 leading-relaxed">Kami berkomitmen untuk memberikan kualitas dan
+                            layanan
+                            terbaik
+                            yang benar-benar membantu sehari-hari.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Location Section with Embed Map -->
-    <section class="py-20 bg-gradient-to-b from-gray-50 to-white relative">
+    <section class="py-10 lg:py-20 bg-gradient-to-b from-gray-50 to-white relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
                 <h2 class="text-5xl font-bold text-gray-800 mb-4">Lokasi Kami</h2>

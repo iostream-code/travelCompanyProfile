@@ -10,16 +10,20 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="relative text-gray-800 py-20 overflow-hidden">
+    <section class="relative text-gray-800 py-10 lg:py-20 overflow-hidden">
         <!-- Gradient Overlay -->
         <div class="absolute inset-0 bg-gradient-to-br from-orange-500/10 via-transparent to-orange-600/10"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
                 <div class="fade-in-up text-center md:text-left">
-                    <div
-                        class="inline-block mb-4 px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
-                        🌟 Kelola Bisnis Travel dengan Teknologi 6.0 secara Autopilot
+                    <div class="mb-4 overflow-hidden">
+                        <div class="whitespace-nowrap">
+                            <span
+                                class="animate-marquee inline-block px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
+                                🌟 Kelola Bisnis Travel dengan Teknologi 6.0 secara Autopilot
+                            </span>
+                        </div>
                     </div>
                     <h1
                         class="text-6xl font-sans font-bold mb-6 bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
@@ -112,7 +116,7 @@
     </section>
 
     <!-- Features Preview -->
-    <section class="py-20 bg-white/80 backdrop-blur-sm relative">
+    <section class="py-10 lg:py-20 bg-white/80 backdrop-blur-sm relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
                 <h2
@@ -130,11 +134,13 @@
                 <!-- Card 1 -->
                 <div
                     class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
-                    <div
-                        class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                        ✨
+                    <div class="flex flex-row gap-2 lg:flex-col lg:gap-0">
+                        <div
+                            class="text-4xl lg:text-5xl lg:mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
+                            ✨
+                        </div>
+                        <h3 class="text-lg lg:text-2xl font-bold mb-3 text-orange-600">Antarmuka Simpel & Intuitif</h3>
                     </div>
-                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Antarmuka Simpel & Intuitif</h3>
                     <p id="desc1" class="text-gray-600 leading-relaxed line-clamp-3">
                         Paham seketika, tanpa perlu panduan. Karena didesain mudah digunakan untuk Siapapun bisa langsung
                         mengerti dan tidak perlu belajar.
@@ -148,11 +154,14 @@
                 <!-- Card 2 -->
                 <div
                     class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
-                    <div
-                        class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                        🛡️
+                    <div class="flex flex-row gap-2 lg:flex-col lg:gap-0">
+                        <div
+                            class="text-4xl lg:text-5xl lg:mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
+                            🛡️
+                        </div>
+                        <h3 class="text-lg lg:text-2xl font-bold mb-3 text-orange-600">Keamanan Data Premium, Ketenangan
+                            100%</h3>
                     </div>
-                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Keamanan Data Premium, Ketenangan 100%</h3>
                     <p id="desc2" class="text-gray-600 leading-relaxed line-clamp-3">
                         Simpan, kelola, dan akses seluruh data bisnis Anda secara aman & terpusat dalam database yang
                         tersistem. Anda cukup fokus pada pertumbuhan, biarkan sistem yang menjaga data Anda tetap
@@ -167,11 +176,15 @@
                 <!-- Card 3 -->
                 <div
                     class="feature-card group bg-gradient-to-br from-white to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-orange-100 hover:border-orange-300 cursor-pointer">
-                    <div
-                        class="text-5xl mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                        📱
+                    <div class="flex flex-row gap-2 lg:flex-col lg:gap-0">
+                        <div
+                            class="text-4xl lg:text-5xl lg:mb-6 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
+                            📱
+                        </div>
+                        <h3 class="text-lg lg:text-2xl font-bold mb-3 text-orange-600">Akses Kapan Saja, Bisnis Lancar, Anda
+                            Tenang
+                        </h3>
                     </div>
-                    <h3 class="text-2xl font-bold mb-3 text-orange-600">Akses Kapan Saja, Bisnis Lancar, Anda Tenang</h3>
                     <p id="desc3" class="text-gray-600 leading-relaxed line-clamp-3">
                         Kelola bisnis dari handphone atau smartphone dimanapun Anda berada tanpa mengganggu waktu dan ribet,
                         yang terpusat, terlindungi, dan siap diakses kapanpun.
@@ -186,12 +199,12 @@
     </section>
 
     <!-- Detailed Features Section -->
-    <section class="py-20 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
+    <section class="py-10 lg:py-20 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Header: Manfaat Utama -->
-            <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-5xl font-bold text-gray-800 mb-4">Fitur yang Memudahkan Pekerjaan Anda</h2>
-                <p class="text-xl text-gray-600">Didesain sesuai yang Anda harapkan secara sistematis</p>
+            <div class="text-center mb-8 lg:mb-16 fade-in-up">
+                <h2 class="text-2xl lg:text-5xl font-bold text-gray-800 mb-4">Fitur yang Memudahkan Pekerjaan Anda</h2>
+                <p class="text-md lg:text-xl text-gray-600">Didesain sesuai yang Anda harapkan secara sistematis</p>
             </div>
 
             <!-- MANFAAT 1: Jualan Lebih Cepat -->
@@ -477,12 +490,12 @@
     </section>
 
     <!-- Comparison Section -->
-    <section class="py-20 bg-gradient-to-b from-gray-50 to-white relative">
+    <section class="py-10 lg:py-20 bg-gradient-to-b from-gray-50 to-white relative">
         <div class="absolute right-25 lg:w-1/4 md:w-1/4 lg:h-5/6 md:h-1/3 bg-cover bg-center opacity-25"
             style="background-image: url('https://plus.unsplash.com/premium_photo-1671863658769-723e2ba3cdf9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627');">
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16 fade-in-up">
+            <div class="text-center mb-8 lg:mb-16 fade-in-up">
                 <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Perbandingan Fitur</h2>
                 <p class="text-lg md:text-xl text-gray-600">Lihat apa yang membuat TeMan berbeda</p>
             </div>
@@ -535,15 +548,15 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-20 bg-white relative overflow-hidden">
+    <section class="py-10 lg:py-20 bg-white relative overflow-hidden">
         <div class="absolute left-0 -bottom-25 lg:w-1/3 md:w-1/5 lg:h-11/12 md:h-1/3 bg-cover bg-center opacity-25"
             style="background-image: url('https://plus.unsplash.com/premium_photo-1671863658772-00e6f046928c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1632');">
         </div>
         <div class="absolute inset-0 bg-gradient-to-br from-orange-50/30 via-transparent to-orange-50/30"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-16 fade-in-up">
-                <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Cerita dari Pengguna TeMan</h2>
-                <p class="text-lg md:text-xl text-gray-600">Pengalaman nyata dari mereka yang sudah terbantu</p>
+            <div class="text-center mb-8 lg:mb-16 fade-in-up">
+                <h2 class="text-2xl lg:text-5xl font-bold text-gray-800 mb-4">Cerita dari Pengguna TeMan</h2>
+                <p class="text-md md:text-xl text-gray-600">Pengalaman nyata dari mereka yang sudah terbantu</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -810,12 +823,27 @@
             </div>
         </div>
     </section>
+
     <style>
         .line-clamp-3 {
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .animate-marquee {
+            animation: marquee 15s linear infinite;
         }
     </style>
     <script>
